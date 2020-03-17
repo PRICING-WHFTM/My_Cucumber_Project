@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="" />
+    <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +28,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1YQEwon7Jy7iaIqQ16AKSvlJDvA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -197,25 +206,25 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1582869890797" />
-    <state width="1237" height="255" key="GridCell.Tab.0.bottom" timestamp="1584409108498">
+    <state width="1237" height="255" key="GridCell.Tab.0.bottom" timestamp="1584412949322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="255" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1584409108498" />
+    <state width="1237" height="255" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1584412949322" />
     <state width="1237" height="258" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="255" key="GridCell.Tab.0.center" timestamp="1584409108498">
+    <state width="1237" height="255" key="GridCell.Tab.0.center" timestamp="1584412949322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="255" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1584409108498" />
+    <state width="1237" height="255" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1584412949322" />
     <state width="1237" height="258" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="255" key="GridCell.Tab.0.left" timestamp="1584409108498">
+    <state width="1237" height="255" key="GridCell.Tab.0.left" timestamp="1584412949321">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="255" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1584409108498" />
+    <state width="1237" height="255" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1584412949321" />
     <state width="1237" height="258" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="255" key="GridCell.Tab.0.right" timestamp="1584409108498">
+    <state width="1237" height="255" key="GridCell.Tab.0.right" timestamp="1584412949322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="255" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1584409108498" />
+    <state width="1237" height="255" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1584412949322" />
     <state width="1237" height="258" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1583555512199">
       <screen x="0" y="0" width="1280" height="680" />

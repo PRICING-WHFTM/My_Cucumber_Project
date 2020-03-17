@@ -1,0 +1,18 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iws
+*.iml
+
+
+
+# Maven
+log/
+target/
+
+#some changes
+someFolder/
