@@ -1,0 +1,505 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-17T01:42:19.924Z",
+        "before": [
+          {
+            "result": {
+              "duration": 19287400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login negative test with different set of data",
+        "description": "",
+        "id": "login;login-negative-test-with-different-set-of-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 126590800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3375604800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to website",
+            "match": {
+              "location": "DataDrivenLogin.navigate_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1890154599,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \"tomsmith\" and \"SuperSecretPassword!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tomsmith\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"SuperSecretPassword!\"",
+                  "offset": 23
+                }
+              ],
+              "location": "DataDrivenLogin.i_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 607816300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get the \"You logged into a secure area!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"You logged into a secure area!\"",
+                  "offset": 17
+                }
+              ],
+              "location": "DataDrivenLogin.i_should_get_the(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-17T01:42:25.949Z",
+        "before": [
+          {
+            "result": {
+              "duration": 104999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login negative test with different set of data",
+        "description": "",
+        "id": "login;login-negative-test-with-different-set-of-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 135314801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2410516600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to website",
+            "match": {
+              "location": "DataDrivenLogin.navigate_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1067438200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \"xosemi\" and \"passcode\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xosemi\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"passcode\"",
+                  "offset": 21
+                }
+              ],
+              "location": "DataDrivenLogin.i_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 405391899,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get the \"Your username is invalid!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your username is invalid!\"",
+                  "offset": 17
+                }
+              ],
+              "location": "DataDrivenLogin.i_should_get_the(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-17T01:42:29.976Z",
+        "before": [
+          {
+            "result": {
+              "duration": 69700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login negative test with different set of data",
+        "description": "",
+        "id": "login;login-negative-test-with-different-set-of-data;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 132532401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1388713500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to website",
+            "match": {
+              "location": "DataDrivenLogin.navigate_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 775844900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \"amador\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amador\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 21
+                }
+              ],
+              "location": "DataDrivenLogin.i_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 344739200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get the \"Your username is invalid!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your username is invalid!\"",
+                  "offset": 17
+                }
+              ],
+              "location": "DataDrivenLogin.i_should_get_the(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  Testing login function with different set of data",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DataDrivenLogin.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-17T01:42:19.924Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24546900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Etsy search for an item",
+        "description": "",
+        "id": "etsy-product-search;etsy-search-for-an-item",
+        "after": [
+          {
+            "result": {
+              "duration": 110300900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6947735400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Etcy homepage",
+            "match": {
+              "location": "Etsy_steps.user_is_on_Etcy_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3128082001,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User searches for \"wooden spoon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wooden spoon\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Etsy_steps.user_searches_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 282179200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Search result should be displayed",
+            "match": {
+              "location": "Etsy_steps.search_result_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Etsy product search",
+    "description": "",
+    "id": "etsy-product-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Etsy_par1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-17T01:42:19.924Z",
+        "before": [
+          {
+            "result": {
+              "duration": 21712301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Light side rooms ping pong room",
+        "description": "",
+        "id": "map-page-details;light-side-rooms-ping-pong-room",
+        "after": [
+          {
+            "result": {
+              "duration": 124761800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5770068800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in the login page",
+            "match": {
+              "location": "Mapdetails_steps.user_is_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1085941001,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logs in with username \"ucharlot7y@nbcnews.com\" and password \"archibaldmelloy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ucharlot7y@nbcnews.com\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"archibaldmelloy\"",
+                  "offset": 65
+                }
+              ],
+              "location": "Mapdetails_steps.user_logs_in_with_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3817075101,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to see \"ping pong\" room",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ping pong\"",
+                  "offset": 27
+                }
+              ],
+              "location": "Mapdetails_steps.user_should_be_able_to_see_room(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1229612900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "In DB I should see the \"ping pong\" room",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ping pong\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Mapdetails_steps.in_DB_I_should_see_the_room(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Map page details",
+    "description": "",
+    "id": "map-page-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Mapdetails.feature",
+    "tags": []
+  }
+]

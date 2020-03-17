@@ -1,0 +1,283 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-15T19:10:39.587Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7634507900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login negative test with different set of data",
+        "description": "",
+        "id": "login;login-negative-test-with-different-set-of-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 979245500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1282573000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to website",
+            "match": {
+              "location": "DataDrivenLogin.navigate_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1251203000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \"tomsmith\" and \"SuperSecretPassword!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tomsmith\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"SuperSecretPassword!\"",
+                  "offset": 23
+                }
+              ],
+              "location": "DataDrivenLogin.i_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 195969300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get the \"You logged into a secure area!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"You logged into a secure area!\"",
+                  "offset": 17
+                }
+              ],
+              "location": "DataDrivenLogin.i_should_get_the(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@lotu"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-15T19:10:50.942Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5579378800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login negative test with different set of data",
+        "description": "",
+        "id": "login;login-negative-test-with-different-set-of-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1050917300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1079184200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to website",
+            "match": {
+              "location": "DataDrivenLogin.navigate_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 664806400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \"xosemi\" and \"passcode\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xosemi\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"passcode\"",
+                  "offset": 21
+                }
+              ],
+              "location": "DataDrivenLogin.i_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99042100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get the \"Your username is invalid!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your username is invalid!\"",
+                  "offset": 17
+                }
+              ],
+              "location": "DataDrivenLogin.i_should_get_the(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@lotu"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-15T19:10:59.418Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5630530100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login negative test with different set of data",
+        "description": "",
+        "id": "login;login-negative-test-with-different-set-of-data;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 868430900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1094603400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to website",
+            "match": {
+              "location": "DataDrivenLogin.navigate_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 611500500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \"amador\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amador\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 21
+                }
+              ],
+              "location": "DataDrivenLogin.i_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84922000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get the \"Your username is invalid!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your username is invalid!\"",
+                  "offset": 17
+                }
+              ],
+              "location": "DataDrivenLogin.i_should_get_the(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@lotu"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  Testing login function with different set of data",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/salma/IdeaProjects/Cucumber-project/src/test/resources/features/dataDrivenLogin.feature",
+    "tags": []
+  }
+]

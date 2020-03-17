@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-15T19:10:39.598Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7667876700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Light side rooms ping pong room",
+        "description": "",
+        "id": "map-page-details;light-side-rooms-ping-pong-room",
+        "after": [
+          {
+            "result": {
+              "duration": 1205856700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4317952300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in the login page",
+            "match": {
+              "location": "Mapdetails_steps.user_is_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1534012000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logs in with username \"ucharlot7y@nbcnews.com\" and password \"archibaldmelloy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ucharlot7y@nbcnews.com\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"archibaldmelloy\"",
+                  "offset": 65
+                }
+              ],
+              "location": "Mapdetails_steps.user_logs_in_with_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4890717600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to see \"ping pong\" room",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ping pong\"",
+                  "offset": 27
+                }
+              ],
+              "location": "Mapdetails_steps.user_should_be_able_to_see_room(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Map page details",
+    "description": "",
+    "id": "map-page-details",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/salma/IdeaProjects/Cucumber-project/src/test/resources/features/mapdetails.feature",
+    "tags": []
+  }
+]
