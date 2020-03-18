@@ -10,9 +10,7 @@
 
 
 
-# Maven
 log/
 target/
 
-#some changes
 someFolder/

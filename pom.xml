@@ -91,6 +91,7 @@
                     <parallel>methods</parallel>
                     <threadCount>3</threadCount>
                     <includes>
+                        <testFailureIgnore> true</testFailureIgnore>
                         <include>**/*CukesRunner.java</include>
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>

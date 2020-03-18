@@ -22,8 +22,9 @@ import java.net.URL;
 
 
 public class DriverUtil {
+
     private static Logger logger = Logger.getLogger(DriverUtil.class);
-    private static ThreadLocal<WebDriver> driverPool = new ThreadLocal<>();
+    private static ThreadLocal<WebDriver> driverPool = new ThreadLocal<>();// instead we can use just WebDriver driver ;
     private static String userName = "Xose";
     private static String accessKey = "20391271";
     private static final String URL = "https://" + userName + ":" + accessKey + "@hub-cloud.browserstack.com/wd/hub";
@@ -141,7 +142,6 @@ public class DriverUtil {
                 default:
                     throw new RuntimeException("Invalid browser name!");
             }
-
         }
         return driverPool.get();
     }
