@@ -2,8 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Etsy_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Etsy_steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DataDrivenLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DataDrivenLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Etsy_par1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Etsy_par1.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Mapdetails.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Mapdetails.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Cucumber-project-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Cucumber-project-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1_3519840141.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1_3519840141.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_2_436266945.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_2_436266945.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_3589187278.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_3589187278.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_4089311534.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_4089311534.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Etsy product search.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Etsy product search.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Login.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Login.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Map page details.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Map page details.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Etsy product search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Etsy product search.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Map page details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Map page details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/DataDrivenLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/DataDrivenLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Etsy_par1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Etsy_par1.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Mapdetails.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Mapdetails.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +62,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features" />
     <property name="project.structure.last.edited" value="Modules" />

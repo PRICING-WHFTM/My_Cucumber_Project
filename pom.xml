@@ -94,7 +94,6 @@
                         <testFailureIgnore> true</testFailureIgnore>
                         <include>**/*CukesRunner.java</include>
                     </includes>
-                    <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
             <plugin>

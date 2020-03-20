@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-03-18T01:56:13.056Z",
+        "start_timestamp": "2020-03-19T20:06:53.152Z",
         "before": [
           {
             "result": {
-              "duration": 7821001400,
+              "duration": 8143712900,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 1104816900,
+              "duration": 1459172900,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1324209000,
+              "duration": 1614973700,
               "status": "passed"
             },
             "line": 6,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1015193400,
+              "duration": 1416837900,
               "status": "passed"
             },
             "line": 7,
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 185734800,
+              "duration": 241553800,
               "status": "passed"
             },
             "line": 8,
@@ -89,18 +89,15 @@
         "tags": [
           {
             "name": "@smoke"
-          },
-          {
-            "name": "@regression"
           }
         ]
       },
       {
-        "start_timestamp": "2020-03-18T01:56:24.520Z",
+        "start_timestamp": "2020-03-19T20:07:06.049Z",
         "before": [
           {
             "result": {
-              "duration": 5856515300,
+              "duration": 5502279700,
               "status": "passed"
             },
             "match": {
@@ -115,7 +112,7 @@
         "after": [
           {
             "result": {
-              "duration": 901817100,
+              "duration": 877993200,
               "status": "passed"
             },
             "match": {
@@ -128,7 +125,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1081629700,
+              "duration": 1239154300,
               "status": "passed"
             },
             "line": 6,
@@ -140,7 +137,7 @@
           },
           {
             "result": {
-              "duration": 564861300,
+              "duration": 716816300,
               "status": "passed"
             },
             "line": 7,
@@ -162,7 +159,7 @@
           },
           {
             "result": {
-              "duration": 82552300,
+              "duration": 94906300,
               "status": "passed"
             },
             "line": 8,
@@ -182,18 +179,15 @@
         "tags": [
           {
             "name": "@smoke"
-          },
-          {
-            "name": "@regression"
           }
         ]
       },
       {
-        "start_timestamp": "2020-03-18T01:56:33.007Z",
+        "start_timestamp": "2020-03-19T20:07:14.481Z",
         "before": [
           {
             "result": {
-              "duration": 5386679900,
+              "duration": 5268307200,
               "status": "passed"
             },
             "match": {
@@ -208,7 +202,7 @@
         "after": [
           {
             "result": {
-              "duration": 829617600,
+              "duration": 846079700,
               "status": "passed"
             },
             "match": {
@@ -221,7 +215,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1191533000,
+              "duration": 1228605100,
               "status": "passed"
             },
             "line": 6,
@@ -233,7 +227,7 @@
           },
           {
             "result": {
-              "duration": 590227600,
+              "duration": 590268500,
               "status": "passed"
             },
             "line": 7,
@@ -255,7 +249,7 @@
           },
           {
             "result": {
-              "duration": 91014100,
+              "duration": 81574700,
               "status": "passed"
             },
             "line": 8,
@@ -275,9 +269,6 @@
         "tags": [
           {
             "name": "@smoke"
-          },
-          {
-            "name": "@regression"
           }
         ]
       }
@@ -293,11 +284,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-03-18T01:56:13.056Z",
+        "start_timestamp": "2020-03-19T20:06:53.152Z",
         "before": [
           {
             "result": {
-              "duration": 7711261900,
+              "duration": 8150615000,
               "status": "passed"
             },
             "match": {
@@ -312,7 +303,7 @@
         "after": [
           {
             "result": {
-              "duration": 1153334100,
+              "duration": 1162279200,
               "status": "passed"
             },
             "match": {
@@ -325,7 +316,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3453930100,
+              "duration": 3825867900,
               "status": "passed"
             },
             "line": 5,
@@ -337,7 +328,7 @@
           },
           {
             "result": {
-              "duration": 2312226100,
+              "duration": 2476536100,
               "status": "passed"
             },
             "line": 6,
@@ -355,7 +346,7 @@
           },
           {
             "result": {
-              "duration": 191028600,
+              "duration": 127903300,
               "status": "passed"
             },
             "line": 7,
@@ -364,14 +355,6 @@
               "location": "Etsy_steps.search_result_should_be_displayed()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@regression"
-          },
-          {
-            "name": "@smoke"
           }
         ]
       }
@@ -387,11 +370,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-03-18T01:56:13.056Z",
+        "start_timestamp": "2020-03-19T20:06:53.152Z",
         "before": [
           {
             "result": {
-              "duration": 7610524900,
+              "duration": 8143835000,
               "status": "passed"
             },
             "match": {
@@ -399,14 +382,14 @@
             }
           }
         ],
-        "line": 4,
+        "line": 3,
         "name": "Light side rooms ping pong room",
         "description": "",
         "id": "map-page-details;light-side-rooms-ping-pong-room",
         "after": [
           {
             "result": {
-              "duration": 1410770200,
+              "duration": 1011877700,
               "status": "passed"
             },
             "match": {
@@ -419,10 +402,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4566992700,
+              "duration": 5158398700,
               "status": "passed"
             },
-            "line": 5,
+            "line": 4,
             "name": "User is in the login page",
             "match": {
               "location": "Mapdetails_steps.user_is_in_the_login_page()"
@@ -431,10 +414,10 @@
           },
           {
             "result": {
-              "duration": 2025112300,
+              "duration": 1069691800,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "User logs in with username \"ucharlot7y@nbcnews.com\" and password \"archibaldmelloy\"",
             "match": {
               "arguments": [
@@ -453,10 +436,10 @@
           },
           {
             "result": {
-              "duration": 5359533600,
+              "duration": 5530950400,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "User should be able to see \"ping pong\" room",
             "match": {
               "arguments": [
@@ -471,10 +454,10 @@
           },
           {
             "result": {
-              "duration": 1305940700,
+              "duration": 1018451900,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "In DB I should see the \"ping pong\" room",
             "match": {
               "arguments": [
@@ -486,11 +469,6 @@
               "location": "Mapdetails_steps.in_DB_I_should_see_the_room(String)"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@regression"
           }
         ]
       }

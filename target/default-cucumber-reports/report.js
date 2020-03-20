@@ -11,9 +11,6 @@ formatter.scenarioOutline({
   "tags": [
     {
       "name": "@smoke"
-    },
-    {
-      "name": "@regression"
     }
   ]
 });
@@ -71,9 +68,6 @@ formatter.scenario({
   "tags": [
     {
       "name": "@smoke"
-    },
-    {
-      "name": "@regression"
     }
   ]
 });
@@ -120,9 +114,6 @@ formatter.scenario({
   "tags": [
     {
       "name": "@smoke"
-    },
-    {
-      "name": "@regression"
     }
   ]
 });
@@ -169,9 +160,6 @@ formatter.scenario({
   "tags": [
     {
       "name": "@smoke"
-    },
-    {
-      "name": "@regression"
     }
   ]
 });
@@ -220,15 +208,7 @@ formatter.feature({
 formatter.scenario({
   "name": "Etsy search for an item",
   "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@regression"
-    },
-    {
-      "name": "@smoke"
-    }
-  ]
+  "keyword": "Scenario"
 });
 formatter.before({
   "status": "passed"
@@ -275,12 +255,7 @@ formatter.feature({
 formatter.scenario({
   "name": "Light side rooms ping pong room",
   "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@regression"
-    }
-  ]
+  "keyword": "Scenario"
 });
 formatter.before({
   "status": "passed"

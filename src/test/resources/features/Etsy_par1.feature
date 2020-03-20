@@ -1,6 +1,6 @@
 Feature: Etsy product search
 
-  @regression @smoke
+
   Scenario: Etsy search for an item
     Given User is on Etcy homepage
     When User searches for "wooden spoon"

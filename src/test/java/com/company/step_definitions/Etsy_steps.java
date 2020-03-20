@@ -26,7 +26,7 @@ public class Etsy_steps {
         this.item = item;
         EtsyHomepage etsyhomepage = new EtsyHomepage();
         etsyhomepage.searchEditbox.sendKeys(item + Keys.ENTER);
-        System.out.println("Searching for " +item);
+        System.out.println("Searching for " + item);
     }
 
     @Then("Search result should be displayed")

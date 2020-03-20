@@ -1,7 +1,7 @@
 Feature: Login
   Testing login function with different set of data
 
-  @smoke @regression
+  @smoke
   Scenario Outline: Login negative test with different set of data
     Given Navigate to website
     When I enter "<username>" and "<password>"
