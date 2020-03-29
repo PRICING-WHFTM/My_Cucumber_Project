@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.company.runners.CukesRunner
--------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 36.661 s - in com.company.runners.CukesRunner
