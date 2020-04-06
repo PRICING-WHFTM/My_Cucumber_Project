@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 
 public class DataDrivenLogin {
 
-   public  WebDriver driver;
+   WebDriver driver;
     @Given("Navigate to website")
     public void navigate_to_website() {
         driver = DriverUtil.getDriver();
