@@ -91,7 +91,7 @@ public class BrowserUtils {
         String date = df.format(new Date());
         TakesScreenshot ts = (TakesScreenshot) DriverUtil.getDriver();
         File source = ts.getScreenshotAs(OutputType.FILE);
-        String target = System.getProperty("user.dir") + "/test-output/Screenshots/" + name + date + ".png";
+        String target = System.getProperty("user.dir") + "/test-output/screenshots/" + name + date + ".png";
         File finalDestination = new File(target);
         try {
             FileUtils.copyFile(source, finalDestination);

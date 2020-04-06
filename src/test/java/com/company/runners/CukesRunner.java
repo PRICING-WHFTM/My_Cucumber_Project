@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
         dryRun = false,
         //  tags = {"@etsy1"},
         plugin = {"html:target/default-cucumber-reports",
-                "json:target/cucumber.json",
-                "rerun:target/rerun.txt"})
+                  "json:target/cucumber.json",
+                  "rerun:target/rerun.txt"}  )
 
 
 public class CukesRunner {

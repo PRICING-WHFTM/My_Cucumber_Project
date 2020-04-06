@@ -6,6 +6,8 @@ import com.company.utilities.ConfigurationReader;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 
 
 public class Hook {
@@ -27,8 +29,8 @@ public class Hook {
         if (scenario.isFailed()) {
             BrowserUtils.getScreenshot(scenario.getName());
             logger.error("Test failed!");
-//            byte[] screenshot = ((TakesScreenshot) DriverUtil.getDriver()).getScreenshotAs(OutputType.BYTES);
-//            scenario.embed(screenshot, "image/png");
+          byte[] screenshot = ((TakesScreenshot) DriverUtil.getDriver()).getScreenshotAs(OutputType.BYTES);
+            scenario.embed(screenshot, "image/png");
         } else {
             logger.info("Cleanup!");
             logger.info("Test completed!");
