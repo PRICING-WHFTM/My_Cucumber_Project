@@ -89,7 +89,7 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                     <parallel>methods</parallel>
-                    <threadCount>2</threadCount>
+                    <threadCount>3</threadCount>
                     <testFailureIgnore> true</testFailureIgnore>
                     <includes>
                          <include>**/*CukesRunner.java</include>

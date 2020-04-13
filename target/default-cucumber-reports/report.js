@@ -260,10 +260,452 @@ formatter.match({
   "location": "AddRemoveModule.the_element_is_disappearing()"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class\u003d\u0027added-manually\u0027]\"}\n  (Session info: chrome\u003d80.0.3987.163)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ANARHOME-PC\u0027, ip: \u0027192.168.0.86\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\salma\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51499}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: ec17b7717a6961873310e209448a197e\n*** Element info: {Using\u003dxpath, value\u003d//button[@class\u003d\u0027added-manually\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)\r\n\tat com.company.step_definitions.AddRemoveModule.the_element_is_disappearing(AddRemoveModule.java:78)\r\n\tat ✽.The element is disappearing(file:src/test/resources/features/AddRemove_Elements.feature:33)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png", null);
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("file:src/test/resources/features/BasicAuth.feature");
+formatter.feature({
+  "name": "Basic Authentication",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Basic authentication with valid credentials",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am in Home page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "BasicAuth.i_am_in_Home_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Basic Auth element should display in Ho",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "BasicAuth.basic_Auth_element_should_display_in_Ho()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("file:src/test/resources/features/CheckBoxes.feature");
+formatter.feature({
+  "name": "Checkboxes",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Verify count of Checkboxes and by default selected checkbox",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@IH-3"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am in Home page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "BasicAuth.i_am_in_Home_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see CheckBoxes module in Homepage",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "CheckBoxes.i_should_see_CheckBoxes_module_in_Homepage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on Checkbox module",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "CheckBoxes.i_click_on_Checkbox_module()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should land to new page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "CheckBoxes.i_should_land_to_new_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see two Checkboxes in the page with name \"checkbox 1\" and \"checkbox 2\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CheckBoxes.i_should_see_two_Checkboxes_in_the_page_with_name_and(String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "checkbox2 should be checked by default",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CheckBoxes.checkbox_should_be_checked_by_default(Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I uncheck checkbox2 and check checkbox1",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "CheckBoxes.i_uncheck_checkbox_and_check_checkbox(Integer,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "checkbox1 should be checked and checkbox2 should be unchecked",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "CheckBoxes.checkbox_should_be_checked_and_checkbox_should_be_unchecked(Integer,Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("file:src/test/resources/features/DataDrivenLogin.feature");
+formatter.feature({
+  "name": "Login",
+  "description": "  Testing login function with different set of data",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "name": "Login negative test with different set of data",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@smoke"
+    }
+  ]
+});
+formatter.step({
+  "name": "Navigate to website",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "I enter \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I should get the \"\u003ctextMessage\u003e\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "username",
+        "password",
+        "textMessage"
+      ]
+    },
+    {
+      "cells": [
+        "tomsmith",
+        "SuperSecretPassword!",
+        "You logged into a secure area!"
+      ]
+    },
+    {
+      "cells": [
+        "xosemi",
+        "passcode",
+        "Your username is invalid!"
+      ]
+    },
+    {
+      "cells": [
+        "amador",
+        "password",
+        "Your username is invalid!"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Login negative test with different set of data",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@smoke"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Navigate to website",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "DataDrivenLogin.navigate_to_website()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter \"tomsmith\" and \"SuperSecretPassword!\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "DataDrivenLogin.i_enter_and(String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should get the \"You logged into a secure area!\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DataDrivenLogin.i_should_get_the(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Login negative test with different set of data",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@smoke"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Navigate to website",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "DataDrivenLogin.navigate_to_website()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter \"xosemi\" and \"passcode\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "DataDrivenLogin.i_enter_and(String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should get the \"Your username is invalid!\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DataDrivenLogin.i_should_get_the(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Login negative test with different set of data",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@smoke"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Navigate to website",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "DataDrivenLogin.navigate_to_website()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter \"amador\" and \"password\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "DataDrivenLogin.i_enter_and(String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should get the \"Your username is invalid!\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DataDrivenLogin.i_should_get_the(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("file:src/test/resources/features/Etsy_par1.feature");
+formatter.feature({
+  "name": "Etsy product search",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Etsy search for an item",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User is on Etcy homepage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Etsy_steps.user_is_on_Etcy_homepage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User searches for \"wooden spoon\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Etsy_steps.user_searches_for(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Search result should be displayed",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Etsy_steps.search_result_should_be_displayed()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("file:src/test/resources/features/Mapdetails.feature");
+formatter.feature({
+  "name": "Map page details",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Light side rooms ping pong room",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User is in the login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Mapdetails_steps.user_is_in_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User logs in with username \"ucharlot7y@nbcnews.com\" and password \"archibaldmelloy\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Mapdetails_steps.user_logs_in_with_username_and_password(String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to see \"ping pong\" room",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Mapdetails_steps.user_should_be_able_to_see_room(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "In DB I should see the \"ping pong\" room",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Mapdetails_steps.in_DB_I_should_see_the_room(String)"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.after({
   "status": "passed"
 });

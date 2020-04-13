@@ -5,14 +5,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HerokuApp_MainPage {
+public class Heroku_Homepage {
 
-    public HerokuApp_MainPage() {
+    public Heroku_Homepage() {
         PageFactory.initElements(DriverUtil.getDriver(), this);
     }
 
     @FindBy(linkText = "Add/Remove Elements")
     public WebElement add_Remove_Elements;
-
+    @FindBy(xpath = "//a[contains(text(),'Basic Auth')]")
+    public WebElement basicAuth;
+    @FindBy(linkText = "Checkboxes")
+    public WebElement checkboxes;
 
 }

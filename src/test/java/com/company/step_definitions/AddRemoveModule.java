@@ -1,8 +1,7 @@
 package com.company.step_definitions;
 
 import com.company.pages.AddRemoveElements;
-import com.company.pages.HerokuApp_MainPage;
-import com.company.utilities.BrowserUtils;
+import com.company.pages.Heroku_Homepage;
 import com.company.utilities.ConfigurationReader;
 import com.company.utilities.DriverUtil;
 import io.cucumber.java.en.*;
@@ -16,7 +15,7 @@ import java.util.List;
 public class AddRemoveModule {
 
     private WebDriver driver = DriverUtil.getDriver();
-    HerokuApp_MainPage homepage = new HerokuApp_MainPage();
+    Heroku_Homepage homepage = new Heroku_Homepage();
     AddRemoveElements addRemovePage = new AddRemoveElements();
     String homePageTitle;
 
