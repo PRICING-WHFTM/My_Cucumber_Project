@@ -404,6 +404,118 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.uri("file:src/test/resources/features/ContextMenu.feature");
+formatter.feature({
+  "name": "Context menu checking",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Verify JS alert appears on page after making context click",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@IH-4"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am in HomePage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "AddRemoveModule.i_am_in_HomePage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see ContextMenu module in Homepage",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ContextMenu_step.i_should_see_ContextMenu_module_in_Homepage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on contextMenu module",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "ContextMenu_step.i_click_on_contextMenu_module()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should land to contextmenu page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ContextMenu_step.i_should_land_to_contextmenu_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "empty square should display in the page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ContextMenu_step.empty_square_should_display_in_the_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I do rightclik on square",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "ContextMenu_step.i_do_rightclik_on_square()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "JS Alert should popup",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ContextMenu_step.js_Alert_should_popup()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I dismiss the alert",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "ContextMenu_step.i_dismiss_the_alert()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "alert should disappear.",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ContextMenu_step.alert_should_disappear()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 formatter.uri("file:src/test/resources/features/DataDrivenLogin.feature");
 formatter.feature({
   "name": "Login",

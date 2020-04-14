@@ -42,8 +42,8 @@ public class CheckBoxes {
     public void i_should_see_two_Checkboxes_in_the_page_with_name_and(String string, String string2) {
         Assert.assertEquals(checkboxesPage.checkboxesList.size(), 2);
         System.out.println(checkboxesPage.checkboxesList.size());
-        for (int i = 0; i < checkboxesPage.checkboxesList.size(); i++) {
-            System.out.println(checkboxesPage.checkboxesList.get(i).getAttribute("innerHTML"));
+        for (int i = 0; i < driver.findElements(By.xpath("//input[@type='checkbox']")).size(); i++) {
+            driver.findElements(By.xpath("//input[@type='checkbox']")).get(i).getText();
         }
 //        Assert.assertEquals(" checkbox 1", checkboxesPage.checkbox1.getAttribute("innerHTML"));
 //        Assert.assertEquals(" checkbox 2", checkboxesPage.checkbox2.getAttribute("innerHTML"));

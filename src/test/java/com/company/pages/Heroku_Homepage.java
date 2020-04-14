@@ -17,5 +17,8 @@ public class Heroku_Homepage {
     public WebElement basicAuth;
     @FindBy(linkText = "Checkboxes")
     public WebElement checkboxes;
+    @FindBy(linkText = "Context Menu")
+    public WebElement contextMenuModule;
+
 
 }

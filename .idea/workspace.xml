@@ -2,28 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/CheckboxesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/BasicAuth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/CheckBoxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/BasicAuth.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/CheckBoxes.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/ContextMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/ContextMenu_step.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ContextMenu.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/HerokuApp_MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/AddRemoveModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/AddRemoveModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/CheckBoxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/CheckBoxes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Cucumber-project-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Cucumber-project-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/step_definitions/Hook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/step_definitions/Hook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/step_definitions/Mapdetails_steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/step_definitions/Mapdetails_steps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/utilities/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/utilities/BrowserUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/utilities/ConfigurationReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/utilities/ConfigurationReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/utilities/DriverUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/utilities/DriverUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,15 +98,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Basic authentication with valid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify JS alert appears on page after making context click" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4.5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BasicAuth.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ContextMenu.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Basic authentication with valid credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Basic authentication with valid credentials$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Basic authentication with valid credentials" />
+      <option name="NAME_FILTER" value="^Verify JS alert appears on page after making context click$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Verify JS alert appears on page after making context click$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify JS alert appears on page after making context click" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -167,10 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Verify count of Checkboxes and by default selected checkbox" />
+        <item itemvalue="Cucumber Java.Scenario: Verify JS alert appears on page after making context click" />
         <item itemvalue="Cucumber Java.Feature: CheckBoxes" />
+        <item itemvalue="Cucumber Java.Scenario: Verify count of Checkboxes and by default selected checkbox" />
         <item itemvalue="Cucumber Java.Feature: BasicAuth" />
-        <item itemvalue="Cucumber Java.Scenario: Basic authentication with valid credentials" />
       </list>
     </recent_temporary>
   </component>
@@ -200,10 +189,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Project_Structure/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1582867564377" />
-    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586663431288">
+    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586829688533">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586663431288" />
+    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586829688533" />
     <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1584165803505" />
     <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586666950436">
       <screen x="0" y="0" width="1280" height="680" />
@@ -217,39 +206,39 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1582869890797" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1586755854672">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1586831672167">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586755854672" />
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586831672167" />
     <state x="421" y="58" key="FileChooserDialogImpl" timestamp="1586486697171">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1237" height="122" key="GridCell.Tab.0.bottom" timestamp="1586757342337">
+    <state width="1237" height="257" key="GridCell.Tab.0.bottom" timestamp="1586832107230">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586757342337" />
+    <state width="1237" height="257" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586832107230" />
     <state width="1431" height="304" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384700" />
     <state width="1222" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="122" key="GridCell.Tab.0.center" timestamp="1586757342337">
+    <state width="1237" height="257" key="GridCell.Tab.0.center" timestamp="1586832107230">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586757342337" />
+    <state width="1237" height="257" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586832107230" />
     <state width="1431" height="304" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384699" />
     <state width="1222" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="122" key="GridCell.Tab.0.left" timestamp="1586757342337">
+    <state width="1237" height="257" key="GridCell.Tab.0.left" timestamp="1586832107230">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586757342337" />
+    <state width="1237" height="257" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586832107230" />
     <state width="1431" height="304" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384699" />
     <state width="1222" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="122" key="GridCell.Tab.0.right" timestamp="1586757342337">
+    <state width="1237" height="257" key="GridCell.Tab.0.right" timestamp="1586832107230">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586757342337" />
+    <state width="1237" height="257" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586832107230" />
     <state width="1431" height="304" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384700" />
     <state width="1222" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
@@ -295,9 +284,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1583475381248" />
-    <state x="2269" y="1" width="774" height="862" key="search.everywhere.popup" timestamp="1586140407621">
-      <screen x="1920" y="0" width="1474" height="864" />
+    <state x="303" y="1" width="673" height="679" key="search.everywhere.popup" timestamp="1586831218724">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="303" y="1" width="673" height="679" key="search.everywhere.popup/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586831218724" />
     <state x="2269" y="1" width="774" height="862" key="search.everywhere.popup/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586140407621" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1583476182878" />
   </component>
