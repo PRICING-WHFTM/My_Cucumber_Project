@@ -1,4 +1,4 @@
-Feature: Login
+Feature: Login Data Driven
   Testing login function with different set of data
 
   @smoke

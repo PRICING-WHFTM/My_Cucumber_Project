@@ -1,4 +1,4 @@
-Feature: Verifying disappearing elements
+Feature: Disappearing elements
 
 
   @IH-5

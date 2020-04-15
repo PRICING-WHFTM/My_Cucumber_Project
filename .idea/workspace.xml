@@ -2,14 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/DisappearingElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DisappearingElements_steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DisappearingElements.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/ContextMenu_step.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/ContextMenu_step.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DataDrivenLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DataDrivenLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DisappearingElements.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DisappearingElements.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Cucumber-project-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/cucumber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/jquery.tablesorter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/moment.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/-2020-04-12-00-34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/-2020-04-12-00-37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/-2020-04-12-00-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Add Remove module should display in HomePage-2020-04-12-00-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Add Remove module should display in HomePage-2020-04-12-00-22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/After clicking “Add elements” button , then “Delete Elements” button should display-2020-04-12-00-51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/After clicking “Add elements” button , then “Delete Elements” button should display-2020-04-12-00-54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/After clicking “Add elements” button , then “Delete Elements” button should display-2020-04-12-00-55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/After clicking “Add elements” button , then “Delete Elements” button should display-2020-04-12-00-57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Basic authentication with valid credentials-2020-04-12-16-42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Basic authentication with valid credentials-2020-04-12-16-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Checking disappearing elements and verifying-2020-04-14-23-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Checking disappearing elements and verifying-2020-04-14-23-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Checking disappearing elements and verifying-2020-04-14-23-38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Initially, 1 button “Add element “ button should display in in Add Remove Elements module-2020-04-12-00-51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Initially, 1 button “Add element “ button should display in in Add Remove Elements module-2020-04-12-00-54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Initially, 1 button “Add element “ button should display in in Add Remove Elements module-2020-04-12-00-55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Initially, 1 button “Add element “ button should display in in Add Remove Elements module-2020-04-12-00-56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/User clicks Delete element button , then the element should disappear.-2020-04-12-01-58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/User clicks Delete element button , then the element should disappear.-2020-04-12-02-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-13-00-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-13-00-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-13-00-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-13-00-41.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,31 +268,31 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1237" height="112" key="GridCell.Tab.0.bottom" timestamp="1586926414605">
+    <state width="1237" height="172" key="GridCell.Tab.0.bottom" timestamp="1586926590820">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="112" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586926414605" />
+    <state width="1237" height="172" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586926590820" />
     <state width="1431" height="304" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384700" />
     <state width="1222" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="112" key="GridCell.Tab.0.center" timestamp="1586926414605">
+    <state width="1237" height="172" key="GridCell.Tab.0.center" timestamp="1586926590820">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="112" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586926414605" />
+    <state width="1237" height="172" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586926590820" />
     <state width="1431" height="304" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384699" />
     <state width="1222" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="112" key="GridCell.Tab.0.left" timestamp="1586926414605">
+    <state width="1237" height="172" key="GridCell.Tab.0.left" timestamp="1586926590820">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="112" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586926414605" />
+    <state width="1237" height="172" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586926590820" />
     <state width="1431" height="304" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384699" />
     <state width="1222" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="112" key="GridCell.Tab.0.right" timestamp="1586926414605">
+    <state width="1237" height="172" key="GridCell.Tab.0.right" timestamp="1586926590820">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="112" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586926414605" />
+    <state width="1237" height="172" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586926590820" />
     <state width="1431" height="304" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384700" />
     <state width="1222" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />

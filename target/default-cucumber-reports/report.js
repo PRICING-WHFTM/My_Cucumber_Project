@@ -719,7 +719,7 @@ formatter.after({
 });
 formatter.uri("file:src/test/resources/features/DisappearingElements.feature");
 formatter.feature({
-  "name": "Verifying disappearing elements",
+  "name": "Disappearing elements",
   "description": "",
   "keyword": "Feature"
 });
