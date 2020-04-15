@@ -19,6 +19,7 @@ public class Heroku_Homepage {
     public WebElement checkboxes;
     @FindBy(linkText = "Context Menu")
     public WebElement contextMenuModule;
-
+    @FindBy(linkText = "Disappearing Elements")
+    public WebElement disappearingElementsModule;
 
 }

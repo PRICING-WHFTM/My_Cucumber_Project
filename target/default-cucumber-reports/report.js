@@ -717,6 +717,88 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.uri("file:src/test/resources/features/DisappearingElements.feature");
+formatter.feature({
+  "name": "Verifying disappearing elements",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Checking disappearing elements and verifying",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@IH-5"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am in HomePage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "AddRemoveModule.i_am_in_HomePage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see \"Disappearing Elements\" module in homepage",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DisappearingElements_steps.i_should_see_module_in_homepage(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click disappearing elements module in homepage",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "DisappearingElements_steps.i_click_disappearing_elements_module_in_homepage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should land to Disappearing Elements page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DisappearingElements_steps.i_should_land_to_Disappearing_Elements_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click About element in the page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "DisappearingElements_steps.i_click_About_element_in_the_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "element should disappear",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DisappearingElements_steps.element_should_disappear()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 formatter.uri("file:src/test/resources/features/Etsy_par1.feature");
 formatter.feature({
   "name": "Etsy product search",

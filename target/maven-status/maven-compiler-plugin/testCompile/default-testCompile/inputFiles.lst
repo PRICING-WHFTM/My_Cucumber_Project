@@ -1,5 +1,6 @@
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\AddRemoveModule.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\DataDrivenLogin.java
+C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\DisappearingElements_steps.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\Hook.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\utilities\BrowserUtils.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\ContextMenu.java
@@ -15,6 +16,7 @@ C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\runner
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\Etsy_steps.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\CheckBoxes.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\AddRemoveElements.java
+C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\DisappearingElements.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\utilities\DriverUtil.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\Sign_In.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\Heroku_Homepage.java

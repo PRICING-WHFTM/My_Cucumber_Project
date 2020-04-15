@@ -65,8 +65,9 @@ public class ContextMenu_step {
         try {
             driver.switchTo().alert().accept();
         } catch (Exception e) {
-            System.out.println("Alert not present in the page");
-        }
+            System.out.println("Alert not present in page"); // I can catch the exception and
+        }                                                    // display my own message, if try block failse
+                                                            // it will run my message in catch block
 
     }
 
