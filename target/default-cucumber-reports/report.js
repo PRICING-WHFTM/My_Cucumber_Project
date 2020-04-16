@@ -518,7 +518,7 @@ formatter.after({
 });
 formatter.uri("file:src/test/resources/features/DataDrivenLogin.feature");
 formatter.feature({
-  "name": "Login",
+  "name": "Login Data Driven",
   "description": "  Testing login function with different set of data",
   "keyword": "Feature"
 });
@@ -792,6 +792,83 @@ formatter.step({
 });
 formatter.match({
   "location": "DisappearingElements_steps.element_should_disappear()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("file:src/test/resources/features/DragandDrop.feature");
+formatter.feature({
+  "name": "Drag and Drop the element",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Drag and Drop",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am in HomePage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "AddRemoveModule.i_am_in_HomePage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see \"Drag and Drop\" module in the homepage",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DragAndDrop_steps.i_should_see_module_in_the_homepage(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click drag and drop",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "DragAndDrop_steps.i_click_drag_and_drop()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should land drag and drop page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DragAndDrop_steps.i_should_land_drag_and_drop_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see A and B elements",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DragAndDrop_steps.i_should_see_A_and_B_elements()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be able to drag element A and drop to element B",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DragAndDrop_steps.i_should_be_able_to_drag_element_A_and_drop_to_element_B()"
 });
 formatter.result({
   "status": "passed"
