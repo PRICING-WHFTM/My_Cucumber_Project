@@ -21,5 +21,7 @@ public class Heroku_Homepage {
     public WebElement contextMenuModule;
     @FindBy(linkText = "Disappearing Elements")
     public WebElement disappearingElementsModule;
+    @FindBy(linkText = "Drag and Drop")
+    public WebElement dragAndDropModule;
 
 }

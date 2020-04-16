@@ -2,71 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/DragAndDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DragAndDrop_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DragandDrop.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DataDrivenLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DataDrivenLogin.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DisappearingElements.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DisappearingElements.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Cucumber-project-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/cucumber.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/Chart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/jquery-1.8.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/-2020-04-12-00-34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/-2020-04-12-00-37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/-2020-04-12-00-40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Add Remove module should display in HomePage-2020-04-12-00-20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Add Remove module should display in HomePage-2020-04-12-00-22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/After clicking “Add elements” button , then “Delete Elements” button should display-2020-04-12-00-51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/After clicking “Add elements” button , then “Delete Elements” button should display-2020-04-12-00-54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/After clicking “Add elements” button , then “Delete Elements” button should display-2020-04-12-00-55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/After clicking “Add elements” button , then “Delete Elements” button should display-2020-04-12-00-57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Basic authentication with valid credentials-2020-04-12-16-42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Basic authentication with valid credentials-2020-04-12-16-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Checking disappearing elements and verifying-2020-04-14-23-19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Checking disappearing elements and verifying-2020-04-14-23-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Checking disappearing elements and verifying-2020-04-14-23-38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Initially, 1 button “Add element “ button should display in in Add Remove Elements module-2020-04-12-00-51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Initially, 1 button “Add element “ button should display in in Add Remove Elements module-2020-04-12-00-54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Initially, 1 button “Add element “ button should display in in Add Remove Elements module-2020-04-12-00-55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Initially, 1 button “Add element “ button should display in in Add Remove Elements module-2020-04-12-00-56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/User clicks Delete element button , then the element should disappear.-2020-04-12-01-58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/User clicks Delete element button , then the element should disappear.-2020-04-12-02-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-12-23-59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-13-00-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-13-00-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-13-00-40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-04-13-00-41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,15 +53,15 @@
       <recent name="C:\Users\salma\IdeaProjects\Cucumber-project\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CukesRunner">
-    <configuration name="Feature: ContextMenu" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Drag and Drop">
+    <configuration name="Feature: DisappearingElements" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4.5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ContextMenu.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DisappearingElements.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: ContextMenu" />
+      <option name="SUGGESTED_NAME" value="Feature: DisappearingElements" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -133,14 +73,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: DisappearingElements" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: DragandDrop" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4.5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DisappearingElements.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DragandDrop.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: DisappearingElements" />
+      <option name="SUGGESTED_NAME" value="Feature: DragandDrop" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -172,15 +112,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify JS alert appears on page after making context click" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Drag and Drop" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4.5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ContextMenu.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DragandDrop.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Verify JS alert appears on page after making context click$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Verify JS alert appears on page after making context click$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify JS alert appears on page after making context click" />
+      <option name="NAME_FILTER" value="^Drag and Drop$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Drag and Drop$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Drag and Drop" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -209,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Drag and Drop" />
+        <item itemvalue="Cucumber Java.Feature: DragandDrop" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="Cucumber Java.Scenario: Checking disappearing elements and verifying" />
         <item itemvalue="Cucumber Java.Feature: DisappearingElements" />
-        <item itemvalue="Cucumber Java.Feature: ContextMenu" />
-        <item itemvalue="Cucumber Java.Scenario: Verify JS alert appears on page after making context click" />
       </list>
     </recent_temporary>
   </component>
@@ -243,10 +183,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Project_Structure/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1582867564377" />
-    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586829688533">
+    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587004327816">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586829688533" />
+    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587004327816" />
     <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1584165803505" />
     <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586666950436">
       <screen x="0" y="0" width="1280" height="680" />
@@ -268,31 +208,31 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1237" height="172" key="GridCell.Tab.0.bottom" timestamp="1586926590820">
+    <state width="1237" height="137" key="GridCell.Tab.0.bottom" timestamp="1587007808891">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586926590820" />
+    <state width="1237" height="137" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587007808891" />
     <state width="1431" height="304" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384700" />
     <state width="1222" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="172" key="GridCell.Tab.0.center" timestamp="1586926590820">
+    <state width="1237" height="137" key="GridCell.Tab.0.center" timestamp="1587007808890">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586926590820" />
+    <state width="1237" height="137" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587007808890" />
     <state width="1431" height="304" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384699" />
     <state width="1222" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="172" key="GridCell.Tab.0.left" timestamp="1586926590820">
+    <state width="1237" height="137" key="GridCell.Tab.0.left" timestamp="1587007808890">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586926590820" />
+    <state width="1237" height="137" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587007808890" />
     <state width="1431" height="304" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384699" />
     <state width="1222" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="172" key="GridCell.Tab.0.right" timestamp="1586926590820">
+    <state width="1237" height="137" key="GridCell.Tab.0.right" timestamp="1587007808891">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586926590820" />
+    <state width="1237" height="137" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587007808891" />
     <state width="1431" height="304" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384700" />
     <state width="1222" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
