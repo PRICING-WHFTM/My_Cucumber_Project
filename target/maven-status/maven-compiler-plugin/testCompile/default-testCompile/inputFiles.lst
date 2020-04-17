@@ -5,6 +5,7 @@ C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\utilit
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\EtsyHomepage.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\utilities\DBUtils.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\MapRoom.java
+C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\Dropdowns.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\ContextMenu_step.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\runners\CukesRunner.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\runners\Re_runner.java
@@ -12,6 +13,7 @@ C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_d
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\AddRemoveElements.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\DisappearingElements.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\DragAndDrop.java
+C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\Dropdowns_step.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\Sign_In.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\utilities\ConfigurationReader.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\BasicAuth.java

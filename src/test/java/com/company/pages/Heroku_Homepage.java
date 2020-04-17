@@ -23,5 +23,8 @@ public class Heroku_Homepage {
     public WebElement disappearingElementsModule;
     @FindBy(linkText = "Drag and Drop")
     public WebElement dragAndDropModule;
+    @FindBy(linkText = "Dropdown")
+    public WebElement dropdownsModule;
+
 
 }
