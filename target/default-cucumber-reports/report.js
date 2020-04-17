@@ -876,6 +876,108 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.uri("file:src/test/resources/features/Dropdowns.feature");
+formatter.feature({
+  "name": "Dropdowns verifying",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Verify Dropdowns and some operations",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@IH-6"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am in HomePage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "AddRemoveModule.i_am_in_HomePage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Dropdown\" module  should exist in homepage",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Dropdowns_step.module_should_exist_in_homepage(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click dropdown",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Dropdowns_step.i_click_dropdown()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should land to dropdown page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Dropdowns_step.i_should_land_to_dropdown_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "should exist 3 dropdowns",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Dropdowns_step.should_exist_dropdowns(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "dropdowns should have name \"Option 1\" and \"Option 2\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Dropdowns_step.dropdowns_should_have_name_and(String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I select \"Option 1\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Dropdowns_step.i_select(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Option 1\" should be selectedDropdown",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Dropdowns_step.should_be_selectedDropdown(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 formatter.uri("file:src/test/resources/features/Etsy_par1.feature");
 formatter.feature({
   "name": "Etsy product search",
