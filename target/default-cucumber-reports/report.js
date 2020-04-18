@@ -978,6 +978,118 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.uri("file:src/test/resources/features/DynamicControls.feature");
+formatter.feature({
+  "name": "Dynamic Control",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Enable and Disable edit-box",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@IH-7"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am in HomePage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "AddRemoveModule.i_am_in_HomePage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Dynamic Controls\" module should exists in homepage",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DynamicControls_steps.module_should_exists_in_homepage(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click dynamic controls",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "DynamicControls_steps.i_click_dynamic_controls()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should land t dynamic controls page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DynamicControls_steps.i_should_land_t_dynamic_controls_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "editBox in the page should be disabled by default",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DynamicControls_steps.editbox_in_the_page_should_be_disabled_by_default()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Enable\" button should exist in the page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DynamicControls_steps.button_should_exist_in_the_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click enable button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "DynamicControls_steps.i_click_enable_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "editBox should be enabled",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DynamicControls_steps.editbox_should_be_enabled()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see \"It\u0027s enabled!\" text displayed",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DynamicControls_steps.i_should_see_text_displayed(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 formatter.uri("file:src/test/resources/features/Etsy_par1.feature");
 formatter.feature({
   "name": "Etsy product search",

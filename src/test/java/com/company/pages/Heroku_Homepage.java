@@ -25,6 +25,7 @@ public class Heroku_Homepage {
     public WebElement dragAndDropModule;
     @FindBy(linkText = "Dropdown")
     public WebElement dropdownsModule;
-
+    @FindBy(linkText = "Dynamic Controls")
+    public WebElement dynamicControlsModule;
 
 }

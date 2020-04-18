@@ -79,6 +79,8 @@ public class BrowserUtils {
         return wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
+
+
     /*
      * takes screenshot
      * whenever you call this method
