@@ -53,11 +53,10 @@ public class BrowserUtils {
      * @param element
      * @return
      */
-    public static WebElement waitForVisibility(WebElement element) {
+    public static void waitForVisibility(WebElement element) {
         WebDriverWait wait = new WebDriverWait(DriverUtil.getDriver(), 15);
-        return wait.until(ExpectedConditions.visibilityOf(element));
+        wait.until(ExpectedConditions.visibilityOf(element));
     }
-
     /**
      * Clicks on an element using JavaScript
      *
@@ -70,16 +69,17 @@ public class BrowserUtils {
 
     /**
      * Waits for provided element to be clickable
-     *
-     * @param element
-     * @return
      */
-    public static WebElement waitForClickablility(WebElement element) {
+    public static void waitForClickablility(WebElement element) {
         WebDriverWait wait = new WebDriverWait(DriverUtil.getDriver(), 15);
-        return wait.until(ExpectedConditions.elementToBeClickable(element));
+        wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
+    public static void waitFor_In_Visible(WebElement element) {
+        WebDriverWait wait = new WebDriverWait(DriverUtil.getDriver(), 10);
+        wait.until(ExpectedConditions.invisibilityOf(element));
 
+    }
 
     /*
      * takes screenshot

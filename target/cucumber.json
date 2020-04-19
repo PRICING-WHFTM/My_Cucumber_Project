@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-04-18T05:15:31.366Z",
+        "start_timestamp": "2020-04-19T06:57:29.689Z",
         "before": [
           {
             "result": {
-              "duration": 7823893800,
+              "duration": 8147287800,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 1132825700,
+              "duration": 1332945400,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4174823200,
+              "duration": 2123571800,
               "status": "passed"
             },
             "line": 6,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 190767100,
+              "duration": 203586600,
               "status": "passed"
             },
             "line": 7,
@@ -68,11 +68,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-18T05:15:44.699Z",
+        "start_timestamp": "2020-04-19T06:57:41.501Z",
         "before": [
           {
             "result": {
-              "duration": 5336120600,
+              "duration": 5419790700,
               "status": "passed"
             },
             "match": {
@@ -87,7 +87,7 @@
         "after": [
           {
             "result": {
-              "duration": 580407300,
+              "duration": 606133100,
               "status": "passed"
             },
             "match": {
@@ -100,7 +100,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1091359700,
+              "duration": 1251339800,
               "status": "passed"
             },
             "line": 11,
@@ -112,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 270095200,
+              "duration": 255179000,
               "status": "passed"
             },
             "line": 12,
@@ -124,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 67677800,
+              "duration": 53349100,
               "status": "passed"
             },
             "line": 13,
@@ -136,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 23891100,
+              "duration": 15414100,
               "status": "passed"
             },
             "line": 14,
@@ -157,11 +157,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-18T05:15:52.069Z",
+        "start_timestamp": "2020-04-19T06:57:49.103Z",
         "before": [
           {
             "result": {
-              "duration": 5074500700,
+              "duration": 5198559100,
               "status": "passed"
             },
             "match": {
@@ -176,7 +176,7 @@
         "after": [
           {
             "result": {
-              "duration": 633502800,
+              "duration": 597896000,
               "status": "passed"
             },
             "match": {
@@ -189,7 +189,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1044970000,
+              "duration": 1249247200,
               "status": "passed"
             },
             "line": 18,
@@ -201,7 +201,7 @@
           },
           {
             "result": {
-              "duration": 227617600,
+              "duration": 259256600,
               "status": "passed"
             },
             "line": 19,
@@ -213,7 +213,7 @@
           },
           {
             "result": {
-              "duration": 56276000,
+              "duration": 55071600,
               "status": "passed"
             },
             "line": 20,
@@ -225,7 +225,7 @@
           },
           {
             "result": {
-              "duration": 98683100,
+              "duration": 73321200,
               "status": "passed"
             },
             "line": 21,
@@ -237,7 +237,7 @@
           },
           {
             "result": {
-              "duration": 97358200,
+              "duration": 63720100,
               "status": "passed"
             },
             "line": 22,
@@ -258,11 +258,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-18T05:15:59.303Z",
+        "start_timestamp": "2020-04-19T06:57:56.600Z",
         "before": [
           {
             "result": {
-              "duration": 5178853400,
+              "duration": 5155238800,
               "status": "passed"
             },
             "match": {
@@ -277,7 +277,7 @@
         "after": [
           {
             "result": {
-              "duration": 585436400,
+              "duration": 574536100,
               "status": "passed"
             },
             "match": {
@@ -290,7 +290,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1034511900,
+              "duration": 1219299900,
               "status": "passed"
             },
             "line": 27,
@@ -302,7 +302,7 @@
           },
           {
             "result": {
-              "duration": 216432300,
+              "duration": 439286500,
               "status": "passed"
             },
             "line": 28,
@@ -314,7 +314,7 @@
           },
           {
             "result": {
-              "duration": 36771900,
+              "duration": 72735600,
               "status": "passed"
             },
             "line": 29,
@@ -326,7 +326,7 @@
           },
           {
             "result": {
-              "duration": 69961400,
+              "duration": 101059400,
               "status": "passed"
             },
             "line": 30,
@@ -338,7 +338,7 @@
           },
           {
             "result": {
-              "duration": 50373200,
+              "duration": 68372800,
               "status": "passed"
             },
             "line": 31,
@@ -350,7 +350,7 @@
           },
           {
             "result": {
-              "duration": 97452400,
+              "duration": 80138800,
               "status": "passed"
             },
             "line": 32,
@@ -362,7 +362,7 @@
           },
           {
             "result": {
-              "duration": 10364200,
+              "duration": 12789200,
               "status": "passed"
             },
             "line": 33,
@@ -403,11 +403,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-18T05:15:31.288Z",
+        "start_timestamp": "2020-04-19T06:57:29.661Z",
         "before": [
           {
             "result": {
-              "duration": 7868818000,
+              "duration": 8236830900,
               "status": "passed"
             },
             "match": {
@@ -422,7 +422,7 @@
         "after": [
           {
             "result": {
-              "duration": 1293125800,
+              "duration": 2132156100,
               "status": "passed"
             },
             "match": {
@@ -435,7 +435,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3884911900,
+              "duration": 2110599700,
               "status": "passed"
             },
             "line": 4,
@@ -447,7 +447,7 @@
           },
           {
             "result": {
-              "duration": 151548400,
+              "duration": 186342100,
               "status": "passed"
             },
             "line": 5,
@@ -471,11 +471,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-18T05:15:31.320Z",
+        "start_timestamp": "2020-04-19T06:57:29.762Z",
         "before": [
           {
             "result": {
-              "duration": 7677097700,
+              "duration": 8123841100,
               "status": "passed"
             },
             "match": {
@@ -490,7 +490,7 @@
         "after": [
           {
             "result": {
-              "duration": 778283300,
+              "duration": 855364400,
               "status": "passed"
             },
             "match": {
@@ -503,7 +503,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4298906300,
+              "duration": 2169452300,
               "status": "passed"
             },
             "line": 6,
@@ -515,7 +515,7 @@
           },
           {
             "result": {
-              "duration": 224009600,
+              "duration": 166781600,
               "status": "passed"
             },
             "line": 7,
@@ -527,7 +527,7 @@
           },
           {
             "result": {
-              "duration": 447422500,
+              "duration": 539552300,
               "status": "passed"
             },
             "line": 8,
@@ -539,7 +539,7 @@
           },
           {
             "result": {
-              "duration": 83351500,
+              "duration": 61738600,
               "status": "passed"
             },
             "line": 9,
@@ -551,7 +551,7 @@
           },
           {
             "result": {
-              "duration": 371915700,
+              "duration": 531486000,
               "status": "passed"
             },
             "line": 10,
@@ -573,7 +573,7 @@
           },
           {
             "result": {
-              "duration": 79083400,
+              "duration": 226368300,
               "status": "passed"
             },
             "line": 11,
@@ -591,7 +591,7 @@
           },
           {
             "result": {
-              "duration": 1471230600,
+              "duration": 1302138200,
               "status": "passed"
             },
             "line": 12,
@@ -613,7 +613,7 @@
           },
           {
             "result": {
-              "duration": 77412100,
+              "duration": 95176700,
               "status": "passed"
             },
             "line": 13,
@@ -652,11 +652,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-18T05:15:31.373Z",
+        "start_timestamp": "2020-04-19T06:57:29.766Z",
         "before": [
           {
             "result": {
-              "duration": 7876359000,
+              "duration": 7713811800,
               "status": "passed"
             },
             "match": {
@@ -671,7 +671,7 @@
         "after": [
           {
             "result": {
-              "duration": 1384787200,
+              "duration": 1140500800,
               "status": "passed"
             },
             "match": {
@@ -684,7 +684,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3917521400,
+              "duration": 1972765000,
               "status": "passed"
             },
             "line": 5,
@@ -696,7 +696,7 @@
           },
           {
             "result": {
-              "duration": 208927900,
+              "duration": 343474900,
               "status": "passed"
             },
             "line": 6,
@@ -708,7 +708,7 @@
           },
           {
             "result": {
-              "duration": 510473400,
+              "duration": 605568100,
               "status": "passed"
             },
             "line": 7,
@@ -720,7 +720,7 @@
           },
           {
             "result": {
-              "duration": 43427300,
+              "duration": 133779400,
               "status": "passed"
             },
             "line": 8,
@@ -732,7 +732,7 @@
           },
           {
             "result": {
-              "duration": 141582500,
+              "duration": 280163100,
               "status": "passed"
             },
             "line": 9,
@@ -744,7 +744,7 @@
           },
           {
             "result": {
-              "duration": 303903500,
+              "duration": 267002200,
               "status": "passed"
             },
             "line": 10,
@@ -756,7 +756,7 @@
           },
           {
             "result": {
-              "duration": 11166300,
+              "duration": 18951400,
               "status": "passed"
             },
             "line": 11,
@@ -768,7 +768,7 @@
           },
           {
             "result": {
-              "duration": 12255600,
+              "duration": 14495200,
               "status": "passed"
             },
             "line": 12,
@@ -780,7 +780,7 @@
           },
           {
             "result": {
-              "duration": 62141300,
+              "duration": 42868800,
               "status": "passed"
             },
             "line": 13,
@@ -809,11 +809,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-18T05:15:31.351Z",
+        "start_timestamp": "2020-04-19T06:57:29.797Z",
         "before": [
           {
             "result": {
-              "duration": 7855805300,
+              "duration": 7693289500,
               "status": "passed"
             },
             "match": {
@@ -828,7 +828,7 @@
         "after": [
           {
             "result": {
-              "duration": 824605000,
+              "duration": 585825100,
               "status": "passed"
             },
             "match": {
@@ -841,7 +841,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3885298900,
+              "duration": 1883382700,
               "status": "passed"
             },
             "line": 6,
@@ -853,7 +853,7 @@
           },
           {
             "result": {
-              "duration": 1952136000,
+              "duration": 2538663700,
               "status": "passed"
             },
             "line": 7,
@@ -875,7 +875,7 @@
           },
           {
             "result": {
-              "duration": 138136900,
+              "duration": 108379400,
               "status": "passed"
             },
             "line": 8,
@@ -899,11 +899,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-18T05:15:46.017Z",
+        "start_timestamp": "2020-04-19T06:57:42.621Z",
         "before": [
           {
             "result": {
-              "duration": 5196250300,
+              "duration": 5473300900,
               "status": "passed"
             },
             "match": {
@@ -918,7 +918,7 @@
         "after": [
           {
             "result": {
-              "duration": 593188100,
+              "duration": 627822800,
               "status": "passed"
             },
             "match": {
@@ -931,7 +931,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1128024500,
+              "duration": 1120161700,
               "status": "passed"
             },
             "line": 6,
@@ -943,7 +943,7 @@
           },
           {
             "result": {
-              "duration": 468912700,
+              "duration": 554626800,
               "status": "passed"
             },
             "line": 7,
@@ -965,7 +965,7 @@
           },
           {
             "result": {
-              "duration": 92066700,
+              "duration": 120933000,
               "status": "passed"
             },
             "line": 8,
@@ -989,11 +989,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-18T05:15:53.497Z",
+        "start_timestamp": "2020-04-19T06:57:50.519Z",
         "before": [
           {
             "result": {
-              "duration": 5152747300,
+              "duration": 5165331700,
               "status": "passed"
             },
             "match": {
@@ -1008,7 +1008,7 @@
         "after": [
           {
             "result": {
-              "duration": 620063600,
+              "duration": 712247800,
               "status": "passed"
             },
             "match": {
@@ -1021,7 +1021,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1204366500,
+              "duration": 1072280700,
               "status": "passed"
             },
             "line": 6,
@@ -1033,7 +1033,7 @@
           },
           {
             "result": {
-              "duration": 766869600,
+              "duration": 527831700,
               "status": "passed"
             },
             "line": 7,
@@ -1055,7 +1055,7 @@
           },
           {
             "result": {
-              "duration": 127410000,
+              "duration": 111326500,
               "status": "passed"
             },
             "line": 8,
@@ -1090,11 +1090,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-18T05:15:31.288Z",
+        "start_timestamp": "2020-04-19T06:57:29.667Z",
         "before": [
           {
             "result": {
-              "duration": 7970537500,
+              "duration": 8227195500,
               "status": "passed"
             },
             "match": {
@@ -1109,7 +1109,7 @@
         "after": [
           {
             "result": {
-              "duration": 1223325600,
+              "duration": 998740100,
               "status": "passed"
             },
             "match": {
@@ -1122,7 +1122,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3609696500,
+              "duration": 2092270800,
               "status": "passed"
             },
             "line": 6,
@@ -1134,7 +1134,7 @@
           },
           {
             "result": {
-              "duration": 273596600,
+              "duration": 277415000,
               "status": "passed"
             },
             "line": 7,
@@ -1152,7 +1152,7 @@
           },
           {
             "result": {
-              "duration": 567332400,
+              "duration": 640481100,
               "status": "passed"
             },
             "line": 8,
@@ -1164,7 +1164,7 @@
           },
           {
             "result": {
-              "duration": 26479400,
+              "duration": 48707100,
               "status": "passed"
             },
             "line": 9,
@@ -1176,7 +1176,7 @@
           },
           {
             "result": {
-              "duration": 299534700,
+              "duration": 381915700,
               "status": "passed"
             },
             "line": 10,
@@ -1188,7 +1188,7 @@
           },
           {
             "result": {
-              "duration": 46975900,
+              "duration": 67000100,
               "status": "passed"
             },
             "line": 11,
@@ -1217,11 +1217,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-18T05:15:31.304Z",
+        "start_timestamp": "2020-04-19T06:57:29.665Z",
         "before": [
           {
             "result": {
-              "duration": 7744641100,
+              "duration": 8025689300,
               "status": "passed"
             },
             "match": {
@@ -1236,7 +1236,7 @@
         "after": [
           {
             "result": {
-              "duration": 961238700,
+              "duration": 1036101300,
               "status": "passed"
             },
             "match": {
@@ -1249,7 +1249,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4151083800,
+              "duration": 1636811200,
               "status": "passed"
             },
             "line": 4,
@@ -1261,7 +1261,7 @@
           },
           {
             "result": {
-              "duration": 383853700,
+              "duration": 682952300,
               "status": "passed"
             },
             "line": 5,
@@ -1279,7 +1279,7 @@
           },
           {
             "result": {
-              "duration": 389560800,
+              "duration": 684947600,
               "status": "passed"
             },
             "line": 6,
@@ -1291,7 +1291,7 @@
           },
           {
             "result": {
-              "duration": 34872500,
+              "duration": 80796100,
               "status": "passed"
             },
             "line": 7,
@@ -1303,7 +1303,7 @@
           },
           {
             "result": {
-              "duration": 263671900,
+              "duration": 263588100,
               "status": "passed"
             },
             "line": 8,
@@ -1315,7 +1315,7 @@
           },
           {
             "result": {
-              "duration": 1422358600,
+              "duration": 1521126900,
               "status": "passed"
             },
             "line": 9,
@@ -1339,11 +1339,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-18T05:15:31.373Z",
+        "start_timestamp": "2020-04-19T06:57:29.768Z",
         "before": [
           {
             "result": {
-              "duration": 8128586000,
+              "duration": 7850865400,
               "status": "passed"
             },
             "match": {
@@ -1358,7 +1358,7 @@
         "after": [
           {
             "result": {
-              "duration": 771230800,
+              "duration": 664445600,
               "status": "passed"
             },
             "match": {
@@ -1371,7 +1371,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3898256400,
+              "duration": 2136435600,
               "status": "passed"
             },
             "line": 6,
@@ -1383,7 +1383,7 @@
           },
           {
             "result": {
-              "duration": 280462900,
+              "duration": 424637600,
               "status": "passed"
             },
             "line": 7,
@@ -1401,7 +1401,7 @@
           },
           {
             "result": {
-              "duration": 408822400,
+              "duration": 522094500,
               "status": "passed"
             },
             "line": 8,
@@ -1413,7 +1413,7 @@
           },
           {
             "result": {
-              "duration": 55204500,
+              "duration": 65409800,
               "status": "passed"
             },
             "line": 9,
@@ -1425,7 +1425,7 @@
           },
           {
             "result": {
-              "duration": 242268200,
+              "duration": 357853000,
               "status": "passed"
             },
             "line": 10,
@@ -1443,7 +1443,7 @@
           },
           {
             "result": {
-              "duration": 135555100,
+              "duration": 165126600,
               "status": "passed"
             },
             "line": 11,
@@ -1465,7 +1465,7 @@
           },
           {
             "result": {
-              "duration": 231257600,
+              "duration": 378715500,
               "status": "passed"
             },
             "line": 12,
@@ -1483,7 +1483,7 @@
           },
           {
             "result": {
-              "duration": 275595700,
+              "duration": 142508500,
               "status": "passed"
             },
             "line": 13,
@@ -1518,42 +1518,18 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-18T05:15:31.335Z",
-        "before": [
-          {
-            "result": {
-              "duration": 7932462400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.setup()"
-            }
-          }
-        ],
-        "line": 4,
-        "name": "Enable and Disable edit-box",
+        "line": 3,
+        "name": "Repeated actions for both scenarios",
         "description": "",
-        "id": "dynamic-control;enable-and-disable-edit-box",
-        "after": [
-          {
-            "result": {
-              "duration": 584791500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.teardown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 4020271400,
+              "duration": 2090390400,
               "status": "passed"
             },
-            "line": 5,
+            "line": 4,
             "name": "I am in HomePage",
             "match": {
               "location": "AddRemoveModule.i_am_in_HomePage()"
@@ -1562,10 +1538,10 @@
           },
           {
             "result": {
-              "duration": 358658300,
+              "duration": 528362700,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "\"Dynamic Controls\" module should exists in homepage",
             "match": {
               "arguments": [
@@ -1580,10 +1556,10 @@
           },
           {
             "result": {
-              "duration": 641281500,
+              "duration": 610417300,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "I click dynamic controls",
             "match": {
               "location": "DynamicControls_steps.i_click_dynamic_controls()"
@@ -1592,22 +1568,55 @@
           },
           {
             "result": {
-              "duration": 13159400,
+              "duration": 34065100,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "I should land t dynamic controls page",
             "match": {
               "location": "DynamicControls_steps.i_should_land_t_dynamic_controls_page()"
             },
             "keyword": "Then "
-          },
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-19T06:57:29.807Z",
+        "before": [
           {
             "result": {
-              "duration": 81050300,
+              "duration": 7684668800,
               "status": "passed"
             },
-            "line": 9,
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Enable and Disable edit-box",
+        "description": "",
+        "id": "dynamic-control;enable-and-disable-edit-box",
+        "after": [
+          {
+            "result": {
+              "duration": 619061400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 178466100,
+              "status": "passed"
+            },
+            "line": 11,
             "name": "editBox in the page should be disabled by default",
             "match": {
               "location": "DynamicControls_steps.editbox_in_the_page_should_be_disabled_by_default()"
@@ -1616,10 +1625,10 @@
           },
           {
             "result": {
-              "duration": 152690200,
+              "duration": 211794400,
               "status": "passed"
             },
-            "line": 10,
+            "line": 12,
             "name": "\"Enable\" button should exist in the page",
             "match": {
               "arguments": [
@@ -1634,10 +1643,10 @@
           },
           {
             "result": {
-              "duration": 364089900,
+              "duration": 242526600,
               "status": "passed"
             },
-            "line": 11,
+            "line": 13,
             "name": "I click enable button",
             "match": {
               "location": "DynamicControls_steps.i_click_enable_button()"
@@ -1646,10 +1655,10 @@
           },
           {
             "result": {
-              "duration": 3136744800,
+              "duration": 3290364400,
               "status": "passed"
             },
-            "line": 12,
+            "line": 14,
             "name": "editBox should be enabled",
             "match": {
               "location": "DynamicControls_steps.editbox_should_be_enabled()"
@@ -1658,10 +1667,10 @@
           },
           {
             "result": {
-              "duration": 44038800,
+              "duration": 55097900,
               "status": "passed"
             },
-            "line": 13,
+            "line": 15,
             "name": "I should see \"It\u0027s enabled!\" text displayed",
             "match": {
               "arguments": [
@@ -1671,6 +1680,209 @@
                 }
               ],
               "location": "DynamicControls_steps.i_should_see_text_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@IH-7"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Repeated actions for both scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1016482500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in HomePage",
+            "match": {
+              "location": "AddRemoveModule.i_am_in_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 105772800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"Dynamic Controls\" module should exists in homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dynamic Controls\"",
+                  "offset": 0
+                }
+              ],
+              "location": "DynamicControls_steps.module_should_exists_in_homepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 368192000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click dynamic controls",
+            "match": {
+              "location": "DynamicControls_steps.i_click_dynamic_controls()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6899400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should land t dynamic controls page",
+            "match": {
+              "location": "DynamicControls_steps.i_should_land_t_dynamic_controls_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-19T06:57:45.363Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5318120000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Add and Remove elements dynamically",
+        "description": "",
+        "id": "dynamic-control;add-and-remove-elements-dynamically",
+        "after": [
+          {
+            "result": {
+              "duration": 637143000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 80905400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "\"A checkbox\" should display in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A checkbox\"",
+                  "offset": 0
+                }
+              ],
+              "location": "DynamicControls_steps.should_display_in_the_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67822600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "\"Remove\" button should display in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Remove\"",
+                  "offset": 0
+                }
+              ],
+              "location": "DynamicControls_steps.button_should_display_in_the_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150150200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should be able to check the checkbox",
+            "match": {
+              "location": "DynamicControls_steps.i_should_be_able_to_check_the_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10708220700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click remove button",
+            "match": {
+              "location": "DynamicControls_steps.i_click_remove_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24449800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "checkbox should not display in the page",
+            "match": {
+              "location": "DynamicControls_steps.checkbox_should_not_display_in_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17365900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "\"It\u0027s gone\" text should display in the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"It\u0027s gone\"",
+                  "offset": 0
+                }
+              ],
+              "location": "DynamicControls_steps.text_should_display_in_the_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24319500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "remove button should not display in the page",
+            "match": {
+              "location": "DynamicControls_steps.remove_button_should_not_display_in_the_page()"
             },
             "keyword": "And "
           }
@@ -1693,11 +1905,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-18T05:15:31.288Z",
+        "start_timestamp": "2020-04-19T06:57:29.669Z",
         "before": [
           {
             "result": {
-              "duration": 7701727100,
+              "duration": 8198219900,
               "status": "passed"
             },
             "match": {
@@ -1712,7 +1924,7 @@
         "after": [
           {
             "result": {
-              "duration": 607449900,
+              "duration": 647207500,
               "status": "passed"
             },
             "match": {
@@ -1725,7 +1937,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6700775000,
+              "duration": 4995840200,
               "status": "passed"
             },
             "line": 5,
@@ -1737,7 +1949,7 @@
           },
           {
             "result": {
-              "duration": 3978911000,
+              "duration": 5123815300,
               "status": "passed"
             },
             "line": 6,
@@ -1755,7 +1967,7 @@
           },
           {
             "result": {
-              "duration": 5709600,
+              "duration": 56027900,
               "status": "passed"
             },
             "line": 7,
@@ -1779,11 +1991,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-18T05:15:31.304Z",
+        "start_timestamp": "2020-04-19T06:57:29.763Z",
         "before": [
           {
             "result": {
-              "duration": 8046237000,
+              "duration": 7786582300,
               "status": "passed"
             },
             "match": {
@@ -1798,7 +2010,7 @@
         "after": [
           {
             "result": {
-              "duration": 612922000,
+              "duration": 594460800,
               "status": "passed"
             },
             "match": {
@@ -1811,7 +2023,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7660060200,
+              "duration": 5933855400,
               "status": "passed"
             },
             "line": 4,
@@ -1823,7 +2035,7 @@
           },
           {
             "result": {
-              "duration": 469912100,
+              "duration": 863656300,
               "status": "passed"
             },
             "line": 5,
@@ -1845,7 +2057,7 @@
           },
           {
             "result": {
-              "duration": 6810981100,
+              "duration": 7931858300,
               "status": "passed"
             },
             "line": 6,
@@ -1863,7 +2075,7 @@
           },
           {
             "result": {
-              "duration": 1297467600,
+              "duration": 1329014900,
               "status": "passed"
             },
             "line": 7,

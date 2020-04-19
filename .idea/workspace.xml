@@ -2,14 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/DynamicControls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DynamicControls_steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DynamicControls.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/DynamicControls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/DynamicControls.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DynamicControls_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DynamicControls_steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DynamicControls.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DynamicControls.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Cucumber-project-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/cucumber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/jquery.tablesorter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/pages/EtsyHomepage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/pages/MapRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/pages/Sign_In.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/runners/CukesRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/step_definitions/DataDrivenLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/step_definitions/Etsy_steps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/step_definitions/Hook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/step_definitions/Mapdetails_steps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/utilities/BrowserUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/utilities/ConfigurationReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/utilities/DBUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/utilities/DriverUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Drag and Drop-2020-04-15-21-54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Enable and Disable edit-box-2020-04-18-00-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify Dropdowns and some operations-2020-04-16-23-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify Dropdowns and some operations-2020-04-16-23-31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify Dropdowns and some operations-2020-04-16-23-33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify Dropdowns and some operations-2020-04-16-23-35.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +72,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1YQEwon7Jy7iaIqQ16AKSvlJDvA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -56,15 +106,15 @@
       <recent name="C:\Users\salma\IdeaProjects\Cucumber-project\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CukesRunner">
-    <configuration name="Feature: Dropdowns" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: DynamicControls">
+    <configuration name="Feature: DynamicControls" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4.5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Dropdowns.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DynamicControls.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Dropdowns" />
+      <option name="SUGGESTED_NAME" value="Feature: DynamicControls" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -76,15 +126,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Drag and Drop" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Add and Remove elements dynamically" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4.5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DragandDrop.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DynamicControls.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Drag and Drop$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Drag and Drop$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Drag and Drop" />
+      <option name="NAME_FILTER" value="^Add and Remove elements dynamically$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Add and Remove elements dynamically$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add and Remove elements dynamically" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -116,15 +166,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify Dropdowns and some operations" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Repeated actions for both scenarios" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4.5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Dropdowns.feature" />
-      <option name="GLUE" value="com.company.step_definitions" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DynamicControls.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Verify Dropdowns and some operations$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Verify Dropdowns and some operations$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify Dropdowns and some operations" />
+      <option name="NAME_FILTER" value="^Repeated actions for both scenarios$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Repeated actions for both scenarios$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Repeated actions for both scenarios" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -153,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: DynamicControls" />
+        <item itemvalue="Cucumber Java.Scenario: Repeated actions for both scenarios" />
+        <item itemvalue="Cucumber Java.Scenario: Add and Remove elements dynamically" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="Cucumber Java.Scenario: Enable and Disable edit-box" />
-        <item itemvalue="Cucumber Java.Feature: Dropdowns" />
-        <item itemvalue="Cucumber Java.Scenario: Verify Dropdowns and some operations" />
-        <item itemvalue="Cucumber Java.Scenario: Drag and Drop" />
       </list>
     </recent_temporary>
   </component>
@@ -212,31 +261,31 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1237" height="191" key="GridCell.Tab.0.bottom" timestamp="1587186856241">
+    <state width="1237" height="214" key="GridCell.Tab.0.bottom" timestamp="1587278506252">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="191" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587186856241" />
+    <state width="1237" height="214" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587278506252" />
     <state width="1431" height="304" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384700" />
     <state width="1222" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="191" key="GridCell.Tab.0.center" timestamp="1587186856241">
+    <state width="1237" height="214" key="GridCell.Tab.0.center" timestamp="1587278506252">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="191" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587186856241" />
+    <state width="1237" height="214" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587278506252" />
     <state width="1431" height="304" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384699" />
     <state width="1222" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="191" key="GridCell.Tab.0.left" timestamp="1587186856241">
+    <state width="1237" height="214" key="GridCell.Tab.0.left" timestamp="1587278506252">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="191" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587186856241" />
+    <state width="1237" height="214" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587278506252" />
     <state width="1431" height="304" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384699" />
     <state width="1222" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="191" key="GridCell.Tab.0.right" timestamp="1587186856241">
+    <state width="1237" height="214" key="GridCell.Tab.0.right" timestamp="1587278506252">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="191" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587186856241" />
+    <state width="1237" height="214" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587278506252" />
     <state width="1431" height="304" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384700" />
     <state width="1222" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
@@ -264,11 +313,12 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="316" y="40" key="NewModule_or_Project.wizard/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486702087" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1586673569163">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1587279309861">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586673569163" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587279309861" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585635680534" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587190720489" />
     <state x="336" y="72" width="609" height="536" key="find.popup" timestamp="1586674198579">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
