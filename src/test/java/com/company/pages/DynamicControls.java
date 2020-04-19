@@ -26,9 +26,12 @@ public class DynamicControls {
         return text;
     }
 
-
-
-
+    @FindBy(xpath = "//button[contains(text(),'Remove')]")
+    public WebElement removeBtn;
+    @FindBy(xpath = "//button[contains(text(),'Add')]")
+    public WebElement addBtn;
+    @FindBy(id = "checkbox")
+    public WebElement checkBox;
 
 
 }

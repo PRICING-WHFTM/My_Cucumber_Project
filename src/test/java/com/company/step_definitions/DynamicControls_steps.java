@@ -9,17 +9,21 @@ import com.company.utilities.DriverUtil;
 import io.cucumber.datatable.dependency.com.fasterxml.jackson.annotation.JsonTypeInfo;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import javax.xml.transform.sax.SAXSource;
+
 public class DynamicControls_steps {
 
-    private WebDriver driver = DriverUtil.getDriver();
+    private WebDriver driver;
     Heroku_Homepage homepage = new Heroku_Homepage();
     DynamicControls dynamicControls = new DynamicControls();
 
     @Given("{string} module should exists in homepage")
     public void module_should_exists_in_homepage(String string) {
+        driver = DriverUtil.getDriver();
         Assert.assertTrue(homepage.dynamicControlsModule.isDisplayed());
         Assert.assertEquals(homepage.dynamicControlsModule.getText(), string);
     }
@@ -59,6 +63,58 @@ public class DynamicControls_steps {
     @Then("I should see {string} text displayed")
     public void i_should_see_text_displayed(String string) {
         Assert.assertEquals(dynamicControls.enableText(), string);
+    }
+
+    @Then("{string} should display in the page")
+    public void should_display_in_the_page(String string) {
+        Assert.assertTrue(dynamicControls.checkBox.isDisplayed());
+        Assert.assertEquals(dynamicControls.checkBox.getText(), string);
+    }
+
+    @Then("{string} button should display in the page")
+    public void button_should_display_in_the_page(String string) {
+        Assert.assertTrue(dynamicControls.removeBtn.isDisplayed());
+        Assert.assertEquals(dynamicControls.removeBtn.getText(), string);
+    }
+
+    @Then("I should be able to check the checkbox")
+    public void i_should_be_able_to_check_the_checkbox() {
+        Assert.assertFalse(dynamicControls.checkBox.isSelected());
+        dynamicControls.checkBox.click();
+    }
+
+    @When("I click remove button")
+    public void i_click_remove_button() {
+        dynamicControls.removeBtn.click();
+        try {
+            BrowserUtils.waitFor_In_Visible(dynamicControls.removeBtn);
+        } catch (Exception e) {
+            System.out.println("Waiting until Remove elemnt is gone");
+        }
+
+    }
+
+    @Then("checkbox should not display in the page")
+    public void checkbox_should_not_display_in_the_page() {
+        try {
+            Assert.assertTrue(dynamicControls.checkBox.isSelected());
+        } catch (NoSuchElementException e) {
+            System.out.println("A checkbox Element not displayed");
+        }
+    }
+
+    @Then("{string} text should display in the page")
+    public void text_should_display_in_the_page(String string) {
+        Assert.assertTrue(driver.getPageSource().contains(string));
+    }
+
+    @Then("remove button should not display in the page")
+    public void remove_button_should_not_display_in_the_page() {
+        try {
+            Assert.assertTrue(dynamicControls.removeBtn.isDisplayed());
+        } catch (NoSuchElementException e) {
+            System.out.println("\"Remove\" Element not displaued");
+        }
     }
 
 

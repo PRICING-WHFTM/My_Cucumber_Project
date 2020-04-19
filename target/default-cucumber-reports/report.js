@@ -984,15 +984,10 @@ formatter.feature({
   "description": "",
   "keyword": "Feature"
 });
-formatter.scenario({
-  "name": "Enable and Disable edit-box",
+formatter.background({
+  "name": "Repeated actions for both scenarios",
   "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@IH-7"
-    }
-  ]
+  "keyword": "Background"
 });
 formatter.before({
   "status": "passed"
@@ -1036,6 +1031,16 @@ formatter.match({
 });
 formatter.result({
   "status": "passed"
+});
+formatter.scenario({
+  "name": "Enable and Disable edit-box",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@IH-7"
+    }
+  ]
 });
 formatter.step({
   "name": "editBox in the page should be disabled by default",
@@ -1083,6 +1088,137 @@ formatter.step({
 });
 formatter.match({
   "location": "DynamicControls_steps.i_should_see_text_displayed(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Repeated actions for both scenarios",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am in HomePage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "AddRemoveModule.i_am_in_HomePage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Dynamic Controls\" module should exists in homepage",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DynamicControls_steps.module_should_exists_in_homepage(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click dynamic controls",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "DynamicControls_steps.i_click_dynamic_controls()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should land t dynamic controls page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DynamicControls_steps.i_should_land_t_dynamic_controls_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Add and Remove elements dynamically",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@IH-7"
+    }
+  ]
+});
+formatter.step({
+  "name": "\"A checkbox\" should display in the page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DynamicControls_steps.should_display_in_the_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Remove\" button should display in the page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DynamicControls_steps.button_should_display_in_the_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be able to check the checkbox",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DynamicControls_steps.i_should_be_able_to_check_the_checkbox()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click remove button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "DynamicControls_steps.i_click_remove_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "checkbox should not display in the page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DynamicControls_steps.checkbox_should_not_display_in_the_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"It\u0027s gone\" text should display in the page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DynamicControls_steps.text_should_display_in_the_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "remove button should not display in the page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DynamicControls_steps.remove_button_should_not_display_in_the_page()"
 });
 formatter.result({
   "status": "passed"
