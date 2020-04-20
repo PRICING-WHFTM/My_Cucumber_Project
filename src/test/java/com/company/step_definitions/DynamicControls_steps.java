@@ -1,19 +1,14 @@
 package com.company.step_definitions;
 
-import com.company.pages.AddRemoveElements;
 import com.company.pages.DynamicControls;
 import com.company.pages.Heroku_Homepage;
 import com.company.utilities.BrowserUtils;
-import com.company.utilities.ConfigurationReader;
+import com.company.utilities.ConfigReader;
 import com.company.utilities.DriverUtil;
-import io.cucumber.datatable.dependency.com.fasterxml.jackson.annotation.JsonTypeInfo;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import javax.xml.transform.sax.SAXSource;
 
 public class DynamicControls_steps {
 
@@ -35,7 +30,7 @@ public class DynamicControls_steps {
 
     @Then("I should land t dynamic controls page")
     public void i_should_land_t_dynamic_controls_page() {
-        Assert.assertNotEquals(driver.getCurrentUrl(), ConfigurationReader.getProperty("herURL"));
+        Assert.assertNotEquals(driver.getCurrentUrl(), ConfigReader.getProperty("herURL"));
     }
 
     @Then("editBox in the page should be disabled by default")
@@ -89,7 +84,7 @@ public class DynamicControls_steps {
         try {
             BrowserUtils.waitFor_In_Visible(dynamicControls.removeBtn);
         } catch (Exception e) {
-            System.out.println("Waiting until Remove elemnt is gone");
+            System.out.println("Waiting until Remove element is gone");
         }
 
     }

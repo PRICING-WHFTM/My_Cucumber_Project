@@ -2,13 +2,11 @@ package com.company.step_definitions;
 
 import com.company.pages.DisappearingElements;
 import com.company.pages.Heroku_Homepage;
-import com.company.utilities.ConfigurationReader;
+import com.company.utilities.ConfigReader;
 import com.company.utilities.DriverUtil;
 import io.cucumber.java.en.*;
-import org.apache.log4j.DailyRollingFileAppender;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -35,7 +33,7 @@ public class DisappearingElements_steps {
 
     @Then("I should land to Disappearing Elements page")
     public void i_should_land_to_Disappearing_Elements_page() {
-        Assert.assertNotEquals(driver.getCurrentUrl(), ConfigurationReader.getProperty("herURL"));
+        Assert.assertNotEquals(driver.getCurrentUrl(), ConfigReader.getProperty("herURL"));
     }
 
     @When("I click About element in the page")

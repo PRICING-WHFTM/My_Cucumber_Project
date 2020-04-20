@@ -27,5 +27,7 @@ public class Heroku_Homepage {
     public WebElement dropdownsModule;
     @FindBy(linkText = "Dynamic Controls")
     public WebElement dynamicControlsModule;
+    @FindBy(linkText = "Entry Ad")
+    public WebElement entryAd;
 
 }

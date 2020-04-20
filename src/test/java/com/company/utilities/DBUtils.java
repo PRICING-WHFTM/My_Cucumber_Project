@@ -1,10 +1,6 @@
 package com.company.utilities;
 
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 public class DBUtils {
 
@@ -18,9 +14,9 @@ public class DBUtils {
 
 
     public static void createConnection() throws SQLException {
-        dbUrl = ConfigurationReader.getProperty("dbUrl");
-        dbUser = ConfigurationReader.getProperty("dbUser");
-        dbPassword = ConfigurationReader.getProperty("dbPassword");
+        dbUrl = ConfigReader.getProperty("dbUrl");
+        dbUser = ConfigReader.getProperty("dbUser");
+        dbPassword = ConfigReader.getProperty("dbPassword");
         connection = DriverManager.getConnection(dbUrl, dbUser, dbPassword);
         statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
     }

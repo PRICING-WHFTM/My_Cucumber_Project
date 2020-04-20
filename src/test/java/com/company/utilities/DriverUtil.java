@@ -38,7 +38,7 @@ public class DriverUtil {
         if (driverPool.get() == null) {
             logger.info("TRYING TO CREATE DRIVER");
             String browserParamFromEnv = System.getProperty("browser");
-            String browser = browserParamFromEnv == null ? ConfigurationReader.getProperty("browser") : browserParamFromEnv;
+            String browser = browserParamFromEnv == null ? ConfigReader.getProperty("browser") : browserParamFromEnv;
             switch (browser) {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();

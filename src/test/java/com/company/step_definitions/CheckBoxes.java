@@ -2,16 +2,12 @@ package com.company.step_definitions;
 
 import com.company.pages.CheckboxesPage;
 import com.company.pages.Heroku_Homepage;
-import com.company.utilities.BrowserUtils;
-import com.company.utilities.ConfigurationReader;
+import com.company.utilities.ConfigReader;
 import com.company.utilities.DriverUtil;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
-import java.util.List;
 
 public class CheckBoxes {
 
@@ -34,7 +30,7 @@ public class CheckBoxes {
     @Then("I should land to new page")
     public void i_should_land_to_new_page() {
         String currentURL = driver.getCurrentUrl();
-        Assert.assertNotEquals(currentURL, ConfigurationReader.getProperty("herURL"));
+        Assert.assertNotEquals(currentURL, ConfigReader.getProperty("herURL"));
     }
 
 

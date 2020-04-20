@@ -2,7 +2,7 @@ package com.company.step_definitions;
 
 import com.company.pages.AddRemoveElements;
 import com.company.pages.Heroku_Homepage;
-import com.company.utilities.ConfigurationReader;
+import com.company.utilities.ConfigReader;
 import com.company.utilities.DriverUtil;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
@@ -21,7 +21,7 @@ public class AddRemoveModule {
 
     @Given("User navigates to homepage")
     public void user_navigates_to_homepage() {
-        driver.get(ConfigurationReader.getProperty("herURL"));
+        driver.get(ConfigReader.getProperty("herURL"));
 
     }
 
@@ -32,7 +32,7 @@ public class AddRemoveModule {
 
     @Given("I am in HomePage")
     public void i_am_in_HomePage() {
-        driver.get(ConfigurationReader.getProperty("herURL"));
+        driver.get(ConfigReader.getProperty("herURL"));
         homePageTitle = driver.getTitle();
 
     }

@@ -1,7 +1,7 @@
 package com.company.step_definitions;
 
 import com.company.pages.Heroku_Homepage;
-import com.company.utilities.ConfigurationReader;
+import com.company.utilities.ConfigReader;
 import com.company.utilities.DriverUtil;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
@@ -14,7 +14,7 @@ public class BasicAuth {
 
     @Given("I am in Home page")
     public void i_am_in_Home_page() {
-        driver.get(ConfigurationReader.getProperty("herURL"));
+        driver.get(ConfigReader.getProperty("herURL"));
     }
 
     @Given("Basic Auth element should display in Ho")

@@ -2,7 +2,7 @@ package com.company.step_definitions;
 
 import com.company.pages.Dropdowns;
 import com.company.pages.Heroku_Homepage;
-import com.company.utilities.ConfigurationReader;
+import com.company.utilities.ConfigReader;
 import com.company.utilities.DriverUtil;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
@@ -36,7 +36,7 @@ public class Dropdowns_step {
 
     @Then("I should land to dropdown page")
     public void i_should_land_to_dropdown_page() {
-        Assert.assertNotEquals(driver.getCurrentUrl(), ConfigurationReader.getProperty("herURL"));
+        Assert.assertNotEquals(driver.getCurrentUrl(), ConfigReader.getProperty("herURL"));
 
     }
 

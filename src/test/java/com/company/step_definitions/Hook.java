@@ -2,7 +2,7 @@ package com.company.step_definitions;
 import com.company.utilities.BrowserUtils;
 import com.company.utilities.DriverUtil;
 import cucumber.api.Scenario;
-import com.company.utilities.ConfigurationReader;
+import com.company.utilities.ConfigReader;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import org.apache.log4j.Logger;
@@ -17,7 +17,7 @@ public class Hook {
     public void setup() {
         logger.info("##############################");
         logger.info("Test setup!");
-        String browser = ConfigurationReader.getProperty("browser");
+        String browser = ConfigReader.getProperty("browser");
         if (!browser.contains("remote") && !browser.contains("mobile")) {
             DriverUtil.getDriver();
                     //manage().window().maximize();

@@ -1226,6 +1226,108 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.uri("file:src/test/resources/features/EntryAd.feature");
+formatter.feature({
+  "name": "Entry Ad page - HTML alert testing",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "HTML alert testing",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@IH-8"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am in HomePage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "AddRemoveModule.i_am_in_HomePage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click entryAd link",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "EntryAd_steps.i_click_entryAd_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should land to entryAd page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "EntryAd_steps.i_should_land_to_entryAd_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "close html alert should display",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "EntryAd_steps.close_html_alert_should_display()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click close",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "EntryAd_steps.i_click_close()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "html alert should disappeared",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "EntryAd_steps.html_alert_should_disappeared()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I double click clickHere",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "EntryAd_steps.i_double_click_clickHere()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "html alert should display again",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "EntryAd_steps.html_alert_should_display_again()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 formatter.uri("file:src/test/resources/features/Etsy_par1.feature");
 formatter.feature({
   "name": "Etsy product search",

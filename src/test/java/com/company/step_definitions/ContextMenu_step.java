@@ -2,12 +2,11 @@ package com.company.step_definitions;
 
 import com.company.pages.ContextMenu;
 import com.company.pages.Heroku_Homepage;
-import com.company.utilities.ConfigurationReader;
+import com.company.utilities.ConfigReader;
 import com.company.utilities.DriverUtil;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 public class ContextMenu_step {
@@ -30,7 +29,7 @@ public class ContextMenu_step {
 
     @Then("I should land to contextmenu page")
     public void i_should_land_to_contextmenu_page() {
-        Assert.assertNotEquals(driver.getCurrentUrl(), ConfigurationReader.getProperty("herURL"));
+        Assert.assertNotEquals(driver.getCurrentUrl(), ConfigReader.getProperty("herURL"));
     }
 
     @Then("empty square should display in the page")

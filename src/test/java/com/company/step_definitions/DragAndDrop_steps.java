@@ -2,14 +2,12 @@ package com.company.step_definitions;
 
 import com.company.pages.DragAndDrop;
 import com.company.pages.Heroku_Homepage;
-import com.company.utilities.ConfigurationReader;
+import com.company.utilities.ConfigReader;
 import com.company.utilities.DriverUtil;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
-
-import javax.swing.*;
 
 public class DragAndDrop_steps {
 
@@ -31,7 +29,7 @@ public class DragAndDrop_steps {
 
     @Then("I should land drag and drop page")
     public void i_should_land_drag_and_drop_page() {
-        Assert.assertNotEquals(driver.getCurrentUrl(), ConfigurationReader.getProperty("herURL"));
+        Assert.assertNotEquals(driver.getCurrentUrl(), ConfigReader.getProperty("herURL"));
     }
 
     @Then("I should see A and B elements")

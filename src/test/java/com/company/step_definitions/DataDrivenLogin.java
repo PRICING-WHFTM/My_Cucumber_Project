@@ -2,7 +2,7 @@ package com.company.step_definitions;
 
 import com.company.pages.LoginPage;
 import com.company.utilities.BrowserUtils;
-import com.company.utilities.ConfigurationReader;
+import com.company.utilities.ConfigReader;
 import com.company.utilities.DriverUtil;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
@@ -14,7 +14,7 @@ public class DataDrivenLogin {
     @Given("Navigate to website")
     public void navigate_to_website() {
         driver = DriverUtil.getDriver();
-        driver.get(ConfigurationReader.getProperty("heroURL"));
+        driver.get(ConfigReader.getProperty("heroURL"));
     }
 
     @When("I enter {string} and {string}")
