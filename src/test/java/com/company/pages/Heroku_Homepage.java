@@ -29,5 +29,6 @@ public class Heroku_Homepage {
     public WebElement dynamicControlsModule;
     @FindBy(linkText = "Entry Ad")
     public WebElement entryAd;
-
+    @FindBy(linkText = "File Download")
+    public WebElement downloadFile;
 }

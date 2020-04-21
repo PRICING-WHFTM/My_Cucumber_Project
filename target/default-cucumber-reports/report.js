@@ -1375,6 +1375,73 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.uri("file:src/test/resources/features/FilesDownlod.feature");
+formatter.feature({
+  "name": "Downloading multiple files",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am in HomePage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "AddRemoveModule.i_am_in_HomePage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click file download",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "FileDownload_steps.i_click_file_download()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be able to see 45 elements in the page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "FileDownload_steps.i_should_be_able_to_see_elements_in_the_page(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click \"log.txt\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "FileDownload_steps.i_click(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"log.txt\" file should be downloaded to my computer",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "FileDownload_steps.file_should_be_downloaded_to_my_computer(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 formatter.uri("file:src/test/resources/features/Mapdetails.feature");
 formatter.feature({
   "name": "Map page details",
