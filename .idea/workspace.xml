@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/JSUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/FileDownload_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/FilesDownlod.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Cucumber-project-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Cucumber-project-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
@@ -60,7 +61,7 @@
       <recent name="C:\Users\salma\IdeaProjects\Cucumber-project\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CukesRunner">
+  <component name="RunManager" selected="Cucumber Java.Feature: FilesDownlod">
     <configuration name="Feature: DynamicControls" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4.5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DynamicControls.feature" />
@@ -80,15 +81,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Add and Remove elements dynamically" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: FilesDownlod" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4.5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DynamicControls.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/FilesDownlod.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Add and Remove elements dynamically$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Add and Remove elements dynamically$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Add and Remove elements dynamically" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: FilesDownlod" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -120,14 +120,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Repeated actions for both scenarios" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4.5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DynamicControls.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/FilesDownlod.feature" />
+      <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Repeated actions for both scenarios$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Repeated actions for both scenarios$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Repeated actions for both scenarios" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -156,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: FilesDownlod" />
+        <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="Cucumber Java.Scenario: HTML alert testing" />
         <item itemvalue="Cucumber Java.Feature: DynamicControls" />
-        <item itemvalue="Cucumber Java.Scenario: Repeated actions for both scenarios" />
-        <item itemvalue="Cucumber Java.Scenario: Add and Remove elements dynamically" />
       </list>
     </recent_temporary>
   </component>
@@ -191,10 +192,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Project_Structure/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1582867564377" />
-    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587004327816">
+    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587448294778">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587004327816" />
+    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587448294778" />
     <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1584165803505" />
     <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586666950436">
       <screen x="0" y="0" width="1280" height="680" />
@@ -216,31 +217,31 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1237" height="136" key="GridCell.Tab.0.bottom" timestamp="1587360719472">
+    <state width="1237" height="332" key="GridCell.Tab.0.bottom" timestamp="1587503141747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587360719472" />
+    <state width="1237" height="332" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587503141747" />
     <state width="1431" height="304" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384700" />
     <state width="1222" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="136" key="GridCell.Tab.0.center" timestamp="1587360719472">
+    <state width="1237" height="332" key="GridCell.Tab.0.center" timestamp="1587503141747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587360719472" />
+    <state width="1237" height="332" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587503141747" />
     <state width="1431" height="304" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384699" />
     <state width="1222" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="136" key="GridCell.Tab.0.left" timestamp="1587360719472">
+    <state width="1237" height="332" key="GridCell.Tab.0.left" timestamp="1587503141746">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587360719472" />
+    <state width="1237" height="332" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587503141746" />
     <state width="1431" height="304" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384699" />
     <state width="1222" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
-    <state width="1237" height="136" key="GridCell.Tab.0.right" timestamp="1587360719472">
+    <state width="1237" height="332" key="GridCell.Tab.0.right" timestamp="1587503141747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587360719472" />
+    <state width="1237" height="332" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587503141747" />
     <state width="1431" height="304" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384700" />
     <state width="1222" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="258" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584250590462" />
@@ -268,10 +269,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="316" y="40" key="NewModule_or_Project.wizard/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486702087" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1587361819848">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1587500503446">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587361819848" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587500503446" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585635680534" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587190720489" />
     <state x="336" y="72" width="609" height="536" key="find.popup" timestamp="1586674198579">
