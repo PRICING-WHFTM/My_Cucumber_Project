@@ -2,31 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/EntryAd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/EntryAd_steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/EntryAd.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/JSUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/AddRemoveModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/AddRemoveModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/BasicAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/BasicAuth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/CheckBoxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/CheckBoxes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/ContextMenu_step.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/ContextMenu_step.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DataDrivenLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DataDrivenLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DisappearingElements_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DisappearingElements_steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DragAndDrop_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DragAndDrop_steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Dropdowns_step.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Dropdowns_step.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DynamicControls_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DynamicControls_steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/DBUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/DriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/DriverUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Cucumber-project-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Cucumber-project-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/step_definitions/DataDrivenLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/step_definitions/DataDrivenLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/step_definitions/Hook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/step_definitions/Hook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/utilities/ConfigurationReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/utilities/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/utilities/DBUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/utilities/DriverUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/utilities/DriverUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
