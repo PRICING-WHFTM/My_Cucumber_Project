@@ -30,7 +30,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "AddRemoveModule.user_navigates_to_homepage()"
+  "location": "com.company.step_definitions.AddRemoveModule.user_navigates_to_homepage()"
 });
 formatter.result({
   "status": "passed"
@@ -40,7 +40,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AddRemoveModule.add_Remove_Elements_should_display_in_homePage()"
+  "location": "com.company.step_definitions.AddRemoveModule.add_Remove_Elements_should_display_in_homePage()"
 });
 formatter.result({
   "status": "passed"
@@ -69,7 +69,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_am_in_HomePage()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_am_in_HomePage()"
 });
 formatter.result({
   "status": "passed"
@@ -79,7 +79,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_click_on_Add_Remove_Elements_module()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_click_on_Add_Remove_Elements_module()"
 });
 formatter.result({
   "status": "passed"
@@ -89,7 +89,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_should_land_to_Add_Remove_Elements_page()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_should_land_to_Add_Remove_Elements_page()"
 });
 formatter.result({
   "status": "passed"
@@ -99,7 +99,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "AddRemoveModule.only_Add_Elements_button_should_display_at_the_pagee()"
+  "location": "com.company.step_definitions.AddRemoveModule.only_Add_Elements_button_should_display_at_the_pagee()"
 });
 formatter.result({
   "status": "passed"
@@ -128,7 +128,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_am_in_HomePage()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_am_in_HomePage()"
 });
 formatter.result({
   "status": "passed"
@@ -138,7 +138,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_click_on_Add_Remove_Elements_module()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_click_on_Add_Remove_Elements_module()"
 });
 formatter.result({
   "status": "passed"
@@ -148,7 +148,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_should_land_to_Add_Remove_Elements_page()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_should_land_to_Add_Remove_Elements_page()"
 });
 formatter.result({
   "status": "passed"
@@ -158,7 +158,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_click_Add_Elements_button()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_click_Add_Elements_button()"
 });
 formatter.result({
   "status": "passed"
@@ -168,7 +168,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AddRemoveModule.delete_Elements_button_is_displaying()"
+  "location": "com.company.step_definitions.AddRemoveModule.delete_Elements_button_is_displaying()"
 });
 formatter.result({
   "status": "passed"
@@ -197,7 +197,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_am_in_HomePage()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_am_in_HomePage()"
 });
 formatter.result({
   "status": "passed"
@@ -207,7 +207,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_click_on_Add_Remove_Elements_module()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_click_on_Add_Remove_Elements_module()"
 });
 formatter.result({
   "status": "passed"
@@ -217,7 +217,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_should_land_to_Add_Remove_Elements_page()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_should_land_to_Add_Remove_Elements_page()"
 });
 formatter.result({
   "status": "passed"
@@ -227,7 +227,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_click_Add_Elements_button()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_click_Add_Elements_button()"
 });
 formatter.result({
   "status": "passed"
@@ -237,7 +237,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AddRemoveModule.delete_Elements_button_is_displaying()"
+  "location": "com.company.step_definitions.AddRemoveModule.delete_Elements_button_is_displaying()"
 });
 formatter.result({
   "status": "passed"
@@ -247,7 +247,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_click_to_Delete_Elements()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_click_to_Delete_Elements()"
 });
 formatter.result({
   "status": "passed"
@@ -257,7 +257,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AddRemoveModule.the_element_is_disappearing()"
+  "location": "com.company.step_definitions.AddRemoveModule.the_element_is_disappearing()"
 });
 formatter.result({
   "status": "passed"
@@ -284,7 +284,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "BasicAuth.i_am_in_Home_page()"
+  "location": "com.company.step_definitions.BasicAuth.i_am_in_Home_page()"
 });
 formatter.result({
   "status": "passed"
@@ -294,7 +294,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "BasicAuth.basic_Auth_element_should_display_in_Ho()"
+  "location": "com.company.step_definitions.BasicAuth.basic_Auth_element_should_display_in_Ho()"
 });
 formatter.result({
   "status": "passed"
@@ -326,7 +326,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "BasicAuth.i_am_in_Home_page()"
+  "location": "com.company.step_definitions.BasicAuth.i_am_in_Home_page()"
 });
 formatter.result({
   "status": "passed"
@@ -336,7 +336,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CheckBoxes.i_should_see_CheckBoxes_module_in_Homepage()"
+  "location": "com.company.step_definitions.CheckBoxes.i_should_see_CheckBoxes_module_in_Homepage()"
 });
 formatter.result({
   "status": "passed"
@@ -346,7 +346,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "CheckBoxes.i_click_on_Checkbox_module()"
+  "location": "com.company.step_definitions.CheckBoxes.i_click_on_Checkbox_module()"
 });
 formatter.result({
   "status": "passed"
@@ -356,7 +356,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CheckBoxes.i_should_land_to_new_page()"
+  "location": "com.company.step_definitions.CheckBoxes.i_should_land_to_new_page()"
 });
 formatter.result({
   "status": "passed"
@@ -366,7 +366,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "CheckBoxes.i_should_see_two_Checkboxes_in_the_page_with_name_and(String,String)"
+  "location": "com.company.step_definitions.CheckBoxes.i_should_see_two_Checkboxes_in_the_page_with_name_and(java.lang.String,java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -376,7 +376,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "CheckBoxes.checkbox_should_be_checked_by_default(Integer)"
+  "location": "com.company.step_definitions.CheckBoxes.checkbox_should_be_checked_by_default(java.lang.Integer)"
 });
 formatter.result({
   "status": "passed"
@@ -386,7 +386,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "CheckBoxes.i_uncheck_checkbox_and_check_checkbox(Integer,Integer)"
+  "location": "com.company.step_definitions.CheckBoxes.i_uncheck_checkbox_and_check_checkbox(java.lang.Integer,java.lang.Integer)"
 });
 formatter.result({
   "status": "passed"
@@ -396,7 +396,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CheckBoxes.checkbox_should_be_checked_and_checkbox_should_be_unchecked(Integer,Integer)"
+  "location": "com.company.step_definitions.CheckBoxes.checkbox_should_be_checked_and_checkbox_should_be_unchecked(java.lang.Integer,java.lang.Integer)"
 });
 formatter.result({
   "status": "passed"
@@ -428,7 +428,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_am_in_HomePage()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_am_in_HomePage()"
 });
 formatter.result({
   "status": "passed"
@@ -438,7 +438,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "ContextMenu_step.i_should_see_ContextMenu_module_in_Homepage()"
+  "location": "com.company.step_definitions.ContextMenu_step.i_should_see_ContextMenu_module_in_Homepage()"
 });
 formatter.result({
   "status": "passed"
@@ -448,7 +448,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "ContextMenu_step.i_click_on_contextMenu_module()"
+  "location": "com.company.step_definitions.ContextMenu_step.i_click_on_contextMenu_module()"
 });
 formatter.result({
   "status": "passed"
@@ -458,7 +458,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "ContextMenu_step.i_should_land_to_contextmenu_page()"
+  "location": "com.company.step_definitions.ContextMenu_step.i_should_land_to_contextmenu_page()"
 });
 formatter.result({
   "status": "passed"
@@ -468,7 +468,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "ContextMenu_step.empty_square_should_display_in_the_page()"
+  "location": "com.company.step_definitions.ContextMenu_step.empty_square_should_display_in_the_page()"
 });
 formatter.result({
   "status": "passed"
@@ -478,7 +478,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "ContextMenu_step.i_do_rightclik_on_square()"
+  "location": "com.company.step_definitions.ContextMenu_step.i_do_rightclik_on_square()"
 });
 formatter.result({
   "status": "passed"
@@ -488,7 +488,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "ContextMenu_step.js_Alert_should_popup()"
+  "location": "com.company.step_definitions.ContextMenu_step.js_Alert_should_popup()"
 });
 formatter.result({
   "status": "passed"
@@ -498,7 +498,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "ContextMenu_step.i_dismiss_the_alert()"
+  "location": "com.company.step_definitions.ContextMenu_step.i_dismiss_the_alert()"
 });
 formatter.result({
   "status": "passed"
@@ -508,7 +508,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "ContextMenu_step.alert_should_disappear()"
+  "location": "com.company.step_definitions.ContextMenu_step.alert_should_disappear()"
 });
 formatter.result({
   "status": "passed"
@@ -597,7 +597,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "DataDrivenLogin.navigate_to_website()"
+  "location": "com.company.step_definitions.DataDrivenLogin.navigate_to_website()"
 });
 formatter.result({
   "status": "passed"
@@ -607,7 +607,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "DataDrivenLogin.i_enter_and(String,String)"
+  "location": "com.company.step_definitions.DataDrivenLogin.i_enter_and(java.lang.String,java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -617,7 +617,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DataDrivenLogin.i_should_get_the(String)"
+  "location": "com.company.step_definitions.DataDrivenLogin.i_should_get_the(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -643,7 +643,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "DataDrivenLogin.navigate_to_website()"
+  "location": "com.company.step_definitions.DataDrivenLogin.navigate_to_website()"
 });
 formatter.result({
   "status": "passed"
@@ -653,7 +653,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "DataDrivenLogin.i_enter_and(String,String)"
+  "location": "com.company.step_definitions.DataDrivenLogin.i_enter_and(java.lang.String,java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -663,7 +663,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DataDrivenLogin.i_should_get_the(String)"
+  "location": "com.company.step_definitions.DataDrivenLogin.i_should_get_the(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -689,7 +689,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "DataDrivenLogin.navigate_to_website()"
+  "location": "com.company.step_definitions.DataDrivenLogin.navigate_to_website()"
 });
 formatter.result({
   "status": "passed"
@@ -699,7 +699,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "DataDrivenLogin.i_enter_and(String,String)"
+  "location": "com.company.step_definitions.DataDrivenLogin.i_enter_and(java.lang.String,java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -709,7 +709,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DataDrivenLogin.i_should_get_the(String)"
+  "location": "com.company.step_definitions.DataDrivenLogin.i_should_get_the(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -741,7 +741,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_am_in_HomePage()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_am_in_HomePage()"
 });
 formatter.result({
   "status": "passed"
@@ -751,7 +751,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "DisappearingElements_steps.i_should_see_module_in_homepage(String)"
+  "location": "com.company.step_definitions.DisappearingElements_steps.i_should_see_module_in_homepage(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -761,7 +761,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "DisappearingElements_steps.i_click_disappearing_elements_module_in_homepage()"
+  "location": "com.company.step_definitions.DisappearingElements_steps.i_click_disappearing_elements_module_in_homepage()"
 });
 formatter.result({
   "status": "passed"
@@ -771,7 +771,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DisappearingElements_steps.i_should_land_to_Disappearing_Elements_page()"
+  "location": "com.company.step_definitions.DisappearingElements_steps.i_should_land_to_Disappearing_Elements_page()"
 });
 formatter.result({
   "status": "passed"
@@ -781,7 +781,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "DisappearingElements_steps.i_click_About_element_in_the_page()"
+  "location": "com.company.step_definitions.DisappearingElements_steps.i_click_About_element_in_the_page()"
 });
 formatter.result({
   "status": "passed"
@@ -791,7 +791,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "DisappearingElements_steps.element_should_disappear()"
+  "location": "com.company.step_definitions.DisappearingElements_steps.element_should_disappear()"
 });
 formatter.result({
   "status": "passed"
@@ -818,7 +818,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_am_in_HomePage()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_am_in_HomePage()"
 });
 formatter.result({
   "status": "passed"
@@ -828,7 +828,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DragAndDrop_steps.i_should_see_module_in_the_homepage(String)"
+  "location": "com.company.step_definitions.DragAndDrop_steps.i_should_see_module_in_the_homepage(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -838,7 +838,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "DragAndDrop_steps.i_click_drag_and_drop()"
+  "location": "com.company.step_definitions.DragAndDrop_steps.i_click_drag_and_drop()"
 });
 formatter.result({
   "status": "passed"
@@ -848,7 +848,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DragAndDrop_steps.i_should_land_drag_and_drop_page()"
+  "location": "com.company.step_definitions.DragAndDrop_steps.i_should_land_drag_and_drop_page()"
 });
 formatter.result({
   "status": "passed"
@@ -858,7 +858,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "DragAndDrop_steps.i_should_see_A_and_B_elements()"
+  "location": "com.company.step_definitions.DragAndDrop_steps.i_should_see_A_and_B_elements()"
 });
 formatter.result({
   "status": "passed"
@@ -868,7 +868,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DragAndDrop_steps.i_should_be_able_to_drag_element_A_and_drop_to_element_B()"
+  "location": "com.company.step_definitions.DragAndDrop_steps.i_should_be_able_to_drag_element_A_and_drop_to_element_B()"
 });
 formatter.result({
   "status": "passed"
@@ -900,7 +900,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_am_in_HomePage()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_am_in_HomePage()"
 });
 formatter.result({
   "status": "passed"
@@ -910,7 +910,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Dropdowns_step.module_should_exist_in_homepage(String)"
+  "location": "com.company.step_definitions.Dropdowns_step.module_should_exist_in_homepage(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -920,7 +920,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Dropdowns_step.i_click_dropdown()"
+  "location": "com.company.step_definitions.Dropdowns_step.i_click_dropdown()"
 });
 formatter.result({
   "status": "passed"
@@ -930,7 +930,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Dropdowns_step.i_should_land_to_dropdown_page()"
+  "location": "com.company.step_definitions.Dropdowns_step.i_should_land_to_dropdown_page()"
 });
 formatter.result({
   "status": "passed"
@@ -940,7 +940,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Dropdowns_step.should_exist_dropdowns(int)"
+  "location": "com.company.step_definitions.Dropdowns_step.should_exist_dropdowns(int)"
 });
 formatter.result({
   "status": "passed"
@@ -950,7 +950,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Dropdowns_step.dropdowns_should_have_name_and(String,String)"
+  "location": "com.company.step_definitions.Dropdowns_step.dropdowns_should_have_name_and(java.lang.String,java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -960,7 +960,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Dropdowns_step.i_select(String)"
+  "location": "com.company.step_definitions.Dropdowns_step.i_select(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -970,7 +970,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Dropdowns_step.should_be_selectedDropdown(String)"
+  "location": "com.company.step_definitions.Dropdowns_step.should_be_selectedDropdown(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -997,7 +997,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_am_in_HomePage()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_am_in_HomePage()"
 });
 formatter.result({
   "status": "passed"
@@ -1007,7 +1007,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "DynamicControls_steps.module_should_exists_in_homepage(String)"
+  "location": "com.company.step_definitions.DynamicControls_steps.module_should_exists_in_homepage(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1017,7 +1017,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "DynamicControls_steps.i_click_dynamic_controls()"
+  "location": "com.company.step_definitions.DynamicControls_steps.i_click_dynamic_controls()"
 });
 formatter.result({
   "status": "passed"
@@ -1027,7 +1027,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DynamicControls_steps.i_should_land_t_dynamic_controls_page()"
+  "location": "com.company.step_definitions.DynamicControls_steps.i_should_land_t_dynamic_controls_page()"
 });
 formatter.result({
   "status": "passed"
@@ -1047,7 +1047,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "DynamicControls_steps.editbox_in_the_page_should_be_disabled_by_default()"
+  "location": "com.company.step_definitions.DynamicControls_steps.editbox_in_the_page_should_be_disabled_by_default()"
 });
 formatter.result({
   "status": "passed"
@@ -1057,7 +1057,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "DynamicControls_steps.button_should_exist_in_the_page(String)"
+  "location": "com.company.step_definitions.DynamicControls_steps.button_should_exist_in_the_page(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1067,7 +1067,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "DynamicControls_steps.i_click_enable_button()"
+  "location": "com.company.step_definitions.DynamicControls_steps.i_click_enable_button()"
 });
 formatter.result({
   "status": "passed"
@@ -1077,7 +1077,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DynamicControls_steps.editbox_should_be_enabled()"
+  "location": "com.company.step_definitions.DynamicControls_steps.editbox_should_be_enabled()"
 });
 formatter.result({
   "status": "passed"
@@ -1087,7 +1087,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "DynamicControls_steps.i_should_see_text_displayed(String)"
+  "location": "com.company.step_definitions.DynamicControls_steps.i_should_see_text_displayed(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1108,7 +1108,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_am_in_HomePage()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_am_in_HomePage()"
 });
 formatter.result({
   "status": "passed"
@@ -1118,7 +1118,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "DynamicControls_steps.module_should_exists_in_homepage(String)"
+  "location": "com.company.step_definitions.DynamicControls_steps.module_should_exists_in_homepage(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1128,7 +1128,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "DynamicControls_steps.i_click_dynamic_controls()"
+  "location": "com.company.step_definitions.DynamicControls_steps.i_click_dynamic_controls()"
 });
 formatter.result({
   "status": "passed"
@@ -1138,7 +1138,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DynamicControls_steps.i_should_land_t_dynamic_controls_page()"
+  "location": "com.company.step_definitions.DynamicControls_steps.i_should_land_t_dynamic_controls_page()"
 });
 formatter.result({
   "status": "passed"
@@ -1158,7 +1158,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "DynamicControls_steps.should_display_in_the_page(String)"
+  "location": "com.company.step_definitions.DynamicControls_steps.should_display_in_the_page(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1168,7 +1168,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "DynamicControls_steps.button_should_display_in_the_page(String)"
+  "location": "com.company.step_definitions.DynamicControls_steps.button_should_display_in_the_page(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1178,7 +1178,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "DynamicControls_steps.i_should_be_able_to_check_the_checkbox()"
+  "location": "com.company.step_definitions.DynamicControls_steps.i_should_be_able_to_check_the_checkbox()"
 });
 formatter.result({
   "status": "passed"
@@ -1188,7 +1188,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "DynamicControls_steps.i_click_remove_button()"
+  "location": "com.company.step_definitions.DynamicControls_steps.i_click_remove_button()"
 });
 formatter.result({
   "status": "passed"
@@ -1198,7 +1198,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DynamicControls_steps.checkbox_should_not_display_in_the_page()"
+  "location": "com.company.step_definitions.DynamicControls_steps.checkbox_should_not_display_in_the_page()"
 });
 formatter.result({
   "status": "passed"
@@ -1208,7 +1208,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "DynamicControls_steps.text_should_display_in_the_page(String)"
+  "location": "com.company.step_definitions.DynamicControls_steps.text_should_display_in_the_page(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1218,7 +1218,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "DynamicControls_steps.remove_button_should_not_display_in_the_page()"
+  "location": "com.company.step_definitions.DynamicControls_steps.remove_button_should_not_display_in_the_page()"
 });
 formatter.result({
   "status": "passed"
@@ -1250,7 +1250,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_am_in_HomePage()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_am_in_HomePage()"
 });
 formatter.result({
   "status": "passed"
@@ -1260,7 +1260,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "EntryAd_steps.i_click_entryAd_link()"
+  "location": "com.company.step_definitions.EntryAd_steps.i_click_entryAd_link()"
 });
 formatter.result({
   "status": "passed"
@@ -1270,7 +1270,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "EntryAd_steps.i_should_land_to_entryAd_page()"
+  "location": "com.company.step_definitions.EntryAd_steps.i_should_land_to_entryAd_page()"
 });
 formatter.result({
   "status": "passed"
@@ -1280,7 +1280,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "EntryAd_steps.close_html_alert_should_display()"
+  "location": "com.company.step_definitions.EntryAd_steps.close_html_alert_should_display()"
 });
 formatter.result({
   "status": "passed"
@@ -1290,7 +1290,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "EntryAd_steps.i_click_close()"
+  "location": "com.company.step_definitions.EntryAd_steps.i_click_close()"
 });
 formatter.result({
   "status": "passed"
@@ -1300,7 +1300,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "EntryAd_steps.html_alert_should_disappeared()"
+  "location": "com.company.step_definitions.EntryAd_steps.html_alert_should_disappeared()"
 });
 formatter.result({
   "status": "passed"
@@ -1310,7 +1310,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "EntryAd_steps.i_double_click_clickHere()"
+  "location": "com.company.step_definitions.EntryAd_steps.i_double_click_clickHere()"
 });
 formatter.result({
   "status": "passed"
@@ -1320,7 +1320,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "EntryAd_steps.html_alert_should_display_again()"
+  "location": "com.company.step_definitions.EntryAd_steps.html_alert_should_display_again()"
 });
 formatter.result({
   "status": "passed"
@@ -1347,7 +1347,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Etsy_steps.user_is_on_Etcy_homepage()"
+  "location": "com.company.step_definitions.Etsy_steps.user_is_on_Etcy_homepage()"
 });
 formatter.result({
   "status": "passed"
@@ -1357,7 +1357,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Etsy_steps.user_searches_for(String)"
+  "location": "com.company.step_definitions.Etsy_steps.user_searches_for(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1367,7 +1367,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Etsy_steps.search_result_should_be_displayed()"
+  "location": "com.company.step_definitions.Etsy_steps.search_result_should_be_displayed()"
 });
 formatter.result({
   "status": "passed"
@@ -1394,7 +1394,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "AddRemoveModule.i_am_in_HomePage()"
+  "location": "com.company.step_definitions.AddRemoveModule.i_am_in_HomePage()"
 });
 formatter.result({
   "status": "passed"
@@ -1404,7 +1404,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "FileDownload_steps.i_click_file_download()"
+  "location": "com.company.step_definitions.FileDownload_steps.i_click_file_download()"
 });
 formatter.result({
   "status": "passed"
@@ -1414,7 +1414,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "FileDownload_steps.i_should_be_able_to_see_elements_in_the_page(int)"
+  "location": "com.company.step_definitions.FileDownload_steps.i_should_be_able_to_see_elements_in_the_page(int)"
 });
 formatter.result({
   "status": "passed"
@@ -1424,7 +1424,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "FileDownload_steps.i_click(String)"
+  "location": "com.company.step_definitions.FileDownload_steps.i_click(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1434,7 +1434,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "FileDownload_steps.file_should_be_downloaded_to_my_computer(String)"
+  "location": "com.company.step_definitions.FileDownload_steps.file_should_be_downloaded_to_my_computer(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1461,7 +1461,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Mapdetails_steps.user_is_in_the_login_page()"
+  "location": "com.company.step_definitions.Mapdetails_steps.user_is_in_the_login_page()"
 });
 formatter.result({
   "status": "passed"
@@ -1471,7 +1471,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Mapdetails_steps.user_logs_in_with_username_and_password(String,String)"
+  "location": "com.company.step_definitions.Mapdetails_steps.user_logs_in_with_username_and_password(java.lang.String,java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1481,7 +1481,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Mapdetails_steps.user_should_be_able_to_see_room(String)"
+  "location": "com.company.step_definitions.Mapdetails_steps.user_should_be_able_to_see_room(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1491,7 +1491,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Mapdetails_steps.in_DB_I_should_see_the_room(String)"
+  "location": "com.company.step_definitions.Mapdetails_steps.in_DB_I_should_see_the_room(java.lang.String)"
 });
 formatter.result({
   "status": "passed"

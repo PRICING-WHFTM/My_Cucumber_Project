@@ -1,10 +1,11 @@
 package com.company.step_definitions;
+
 import com.company.utilities.BrowserUtils;
-import com.company.utilities.DriverUtil;
-import cucumber.api.Scenario;
 import com.company.utilities.ConfigReader;
+import com.company.utilities.DriverUtil;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
