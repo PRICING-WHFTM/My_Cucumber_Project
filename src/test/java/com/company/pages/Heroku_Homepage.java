@@ -31,4 +31,7 @@ public class Heroku_Homepage {
     public WebElement entryAd;
     @FindBy(linkText = "File Download")
     public WebElement downloadFile;
+    @FindBy(linkText = "File Upload")
+    public WebElement uploadFile;
+
 }

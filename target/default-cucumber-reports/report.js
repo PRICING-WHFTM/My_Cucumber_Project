@@ -1375,6 +1375,73 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.uri("file:src/test/resources/features/FileUpload.feature");
+formatter.feature({
+  "name": "Uploading file",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Uploading file testing",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am in HomePage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.company.step_definitions.AddRemoveModule.i_am_in_HomePage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click file upload",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "com.company.step_definitions.FileUploading_steps.i_click_file_upload()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "choose the file \"log.txt\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.company.step_definitions.FileUploading_steps.choose_the_file(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click upload button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.company.step_definitions.FileUploading_steps.click_upload_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should get \"File Uploaded!\" confirmation text",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.company.step_definitions.FileUploading_steps.i_should_get_confirmation_text(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 formatter.uri("file:src/test/resources/features/FilesDownlod.feature");
 formatter.feature({
   "name": "Downloading multiple files",

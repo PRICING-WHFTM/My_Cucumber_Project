@@ -2,6 +2,7 @@ C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_d
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\DisappearingElements_steps.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\DragAndDrop_steps.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\utilities\BrowserUtils.java
+C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\FileUpload.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\EtsyHomepage.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\utilities\DBUtils.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\MapRoom.java
@@ -32,3 +33,4 @@ C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\utilit
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\utilities\ConfigReader.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\Heroku_Homepage.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\FileDownload_steps.java
+C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\FileUploading_steps.java
