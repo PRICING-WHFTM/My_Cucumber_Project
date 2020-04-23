@@ -8,7 +8,7 @@ import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
-public class DataDrivenLogin {
+public class Login_DDT {
 
    WebDriver driver;
     @Given("Navigate to website")

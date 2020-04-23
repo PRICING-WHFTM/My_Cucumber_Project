@@ -3,7 +3,6 @@ C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_d
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\DragAndDrop_steps.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\utilities\BrowserUtils.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\FileUpload.java
-C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\EtsyHomepage.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\utilities\DBUtils.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\MapRoom.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\Dropdowns.java
@@ -16,18 +15,17 @@ C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\CheckBoxes.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\AddRemoveElements.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\DisappearingElements.java
+C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\Login_DDT.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\DragAndDrop.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\Dropdowns_step.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\EntryAd_steps.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\Sign_In.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\BasicAuth.java
-C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\DataDrivenLogin.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\Hook.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\ContextMenu.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\Mapdetails_steps.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\CheckboxesPage.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\LoginPage.java
-C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\Etsy_steps.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\DynamicControls_steps.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\utilities\DriverUtil.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\utilities\ConfigReader.java

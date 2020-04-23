@@ -1,6 +1,9 @@
 Feature: Login Data Driven
   Testing login function with different set of data
 
+  #scenario outline  and examples table is used only if the whole test
+  # will be repeated multiple times.
+
   @smoke
   Scenario Outline: Login negative test with different set of data
     Given Navigate to website
