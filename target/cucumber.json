@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-04-22T05:38:45.351Z",
+        "start_timestamp": "2020-04-23T05:37:58.275Z",
         "before": [
           {
             "result": {
-              "duration": 10467666800,
+              "duration": 6361557600,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 15252166000,
+              "duration": 1482417800,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1894141800,
+              "duration": 3912645300,
               "status": "passed"
             },
             "line": 6,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1251094800,
+              "duration": 224016300,
               "status": "passed"
             },
             "line": 7,
@@ -68,11 +68,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-22T05:39:14.245Z",
+        "start_timestamp": "2020-04-23T05:38:10.304Z",
         "before": [
           {
             "result": {
-              "duration": 4272318200,
+              "duration": 3500479800,
               "status": "passed"
             },
             "match": {
@@ -87,7 +87,7 @@
         "after": [
           {
             "result": {
-              "duration": 971379000,
+              "duration": 587042300,
               "status": "passed"
             },
             "match": {
@@ -100,7 +100,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1172601700,
+              "duration": 1110907500,
               "status": "passed"
             },
             "line": 11,
@@ -112,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 454037500,
+              "duration": 277022400,
               "status": "passed"
             },
             "line": 12,
@@ -124,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 336047800,
+              "duration": 49023900,
               "status": "passed"
             },
             "line": 13,
@@ -136,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 37976100,
+              "duration": 22978100,
               "status": "passed"
             },
             "line": 14,
@@ -157,11 +157,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-22T05:39:21.496Z",
+        "start_timestamp": "2020-04-23T05:38:15.856Z",
         "before": [
           {
             "result": {
-              "duration": 3728744400,
+              "duration": 3137468200,
               "status": "passed"
             },
             "match": {
@@ -176,7 +176,7 @@
         "after": [
           {
             "result": {
-              "duration": 883574200,
+              "duration": 590703300,
               "status": "passed"
             },
             "match": {
@@ -189,7 +189,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1355100300,
+              "duration": 1791229000,
               "status": "passed"
             },
             "line": 18,
@@ -201,7 +201,7 @@
           },
           {
             "result": {
-              "duration": 397029200,
+              "duration": 758210000,
               "status": "passed"
             },
             "line": 19,
@@ -213,7 +213,7 @@
           },
           {
             "result": {
-              "duration": 57004100,
+              "duration": 54061200,
               "status": "passed"
             },
             "line": 20,
@@ -225,7 +225,7 @@
           },
           {
             "result": {
-              "duration": 72007300,
+              "duration": 81481400,
               "status": "passed"
             },
             "line": 21,
@@ -237,7 +237,7 @@
           },
           {
             "result": {
-              "duration": 72003400,
+              "duration": 60005400,
               "status": "passed"
             },
             "line": 22,
@@ -258,11 +258,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-22T05:39:28.067Z",
+        "start_timestamp": "2020-04-23T05:38:22.329Z",
         "before": [
           {
             "result": {
-              "duration": 3369724300,
+              "duration": 3512222700,
               "status": "passed"
             },
             "match": {
@@ -277,7 +277,7 @@
         "after": [
           {
             "result": {
-              "duration": 959698800,
+              "duration": 582067800,
               "status": "passed"
             },
             "match": {
@@ -290,7 +290,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1224385500,
+              "duration": 1499966200,
               "status": "passed"
             },
             "line": 27,
@@ -302,7 +302,7 @@
           },
           {
             "result": {
-              "duration": 433902200,
+              "duration": 309065900,
               "status": "passed"
             },
             "line": 28,
@@ -314,7 +314,7 @@
           },
           {
             "result": {
-              "duration": 51779600,
+              "duration": 46016000,
               "status": "passed"
             },
             "line": 29,
@@ -326,7 +326,7 @@
           },
           {
             "result": {
-              "duration": 69155600,
+              "duration": 73073300,
               "status": "passed"
             },
             "line": 30,
@@ -338,7 +338,7 @@
           },
           {
             "result": {
-              "duration": 66995400,
+              "duration": 55002900,
               "status": "passed"
             },
             "line": 31,
@@ -350,7 +350,7 @@
           },
           {
             "result": {
-              "duration": 81004100,
+              "duration": 78004900,
               "status": "passed"
             },
             "line": 32,
@@ -362,7 +362,7 @@
           },
           {
             "result": {
-              "duration": 14000900,
+              "duration": 11001000,
               "status": "passed"
             },
             "line": 33,
@@ -403,11 +403,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-22T05:38:45.351Z",
+        "start_timestamp": "2020-04-23T05:37:58.291Z",
         "before": [
           {
             "result": {
-              "duration": 13344855600,
+              "duration": 6657281000,
               "status": "passed"
             },
             "match": {
@@ -422,7 +422,7 @@
         "after": [
           {
             "result": {
-              "duration": 11392889200,
+              "duration": 1606485200,
               "status": "passed"
             },
             "match": {
@@ -435,7 +435,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2892215300,
+              "duration": 3772931700,
               "status": "passed"
             },
             "line": 4,
@@ -447,7 +447,7 @@
           },
           {
             "result": {
-              "duration": 878064000,
+              "duration": 123108800,
               "status": "passed"
             },
             "line": 5,
@@ -471,11 +471,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-22T05:38:45.359Z",
+        "start_timestamp": "2020-04-23T05:37:58.291Z",
         "before": [
           {
             "result": {
-              "duration": 13514867400,
+              "duration": 6557767500,
               "status": "passed"
             },
             "match": {
@@ -490,7 +490,7 @@
         "after": [
           {
             "result": {
-              "duration": 2756236100,
+              "duration": 990513800,
               "status": "passed"
             },
             "match": {
@@ -503,7 +503,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6530487000,
+              "duration": 3773442200,
               "status": "passed"
             },
             "line": 6,
@@ -515,7 +515,7 @@
           },
           {
             "result": {
-              "duration": 463035200,
+              "duration": 191019700,
               "status": "passed"
             },
             "line": 7,
@@ -527,7 +527,7 @@
           },
           {
             "result": {
-              "duration": 843068100,
+              "duration": 413831200,
               "status": "passed"
             },
             "line": 8,
@@ -539,7 +539,7 @@
           },
           {
             "result": {
-              "duration": 305016800,
+              "duration": 85005700,
               "status": "passed"
             },
             "line": 9,
@@ -551,7 +551,7 @@
           },
           {
             "result": {
-              "duration": 734054500,
+              "duration": 331523600,
               "status": "passed"
             },
             "line": 10,
@@ -573,7 +573,7 @@
           },
           {
             "result": {
-              "duration": 59007900,
+              "duration": 77005600,
               "status": "passed"
             },
             "line": 11,
@@ -591,7 +591,7 @@
           },
           {
             "result": {
-              "duration": 1405101900,
+              "duration": 1267904700,
               "status": "passed"
             },
             "line": 12,
@@ -613,7 +613,7 @@
           },
           {
             "result": {
-              "duration": 298022000,
+              "duration": 64964200,
               "status": "passed"
             },
             "line": 13,
@@ -652,11 +652,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-22T05:38:45.359Z",
+        "start_timestamp": "2020-04-23T05:37:58.291Z",
         "before": [
           {
             "result": {
-              "duration": 10672655900,
+              "duration": 6494169800,
               "status": "passed"
             },
             "match": {
@@ -671,7 +671,7 @@
         "after": [
           {
             "result": {
-              "duration": 9841765700,
+              "duration": 887498100,
               "status": "passed"
             },
             "match": {
@@ -684,7 +684,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2561191200,
+              "duration": 3847036500,
               "status": "passed"
             },
             "line": 5,
@@ -696,7 +696,7 @@
           },
           {
             "result": {
-              "duration": 760055400,
+              "duration": 221113800,
               "status": "passed"
             },
             "line": 6,
@@ -708,7 +708,7 @@
           },
           {
             "result": {
-              "duration": 2174162900,
+              "duration": 376739600,
               "status": "passed"
             },
             "line": 7,
@@ -720,7 +720,7 @@
           },
           {
             "result": {
-              "duration": 244019300,
+              "duration": 82006600,
               "status": "passed"
             },
             "line": 8,
@@ -732,7 +732,7 @@
           },
           {
             "result": {
-              "duration": 767056000,
+              "duration": 109576000,
               "status": "passed"
             },
             "line": 9,
@@ -744,7 +744,7 @@
           },
           {
             "result": {
-              "duration": 933065700,
+              "duration": 230948300,
               "status": "passed"
             },
             "line": 10,
@@ -756,7 +756,7 @@
           },
           {
             "result": {
-              "duration": 150011200,
+              "duration": 8000600,
               "status": "passed"
             },
             "line": 11,
@@ -768,7 +768,7 @@
           },
           {
             "result": {
-              "duration": 231019900,
+              "duration": 20002500,
               "status": "passed"
             },
             "line": 12,
@@ -780,7 +780,7 @@
           },
           {
             "result": {
-              "duration": 247014800,
+              "duration": 31004300,
               "status": "passed"
             },
             "line": 13,
@@ -809,292 +809,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-22T05:38:45.351Z",
+        "start_timestamp": "2020-04-23T05:37:58.291Z",
         "before": [
           {
             "result": {
-              "duration": 12069787000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.company.step_definitions.Hook.setup()"
-            }
-          }
-        ],
-        "line": 11,
-        "name": "Login negative test with different set of data",
-        "description": "",
-        "id": "login-data-driven;login-negative-test-with-different-set-of-data;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 1368102700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.company.step_definitions.Hook.teardown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2878213300,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Navigate to website",
-            "match": {
-              "location": "com.company.step_definitions.DataDrivenLogin.navigate_to_website()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 7429553800,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I enter \"tomsmith\" and \"SuperSecretPassword!\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"tomsmith\"",
-                  "offset": 8
-                },
-                {
-                  "val": "\"SuperSecretPassword!\"",
-                  "offset": 23
-                }
-              ],
-              "location": "com.company.step_definitions.DataDrivenLogin.i_enter_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 133009300,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I should get the \"You logged into a secure area!\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"You logged into a secure area!\"",
-                  "offset": 17
-                }
-              ],
-              "location": "com.company.step_definitions.DataDrivenLogin.i_should_get_the(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-04-22T05:39:09.251Z",
-        "before": [
-          {
-            "result": {
-              "duration": 4124338000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.company.step_definitions.Hook.setup()"
-            }
-          }
-        ],
-        "line": 12,
-        "name": "Login negative test with different set of data",
-        "description": "",
-        "id": "login-data-driven;login-negative-test-with-different-set-of-data;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 1771130000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.company.step_definitions.Hook.teardown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1253094200,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Navigate to website",
-            "match": {
-              "location": "com.company.step_definitions.DataDrivenLogin.navigate_to_website()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2249166900,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I enter \"xosemi\" and \"passcode\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"xosemi\"",
-                  "offset": 8
-                },
-                {
-                  "val": "\"passcode\"",
-                  "offset": 21
-                }
-              ],
-              "location": "com.company.step_definitions.DataDrivenLogin.i_enter_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 154013000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I should get the \"Your username is invalid!\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Your username is invalid!\"",
-                  "offset": 17
-                }
-              ],
-              "location": "com.company.step_definitions.DataDrivenLogin.i_should_get_the(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-04-22T05:39:18.809Z",
-        "before": [
-          {
-            "result": {
-              "duration": 4009121100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.company.step_definitions.Hook.setup()"
-            }
-          }
-        ],
-        "line": 13,
-        "name": "Login negative test with different set of data",
-        "description": "",
-        "id": "login-data-driven;login-negative-test-with-different-set-of-data;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 875063800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.company.step_definitions.Hook.teardown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1668126600,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Navigate to website",
-            "match": {
-              "location": "com.company.step_definitions.DataDrivenLogin.navigate_to_website()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1022539800,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I enter \"amador\" and \"password\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"amador\"",
-                  "offset": 8
-                },
-                {
-                  "val": "\"password\"",
-                  "offset": 21
-                }
-              ],
-              "location": "com.company.step_definitions.DataDrivenLogin.i_enter_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 145010000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I should get the \"Your username is invalid!\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Your username is invalid!\"",
-                  "offset": 17
-                }
-              ],
-              "location": "com.company.step_definitions.DataDrivenLogin.i_should_get_the(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          }
-        ]
-      }
-    ],
-    "name": "Login Data Driven",
-    "description": "  Testing login function with different set of data",
-    "id": "login-data-driven",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/DataDrivenLogin.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2020-04-22T05:38:45.359Z",
-        "before": [
-          {
-            "result": {
-              "duration": 11639727300,
+              "duration": 6708649800,
               "status": "passed"
             },
             "match": {
@@ -1109,7 +828,7 @@
         "after": [
           {
             "result": {
-              "duration": 2781237600,
+              "duration": 980508200,
               "status": "passed"
             },
             "match": {
@@ -1122,7 +841,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5738428100,
+              "duration": 3603556200,
               "status": "passed"
             },
             "line": 6,
@@ -1134,7 +853,7 @@
           },
           {
             "result": {
-              "duration": 1163089100,
+              "duration": 296116700,
               "status": "passed"
             },
             "line": 7,
@@ -1152,7 +871,7 @@
           },
           {
             "result": {
-              "duration": 1637119000,
+              "duration": 356737700,
               "status": "passed"
             },
             "line": 8,
@@ -1164,7 +883,7 @@
           },
           {
             "result": {
-              "duration": 189015000,
+              "duration": 84006500,
               "status": "passed"
             },
             "line": 9,
@@ -1176,7 +895,7 @@
           },
           {
             "result": {
-              "duration": 873064300,
+              "duration": 333525500,
               "status": "passed"
             },
             "line": 10,
@@ -1188,7 +907,7 @@
           },
           {
             "result": {
-              "duration": 198015200,
+              "duration": 44003200,
               "status": "passed"
             },
             "line": 11,
@@ -1217,11 +936,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-22T05:38:45.359Z",
+        "start_timestamp": "2020-04-23T05:37:58.291Z",
         "before": [
           {
             "result": {
-              "duration": 13376857000,
+              "duration": 6564766800,
               "status": "passed"
             },
             "match": {
@@ -1236,7 +955,7 @@
         "after": [
           {
             "result": {
-              "duration": 1200441100,
+              "duration": 856497500,
               "status": "passed"
             },
             "match": {
@@ -1249,7 +968,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7025524700,
+              "duration": 3780440100,
               "status": "passed"
             },
             "line": 4,
@@ -1261,7 +980,7 @@
           },
           {
             "result": {
-              "duration": 389029500,
+              "duration": 265116500,
               "status": "passed"
             },
             "line": 5,
@@ -1279,7 +998,7 @@
           },
           {
             "result": {
-              "duration": 1011074600,
+              "duration": 351737200,
               "status": "passed"
             },
             "line": 6,
@@ -1291,7 +1010,7 @@
           },
           {
             "result": {
-              "duration": 34001600,
+              "duration": 78005400,
               "status": "passed"
             },
             "line": 7,
@@ -1303,7 +1022,7 @@
           },
           {
             "result": {
-              "duration": 347022900,
+              "duration": 206516900,
               "status": "passed"
             },
             "line": 8,
@@ -1315,7 +1034,7 @@
           },
           {
             "result": {
-              "duration": 25913314800,
+              "duration": 347024700,
               "status": "passed"
             },
             "line": 9,
@@ -1339,11 +1058,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-22T05:38:45.351Z",
+        "start_timestamp": "2020-04-23T05:37:58.291Z",
         "before": [
           {
             "result": {
-              "duration": 11435738100,
+              "duration": 6757787300,
               "status": "passed"
             },
             "match": {
@@ -1358,7 +1077,7 @@
         "after": [
           {
             "result": {
-              "duration": 6884543400,
+              "duration": 842496800,
               "status": "passed"
             },
             "match": {
@@ -1371,7 +1090,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2915218100,
+              "duration": 3731430700,
               "status": "passed"
             },
             "line": 6,
@@ -1383,7 +1102,7 @@
           },
           {
             "result": {
-              "duration": 2672203800,
+              "duration": 161819000,
               "status": "passed"
             },
             "line": 7,
@@ -1401,7 +1120,7 @@
           },
           {
             "result": {
-              "duration": 1610116300,
+              "duration": 417031100,
               "status": "passed"
             },
             "line": 8,
@@ -1413,7 +1132,7 @@
           },
           {
             "result": {
-              "duration": 553040300,
+              "duration": 24002200,
               "status": "passed"
             },
             "line": 9,
@@ -1425,7 +1144,7 @@
           },
           {
             "result": {
-              "duration": 1554114800,
+              "duration": 201515700,
               "status": "passed"
             },
             "line": 10,
@@ -1443,7 +1162,7 @@
           },
           {
             "result": {
-              "duration": 305023400,
+              "duration": 100007000,
               "status": "passed"
             },
             "line": 11,
@@ -1465,7 +1184,7 @@
           },
           {
             "result": {
-              "duration": 902068000,
+              "duration": 211015700,
               "status": "passed"
             },
             "line": 12,
@@ -1483,7 +1202,7 @@
           },
           {
             "result": {
-              "duration": 317022900,
+              "duration": 114008100,
               "status": "passed"
             },
             "line": 13,
@@ -1526,7 +1245,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2533594600,
+              "duration": 3297167600,
               "status": "passed"
             },
             "line": 4,
@@ -1538,7 +1257,7 @@
           },
           {
             "result": {
-              "duration": 1685127400,
+              "duration": 352121400,
               "status": "passed"
             },
             "line": 5,
@@ -1556,7 +1275,7 @@
           },
           {
             "result": {
-              "duration": 2487184300,
+              "duration": 582325500,
               "status": "passed"
             },
             "line": 6,
@@ -1568,7 +1287,7 @@
           },
           {
             "result": {
-              "duration": 183032200,
+              "duration": 23001300,
               "status": "passed"
             },
             "line": 7,
@@ -1581,11 +1300,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-22T05:38:45.359Z",
+        "start_timestamp": "2020-04-23T05:37:58.291Z",
         "before": [
           {
             "result": {
-              "duration": 10090201500,
+              "duration": 6933030800,
               "status": "passed"
             },
             "match": {
@@ -1600,7 +1319,7 @@
         "after": [
           {
             "result": {
-              "duration": 5031406800,
+              "duration": 597413600,
               "status": "passed"
             },
             "match": {
@@ -1613,7 +1332,7 @@
         "steps": [
           {
             "result": {
-              "duration": 514022500,
+              "duration": 60935000,
               "status": "passed"
             },
             "line": 11,
@@ -1625,7 +1344,7 @@
           },
           {
             "result": {
-              "duration": 1226094100,
+              "duration": 133011700,
               "status": "passed"
             },
             "line": 12,
@@ -1643,7 +1362,7 @@
           },
           {
             "result": {
-              "duration": 1140081300,
+              "duration": 156010400,
               "status": "passed"
             },
             "line": 13,
@@ -1655,7 +1374,7 @@
           },
           {
             "result": {
-              "duration": 3482258300,
+              "duration": 3231453600,
               "status": "passed"
             },
             "line": 14,
@@ -1667,7 +1386,7 @@
           },
           {
             "result": {
-              "duration": 76004800,
+              "duration": 36000500,
               "status": "passed"
             },
             "line": 15,
@@ -1699,7 +1418,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1159599500,
+              "duration": 1114083400,
               "status": "passed"
             },
             "line": 4,
@@ -1711,7 +1430,7 @@
           },
           {
             "result": {
-              "duration": 166012600,
+              "duration": 101008300,
               "status": "passed"
             },
             "line": 5,
@@ -1729,7 +1448,7 @@
           },
           {
             "result": {
-              "duration": 402029000,
+              "duration": 335028200,
               "status": "passed"
             },
             "line": 6,
@@ -1741,7 +1460,7 @@
           },
           {
             "result": {
-              "duration": 14002300,
+              "duration": 8012600,
               "status": "passed"
             },
             "line": 7,
@@ -1754,11 +1473,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-22T05:39:13.833Z",
+        "start_timestamp": "2020-04-23T05:38:13.705Z",
         "before": [
           {
             "result": {
-              "duration": 4058299400,
+              "duration": 3197697900,
               "status": "passed"
             },
             "match": {
@@ -1773,7 +1492,7 @@
         "after": [
           {
             "result": {
-              "duration": 909849500,
+              "duration": 633131600,
               "status": "passed"
             },
             "match": {
@@ -1786,7 +1505,7 @@
         "steps": [
           {
             "result": {
-              "duration": 141009900,
+              "duration": 75989900,
               "status": "passed"
             },
             "line": 18,
@@ -1804,7 +1523,7 @@
           },
           {
             "result": {
-              "duration": 113008500,
+              "duration": 61004500,
               "status": "passed"
             },
             "line": 19,
@@ -1822,7 +1541,7 @@
           },
           {
             "result": {
-              "duration": 152017400,
+              "duration": 81006700,
               "status": "passed"
             },
             "line": 20,
@@ -1834,7 +1553,7 @@
           },
           {
             "result": {
-              "duration": 10445748800,
+              "duration": 10217552500,
               "status": "passed"
             },
             "line": 21,
@@ -1846,7 +1565,7 @@
           },
           {
             "result": {
-              "duration": 12997100,
+              "duration": 15632800,
               "status": "passed"
             },
             "line": 22,
@@ -1858,7 +1577,7 @@
           },
           {
             "result": {
-              "duration": 12002600,
+              "duration": 31256300,
               "status": "passed"
             },
             "line": 23,
@@ -1876,7 +1595,7 @@
           },
           {
             "result": {
-              "duration": 16000300,
+              "duration": 22144100,
               "status": "passed"
             },
             "line": 24,
@@ -1905,11 +1624,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-22T05:38:45.359Z",
+        "start_timestamp": "2020-04-23T05:37:58.291Z",
         "before": [
           {
             "result": {
-              "duration": 11323703300,
+              "duration": 6103139500,
               "status": "passed"
             },
             "match": {
@@ -1924,7 +1643,7 @@
         "after": [
           {
             "result": {
-              "duration": 8822687800,
+              "duration": 625027600,
               "status": "passed"
             },
             "match": {
@@ -1937,7 +1656,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1795139600,
+              "duration": 4228070200,
               "status": "passed"
             },
             "line": 6,
@@ -1949,7 +1668,7 @@
           },
           {
             "result": {
-              "duration": 1092075500,
+              "duration": 451837800,
               "status": "passed"
             },
             "line": 7,
@@ -1961,7 +1680,7 @@
           },
           {
             "result": {
-              "duration": 302023800,
+              "duration": 19001500,
               "status": "passed"
             },
             "line": 8,
@@ -1973,7 +1692,7 @@
           },
           {
             "result": {
-              "duration": 1930143100,
+              "duration": 913568700,
               "status": "passed"
             },
             "line": 9,
@@ -1985,7 +1704,7 @@
           },
           {
             "result": {
-              "duration": 1198091000,
+              "duration": 136012700,
               "status": "passed"
             },
             "line": 10,
@@ -1997,7 +1716,7 @@
           },
           {
             "result": {
-              "duration": 827060900,
+              "duration": 44000600,
               "status": "passed"
             },
             "line": 11,
@@ -2009,7 +1728,7 @@
           },
           {
             "result": {
-              "duration": 1222089700,
+              "duration": 366462800,
               "status": "passed"
             },
             "line": 12,
@@ -2021,7 +1740,7 @@
           },
           {
             "result": {
-              "duration": 46001500,
+              "duration": 32001900,
               "status": "passed"
             },
             "line": 13,
@@ -2050,97 +1769,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-22T05:38:45.359Z",
+        "start_timestamp": "2020-04-23T05:37:58.291Z",
         "before": [
           {
             "result": {
-              "duration": 13238846300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.company.step_definitions.Hook.setup()"
-            }
-          }
-        ],
-        "line": 4,
-        "name": "Etsy search for an item",
-        "description": "",
-        "id": "etsy-product-search;etsy-search-for-an-item",
-        "after": [
-          {
-            "result": {
-              "duration": 2089155400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.company.step_definitions.Hook.teardown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 11162863300,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User is on Etcy homepage",
-            "match": {
-              "location": "com.company.step_definitions.Etsy_steps.user_is_on_Etcy_homepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2850223800,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User searches for \"wooden spoon\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"wooden spoon\"",
-                  "offset": 18
-                }
-              ],
-              "location": "com.company.step_definitions.Etsy_steps.user_searches_for(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 57993000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Search result should be displayed",
-            "match": {
-              "location": "com.company.step_definitions.Etsy_steps.search_result_should_be_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Etsy product search",
-    "description": "",
-    "id": "etsy-product-search",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Etsy_par1.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2020-04-22T05:38:45.359Z",
-        "before": [
-          {
-            "result": {
-              "duration": 10587649700,
+              "duration": 6254981200,
               "status": "passed"
             },
             "match": {
@@ -2155,7 +1788,7 @@
         "after": [
           {
             "result": {
-              "duration": 5594447600,
+              "duration": 892849600,
               "status": "passed"
             },
             "match": {
@@ -2168,7 +1801,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3417254300,
+              "duration": 5470636700,
               "status": "passed"
             },
             "line": 4,
@@ -2180,7 +1813,7 @@
           },
           {
             "result": {
-              "duration": 3310255500,
+              "duration": 358026400,
               "status": "passed"
             },
             "line": 5,
@@ -2192,7 +1825,7 @@
           },
           {
             "result": {
-              "duration": 2941209900,
+              "duration": 79163900,
               "status": "passed"
             },
             "line": 6,
@@ -2210,7 +1843,7 @@
           },
           {
             "result": {
-              "duration": 2779207900,
+              "duration": 645735500,
               "status": "passed"
             },
             "line": 7,
@@ -2222,7 +1855,7 @@
           },
           {
             "result": {
-              "duration": 207015400,
+              "duration": 122592200,
               "status": "passed"
             },
             "line": 8,
@@ -2252,11 +1885,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-22T05:38:45.359Z",
+        "start_timestamp": "2020-04-23T05:37:58.291Z",
         "before": [
           {
             "result": {
-              "duration": 12587798100,
+              "duration": 6199895400,
               "status": "passed"
             },
             "match": {
@@ -2271,7 +1904,7 @@
         "after": [
           {
             "result": {
-              "duration": 6063482900,
+              "duration": 864499200,
               "status": "passed"
             },
             "match": {
@@ -2284,7 +1917,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2368176800,
+              "duration": 4119311100,
               "status": "passed"
             },
             "line": 4,
@@ -2296,7 +1929,7 @@
           },
           {
             "result": {
-              "duration": 2724203800,
+              "duration": 470843700,
               "status": "passed"
             },
             "line": 5,
@@ -2308,7 +1941,7 @@
           },
           {
             "result": {
-              "duration": 269019100,
+              "duration": 73003300,
               "status": "passed"
             },
             "line": 6,
@@ -2326,7 +1959,7 @@
           },
           {
             "result": {
-              "duration": 4077303200,
+              "duration": 889566600,
               "status": "passed"
             },
             "line": 7,
@@ -2373,11 +2006,292 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-22T05:38:45.359Z",
+        "start_timestamp": "2020-04-23T05:37:58.291Z",
         "before": [
           {
             "result": {
-              "duration": 11893749600,
+              "duration": 6004940000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.company.step_definitions.Hook.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login negative test with different set of data",
+        "description": "",
+        "id": "login-data-driven;login-negative-test-with-different-set-of-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 625093200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.company.step_definitions.Hook.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7690034900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Navigate to website",
+            "match": {
+              "location": "com.company.step_definitions.Login_DDT.navigate_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1055079300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter \"tomsmith\" and \"SuperSecretPassword!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tomsmith\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"SuperSecretPassword!\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.company.step_definitions.Login_DDT.i_enter_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94006800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should get the \"You logged into a secure area!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"You logged into a secure area!\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.company.step_definitions.Login_DDT.i_should_get_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-23T05:38:13.769Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3240059900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.company.step_definitions.Hook.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login negative test with different set of data",
+        "description": "",
+        "id": "login-data-driven;login-negative-test-with-different-set-of-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 583915300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.company.step_definitions.Hook.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1169087500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Navigate to website",
+            "match": {
+              "location": "com.company.step_definitions.Login_DDT.navigate_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 557040400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter \"xosemi\" and \"passcode\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xosemi\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"passcode\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.company.step_definitions.Login_DDT.i_enter_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74008000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should get the \"Your username is invalid!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your username is invalid!\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.company.step_definitions.Login_DDT.i_should_get_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-23T05:38:19.401Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4055796300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.company.step_definitions.Hook.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login negative test with different set of data",
+        "description": "",
+        "id": "login-data-driven;login-negative-test-with-different-set-of-data;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 605163800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.company.step_definitions.Hook.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1369383700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Navigate to website",
+            "match": {
+              "location": "com.company.step_definitions.Login_DDT.navigate_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1174713500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter \"amador\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amador\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.company.step_definitions.Login_DDT.i_enter_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61069000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should get the \"Your username is invalid!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your username is invalid!\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.company.step_definitions.Login_DDT.i_should_get_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login Data Driven",
+    "description": "  Testing login function with different set of data",
+    "id": "login-data-driven",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login_DDT.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-23T05:37:58.291Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6327415600,
               "status": "passed"
             },
             "match": {
@@ -2392,7 +2306,7 @@
         "after": [
           {
             "result": {
-              "duration": 1260830600,
+              "duration": 676578300,
               "status": "passed"
             },
             "match": {
@@ -2405,7 +2319,7 @@
         "steps": [
           {
             "result": {
-              "duration": 27713915400,
+              "duration": 8748998900,
               "status": "passed"
             },
             "line": 4,
@@ -2417,7 +2331,7 @@
           },
           {
             "result": {
-              "duration": 846527900,
+              "duration": 435703900,
               "status": "passed"
             },
             "line": 5,
@@ -2439,7 +2353,7 @@
           },
           {
             "result": {
-              "duration": 5906961200,
+              "duration": 5292084300,
               "status": "passed"
             },
             "line": 6,
@@ -2457,7 +2371,7 @@
           },
           {
             "result": {
-              "duration": 916822900,
+              "duration": 898592800,
               "status": "passed"
             },
             "line": 7,
