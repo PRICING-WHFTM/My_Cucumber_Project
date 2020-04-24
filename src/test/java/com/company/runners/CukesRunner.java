@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         glue = "com/company/step_definitions",
         monochrome = true,
         dryRun = false,
-        //   tags = {"@IH-8"},    //always comment out after running by tags
+        //tags = {"@IH-10"},    //always comment out after running by tags
         plugin = {"html:target/default-cucumber-reports",
                 "json:target/cucumber.json",
                 "rerun:target/rerun.txt"})

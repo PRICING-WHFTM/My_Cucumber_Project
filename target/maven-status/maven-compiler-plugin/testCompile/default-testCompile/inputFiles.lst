@@ -15,6 +15,7 @@ C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\CheckBoxes.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\AddRemoveElements.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\DisappearingElements.java
+C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\FormAuthentication.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\Login_DDT.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\DragAndDrop.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\Dropdowns_step.java
@@ -25,6 +26,7 @@ C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_d
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\ContextMenu.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\Mapdetails_steps.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\CheckboxesPage.java
+C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\FormAuthentication_steps.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\LoginPage.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\DynamicControls_steps.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\utilities\DriverUtil.java
