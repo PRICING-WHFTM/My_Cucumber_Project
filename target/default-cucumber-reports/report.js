@@ -1261,6 +1261,112 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.uri("file:src/test/resources/features/FormAuthentication.feature");
+formatter.feature({
+  "name": "Form Authentication -\u003e Data Table testing",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Entering Data from data table;",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@IH-10"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am in HomePage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.company.step_definitions.AddRemoveModule.i_am_in_HomePage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click form authentication",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "com.company.step_definitions.FormAuthentication_steps.i_click_form_authentication()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should land to \"Login Page\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.company.step_definitions.FormAuthentication_steps.i_should_land_to(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter the following data for login",
+  "rows": [
+    {},
+    {}
+  ],
+  "keyword": "When "
+});
+formatter.match({
+  "location": "com.company.step_definitions.FormAuthentication_steps.i_enter_the_following_data_for_login(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.company.step_definitions.FormAuthentication_steps.click_login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I \"You logged into a secure area!\" should display in the page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.company.step_definitions.FormAuthentication_steps.i_should_display_in_the_page(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click logout",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "com.company.step_definitions.FormAuthentication_steps.i_click_logout()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should land back to \"Login Page\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.company.step_definitions.FormAuthentication_steps.i_should_land_back_to(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 formatter.uri("file:src/test/resources/features/Login_DDT.feature");
 formatter.feature({
   "name": "Login Data Driven",
