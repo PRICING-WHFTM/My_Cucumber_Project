@@ -1367,6 +1367,108 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.uri("file:src/test/resources/features/Frames.feature");
+formatter.feature({
+  "name": "Checking frames , simple frame",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Simple frame in the page",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@IH-11"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am in HomePage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.company.step_definitions.AddRemoveModule.i_am_in_HomePage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click frame",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Frames_steps.i_click_frame()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see \"Nested Frames\" and \"iFrame\" the page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Frames_steps.i_should_see_and_the_page(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click iFrame",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Frames_steps.i_click_iFrame()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "only 1 frame should exist in the page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Frames_steps.only_frame_should_exist_in_the_page(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be able to switch to frame and get current text \"Your content goes here.\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Frames_steps.i_should_be_able_to_swithc_to_frame_and_get_current_text(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I clear the exicting text and write \"Hello World\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Frames_steps.i_clear_the_exicting_text_and_write(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "text should e changed to \"Hello World\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Frames_steps.text_should_e_changed_to(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 formatter.uri("file:src/test/resources/features/Login_DDT.feature");
 formatter.feature({
   "name": "Login Data Driven",

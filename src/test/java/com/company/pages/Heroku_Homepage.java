@@ -35,5 +35,6 @@ public class Heroku_Homepage {
     public WebElement uploadFile;
     @FindBy(linkText = "Form Authentication")
     public WebElement formAuthentication;
-
+    @FindBy(linkText = "Frames")
+    public WebElement frames;
 }
