@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Frames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Frames_steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Frames.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Frames_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Frames_steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Frames.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Frames.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,15 +76,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Nested frames in the page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Nested frame" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Frames.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Nested frames in the page$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Nested frames in the page$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Nested frames in the page" />
+      <option name="NAME_FILTER" value="^Nested frame$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Nested frame$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Nested frame" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -100,15 +96,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Pre-conditions for both scenarios" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Pre-conditions for both scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Frames.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Pre\-conditions for both scenarios$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Pre\-conditions for both scenarios$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Pre-conditions for both scenarios" />
+      <option name="NAME_FILTER" value="^Pre\-conditions for both scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Pre\-conditions for both scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Pre-conditions for both scenario" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -159,9 +155,9 @@
       <list>
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="Cucumber Java.Feature: Frames" />
-        <item itemvalue="Cucumber Java.Scenario: Nested frames in the page" />
+        <item itemvalue="Cucumber Java.Scenario: Pre-conditions for both scenario" />
         <item itemvalue="Cucumber Java.Scenario: Simple frame in the page" />
-        <item itemvalue="Cucumber Java.Scenario: Pre-conditions for both scenarios" />
+        <item itemvalue="Cucumber Java.Scenario: Nested frame" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +209,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587620027808" />
+    <state x="370" y="193" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587857622772">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="370" y="193" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587857622772" />
     <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1586925202739">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -221,31 +221,31 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1237" height="144" key="GridCell.Tab.0.bottom" timestamp="1587804039727">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1587859872784">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="144" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587804039727" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587859872784" />
     <state width="1431" height="304" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384700" />
     <state width="1222" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="185" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587533835425" />
-    <state width="1237" height="144" key="GridCell.Tab.0.center" timestamp="1587804039727">
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1587859872784">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="144" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587804039727" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587859872784" />
     <state width="1431" height="304" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384699" />
     <state width="1222" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="185" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587533835424" />
-    <state width="1237" height="144" key="GridCell.Tab.0.left" timestamp="1587804039727">
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1587859872784">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="144" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587804039727" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587859872784" />
     <state width="1431" height="304" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384699" />
     <state width="1222" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="185" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587533835424" />
-    <state width="1237" height="144" key="GridCell.Tab.0.right" timestamp="1587804039727">
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1587859872784">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="144" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587804039727" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587859872784" />
     <state width="1431" height="304" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384700" />
     <state width="1222" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="185" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587533835425" />
@@ -292,10 +292,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1583475381248" />
-    <state x="303" y="1" width="673" height="679" key="search.everywhere.popup" timestamp="1587098082037">
+    <state x="303" y="1" width="673" height="679" key="search.everywhere.popup" timestamp="1587857832671">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="673" height="679" key="search.everywhere.popup/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587098082037" />
+    <state x="303" y="1" width="673" height="679" key="search.everywhere.popup/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587857832671" />
     <state x="2269" y="1" width="774" height="862" key="search.everywhere.popup/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586140407621" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1583476182878" />
   </component>

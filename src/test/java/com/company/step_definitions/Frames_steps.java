@@ -46,8 +46,8 @@ public class Frames_steps {
         Assert.assertEquals(frames.textIFrame(), string);
     }
 
-    @When("I clear the exicting text and write {string}")
-    public void i_clear_the_exicting_text_and_write(String string) {
+    @When("I clear the existing text and write {string}")
+    public void i_clear_the_existing_text_and_write(String string) {
         frames.iFrameTextField.clear();
         frames.iFrameTextField.sendKeys(string + Keys.ENTER);
     }
@@ -56,6 +56,58 @@ public class Frames_steps {
     public void text_should_e_changed_to(String string) {
         Assert.assertEquals(frames.textIFrame(), string);
         driver.switchTo().defaultContent();
+    }
+
+    @When("I click nested frames")
+    public void i_click_nested_frames() throws InterruptedException {
+        frames.nestedFrames.click();
+        Thread.sleep(1000);
+    }
+
+    @Then("{int} nested frames should appear on the page")
+    public void nested_frames_should_appear_on_the_page(int int1) {
+        Assert.assertEquals(driver.findElements(By.tagName("frame")).size(), int1);
+
+    }
+
+    @Then("I should be able to switch to parent frame")
+    public void i_should_be_able_to_switch_to_parent_frame() {
+        WebElement parentFrame = driver.findElement(By.xpath("//frame[@name='frame-top']"));
+        driver.switchTo().frame(parentFrame);
+    }
+
+    @Then("I should be able to switch to middle frame")
+    public void i_should_be_able_to_switch_to_middle_frame() {
+        WebElement middleFrame = driver.findElement(By.xpath("//frame[@name='frame-middle']"));
+        driver.switchTo().frame(middleFrame);
+        //verify inside child frame itself is not visible, so that we verify we are in child frame.
+        try {
+            driver.findElement(By.xpath("//frame[@name='frame-middle']")).isDisplayed();
+            System.out.println("We are still in parent frame");
+        } catch (Exception e) {
+            System.out.println("We are in middle frame");
+        }
+    }
+
+    @Then("I should be able to switch back to parent frame and back to main webpage")
+    public void i_should_be_able_to_switch_back_to_parent_frame_and_back_to_main_webpage() {
+        driver.switchTo().parentFrame();
+        // check inside parent frame is child frame visible ?, so that we verify we are in parent frame.
+        try {
+            driver.findElement(By.xpath("//frame[@name='frame-middle']")).isDisplayed();
+            System.out.println("We are back to parent frame");
+        } catch (Exception e) {
+            System.out.println("We are still in middle frame");
+        }
+        driver.switchTo().defaultContent();
+        // check inside default content is parent frame visible ?, so that we verify we are in default content.
+        try {
+            driver.findElement(By.xpath("//frame[@name='frame-top']")).isDisplayed();
+            System.out.println("We are in default content");
+        } catch (Exception e) {
+            System.out.println("Still in parent frame");
+        }
+
     }
 
 
