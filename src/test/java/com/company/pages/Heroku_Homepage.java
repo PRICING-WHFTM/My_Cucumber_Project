@@ -37,4 +37,6 @@ public class Heroku_Homepage {
     public WebElement formAuthentication;
     @FindBy(linkText = "Frames")
     public WebElement frames;
+    @FindBy(linkText = "Hovers")
+    public WebElement hovers;
 }
