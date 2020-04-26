@@ -1371,17 +1371,17 @@ formatter.uri("file:src/test/resources/features/Frames.feature");
 formatter.feature({
   "name": "Checking frames , simple frame",
   "description": "",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "name": "Simple frame in the page",
-  "description": "",
-  "keyword": "Scenario",
+  "keyword": "Feature",
   "tags": [
     {
       "name": "@IH-11"
     }
   ]
+});
+formatter.background({
+  "name": "Pre-conditions for both scenario",
+  "description": "",
+  "keyword": "Background"
 });
 formatter.before({
   "status": "passed"
@@ -1416,6 +1416,19 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.scenario({
+  "name": "Simple frame in the page",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@IH-11"
+    },
+    {
+      "name": "@IH-11"
+    }
+  ]
+});
 formatter.step({
   "name": "I click iFrame",
   "keyword": "When "
@@ -1447,11 +1460,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I clear the exicting text and write \"Hello World\"",
+  "name": "I clear the existing text and write \"Hello World\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "com.company.step_definitions.Frames_steps.i_clear_the_exicting_text_and_write(java.lang.String)"
+  "location": "com.company.step_definitions.Frames_steps.i_clear_the_existing_text_and_write(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1462,6 +1475,110 @@ formatter.step({
 });
 formatter.match({
   "location": "com.company.step_definitions.Frames_steps.text_should_e_changed_to(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Pre-conditions for both scenario",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am in HomePage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.company.step_definitions.AddRemoveModule.i_am_in_HomePage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click frame",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Frames_steps.i_click_frame()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see \"Nested Frames\" and \"iFrame\" the page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Frames_steps.i_should_see_and_the_page(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Nested frame",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@IH-11"
+    },
+    {
+      "name": "@IH-11"
+    }
+  ]
+});
+formatter.step({
+  "name": "I click nested frames",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Frames_steps.i_click_nested_frames()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "2 nested frames should appear on the page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Frames_steps.nested_frames_should_appear_on_the_page(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be able to switch to parent frame",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Frames_steps.i_should_be_able_to_switch_to_parent_frame()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be able to switch to middle frame",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Frames_steps.i_should_be_able_to_switch_to_middle_frame()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be able to switch back to parent frame and back to main webpage",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Frames_steps.i_should_be_able_to_switch_back_to_parent_frame_and_back_to_main_webpage()"
 });
 formatter.result({
   "status": "passed"
