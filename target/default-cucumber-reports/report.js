@@ -1586,6 +1586,83 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.uri("file:src/test/resources/features/Hovers.feature");
+formatter.feature({
+  "name": "Hover on elements",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "Hover on elements and get values",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@IH-12"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am in HomePage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.company.step_definitions.AddRemoveModule.i_am_in_HomePage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click hovers",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Hovers_steps.i_click_hovers()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should land to hovers page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Hovers_steps.i_should_land_to_hovers_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I hover to images",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Hovers_steps.i_hover_to_images()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be able to read the texts under the images",
+  "rows": [
+    {},
+    {},
+    {}
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.company.step_definitions.Hovers_steps.i_should_be_able_to_read_the_texts_under_the_images(java.util.List\u003cjava.lang.String\u003e)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 formatter.uri("file:src/test/resources/features/Login_DDT.feature");
 formatter.feature({
   "name": "Login Data Driven",

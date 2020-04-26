@@ -13,6 +13,7 @@ C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\runner
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\Frames_steps.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\EntryAd.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\runners\Re_runner.java
+C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\Hovers_steps.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\DynamicControls.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\CheckBoxes.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\AddRemoveElements.java
@@ -30,6 +31,7 @@ C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_d
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\CheckboxesPage.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\FormAuthentication_steps.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\LoginPage.java
+C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\pages\Hovers.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\step_definitions\DynamicControls_steps.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\utilities\DriverUtil.java
 C:\Users\salma\IdeaProjects\My_Cucumber-project\src\test\java\com\company\utilities\ConfigReader.java
