@@ -3,17 +3,18 @@ package com.company.step_definitions;
 import com.company.pages.MapRoom;
 import com.company.pages.Sign_In;
 import com.company.utilities.BrowserUtils;
-import com.company.utilities.DBUtils;
+import com.company.utilities.DBUtil;
 import com.company.utilities.DriverUtil;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Mapdetails_steps {
+public class MapDetails_steps {
     WebDriver driver;
     ResultSet resultset;
 
@@ -38,15 +39,13 @@ public class Mapdetails_steps {
     }
 
     @Then("In DB I should see the {string} room")
-    public void in_DB_I_should_see_the_room(String string) throws Exception {
-        ResultSet res = DBUtils.runSQLQuery("Select *from room");
-        List<String> allRoomName = new ArrayList<>();
-        while (res.next()) {
-            allRoomName.add(res.getString("name"));
-        }
-        System.out.println(allRoomName);
-        Assert.assertTrue(allRoomName.contains(string));
-        DBUtils.destroy();
+    public void in_DB_I_should_see_the_room(String string) throws SQLException {
+        DBUtil.createConnectionToRoomDB();
+        String query = "Select * from room;";
+        List<String> allRoomNames = DBUtil.executeQueryAndGetColumnValues(query, "name");
+        System.out.println(allRoomNames);
+        Assert.assertTrue(allRoomNames.contains(string));
+        DBUtil.destroy();
     }
 
 

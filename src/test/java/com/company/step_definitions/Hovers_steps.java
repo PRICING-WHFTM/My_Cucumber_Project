@@ -46,6 +46,7 @@ public class Hovers_steps {
     public void i_should_be_able_to_read_the_texts_under_the_images(List<String> dataTable) {
         // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
         Assert.assertTrue(userNames.containsAll(dataTable));
+        System.out.println(dataTable);
 
     }
 

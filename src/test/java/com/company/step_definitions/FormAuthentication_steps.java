@@ -28,9 +28,9 @@ public class FormAuthentication_steps {
 
     @When("I enter the following data for login")
     public void i_enter_the_following_data_for_login(List<Map<String, String>> dataTable) {
-        // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
-        formAuthentication.username.sendKeys(dataTable.get(0).get("username"));
-        formAuthentication.password.sendKeys(dataTable.get(0).get("password"));
+        // List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+        formAuthentication.username.sendKeys(dataTable.get(1).get("username")); //tomsmith
+        formAuthentication.password.sendKeys(dataTable.get(1).get("password")); //SuperSecretPassword!
 
     }
 
