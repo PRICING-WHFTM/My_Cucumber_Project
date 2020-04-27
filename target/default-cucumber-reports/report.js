@@ -1274,6 +1274,33 @@ formatter.scenario({
   "tags": [
     {
       "name": "@IH-10"
+    },
+    {
+      "name": "#"
+    },
+    {
+      "name": "|"
+    },
+    {
+      "name": "tomsmith"
+    },
+    {
+      "name": "|"
+    },
+    {
+      "name": "SuperSecretPassword!"
+    },
+    {
+      "name": "|"
+    },
+    {
+      "name": "will"
+    },
+    {
+      "name": "be"
+    },
+    {
+      "name": "list.get(1).get(\"username\")"
     }
   ]
 });
@@ -1313,6 +1340,7 @@ formatter.result({
 formatter.step({
   "name": "I enter the following data for login",
   "rows": [
+    {},
     {},
     {}
   ],
@@ -1883,7 +1911,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "com.company.step_definitions.Mapdetails_steps.user_is_in_the_login_page()"
+  "location": "com.company.step_definitions.MapDetails_steps.user_is_in_the_login_page()"
 });
 formatter.result({
   "status": "passed"
@@ -1893,7 +1921,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "com.company.step_definitions.Mapdetails_steps.user_logs_in_with_username_and_password(java.lang.String,java.lang.String)"
+  "location": "com.company.step_definitions.MapDetails_steps.user_logs_in_with_username_and_password(java.lang.String,java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1903,7 +1931,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.company.step_definitions.Mapdetails_steps.user_should_be_able_to_see_room(java.lang.String)"
+  "location": "com.company.step_definitions.MapDetails_steps.user_should_be_able_to_see_room(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1913,7 +1941,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.company.step_definitions.Mapdetails_steps.in_DB_I_should_see_the_room(java.lang.String)"
+  "location": "com.company.step_definitions.MapDetails_steps.in_DB_I_should_see_the_room(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
