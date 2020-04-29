@@ -3,42 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/cucumber.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/Chart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/pages/MapRoom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/pages/Sign_In.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/runners/CukesRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/step_definitions/Hook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/step_definitions/Mapdetails_steps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/utilities/BrowserUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/utilities/DriverUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Mapdetails.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/MapRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/MapRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/MapDetails_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/MapDetails_steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/DriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/DriverUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Mapdetails.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Mapdetails.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/-2020-04-21-16-58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/-2020-04-21-17-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Entering Data from data table;-2020-04-26-17-30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/HTML alert testing-2020-04-21-20-28.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -88,7 +66,7 @@
       <recent name="C:\Users\salma\IdeaProjects\Cucumber-project\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Mapdetails">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Open new Account">
     <configuration name="Feature: Hovers" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Hovers.feature" />
@@ -147,15 +125,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Hover on elements and get values" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Open new Account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Hovers.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/PHP_createAnAccount.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Hover on elements and get values$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Hover on elements and get values$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Hover on elements and get values" />
+      <option name="NAME_FILTER" value="^Open new Account$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Open new Account$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Open new Account" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -184,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Open new Account" />
         <item itemvalue="Cucumber Java.Feature: Mapdetails" />
+        <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="Cucumber Java.Feature: Hovers" />
         <item itemvalue="Cucumber Java.Scenario: Entering Data from data table;" />
-        <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Hover on elements and get values" />
       </list>
     </recent_temporary>
   </component>
@@ -210,10 +188,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="238" y="0" key="#CukesRunner/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1584306972305" />
-    <state x="233" y="0" key="#Notifications" timestamp="1587361789220">
+    <state x="233" y="0" key="#Notifications" timestamp="1588126567960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="0" key="#Notifications/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587361789220" />
+    <state x="233" y="0" key="#Notifications/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588126567960" />
     <state x="233" y="0" key="#Notifications/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1583473942290" />
     <state x="233" y="0" key="#Project_Structure" timestamp="1582867564377">
       <screen x="0" y="0" width="1280" height="680" />
@@ -224,6 +202,10 @@
     </state>
     <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587448294778" />
     <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1584165803505" />
+    <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1588128345531">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588128345531" />
     <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586666950436">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -252,31 +234,31 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1237" height="244" key="GridCell.Tab.0.bottom" timestamp="1587944991384">
+    <state width="1237" height="238" key="GridCell.Tab.0.bottom" timestamp="1588135485916">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="244" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587944991384" />
+    <state width="1237" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588135485916" />
     <state width="1431" height="304" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384700" />
     <state width="1222" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="185" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587533835425" />
-    <state width="1237" height="244" key="GridCell.Tab.0.center" timestamp="1587944991384">
+    <state width="1237" height="238" key="GridCell.Tab.0.center" timestamp="1588135485916">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="244" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587944991384" />
+    <state width="1237" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588135485916" />
     <state width="1431" height="304" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384699" />
     <state width="1222" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="185" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587533835424" />
-    <state width="1237" height="244" key="GridCell.Tab.0.left" timestamp="1587944991384">
+    <state width="1237" height="238" key="GridCell.Tab.0.left" timestamp="1588135485916">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="244" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587944991384" />
+    <state width="1237" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588135485916" />
     <state width="1431" height="304" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384699" />
     <state width="1222" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="185" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587533835424" />
-    <state width="1237" height="244" key="GridCell.Tab.0.right" timestamp="1587944991384">
+    <state width="1237" height="238" key="GridCell.Tab.0.right" timestamp="1588135485916">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="244" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587944991384" />
+    <state width="1237" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588135485916" />
     <state width="1431" height="304" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1586671384700" />
     <state width="1222" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="185" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587533835425" />
@@ -304,16 +286,16 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="316" y="40" key="NewModule_or_Project.wizard/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486702087" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1587527236808">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1587957939115">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587527236808" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587957939115" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585635680534" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587190720489" />
-    <state x="336" y="72" width="609" height="536" key="find.popup" timestamp="1586674198579">
+    <state x="336" y="72" width="780" height="536" key="find.popup" timestamp="1587954332905">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="72" width="609" height="536" key="find.popup/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586674198579" />
+    <state x="336" y="72" width="780" height="536" key="find.popup/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587954332905" />
     <state x="336" y="72" width="609" height="536" key="find.popup/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1583046402247" />
     <state x="91" y="36" key="new project wizard" timestamp="1586486653539">
       <screen x="0" y="0" width="1280" height="680" />

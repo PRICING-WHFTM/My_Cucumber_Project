@@ -27,7 +27,8 @@ public class DriverUtil {
     private static ThreadLocal<WebDriver> driverPool = new ThreadLocal<>();// instead we can use just WebDriver driver ;
     private static String userName = "Xose";
     private static String accessKey = "20391271";
-    private static final String URL = "https://" + userName + ":" + accessKey + "@hub-cloud.browserstack.com/wd/hub";
+    private static final String URL = "https://" + userName + ":" + accessKey
+            + "@hub-cloud.browserstack.com/wd/hub";
 
 
     private DriverUtil() {

@@ -15,8 +15,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MapDetails_steps {
-    WebDriver driver;
+    private WebDriver driver;
     ResultSet resultset;
+
+    Sign_In sign_in = new Sign_In();
+    MapRoom mapRoom = new MapRoom();
 
     @Given("User is in the login page")
     public void user_is_in_the_login_page() {
@@ -26,16 +29,14 @@ public class MapDetails_steps {
 
     @When("User logs in with username {string} and password {string}")
     public void user_logs_in_with_username_and_password(String string, String string2) {
-        Sign_In sign_in = new Sign_In();
         sign_in.login(string, string2);
     }
 
     @Then("User should be able to see {string} room")
     public void user_should_be_able_to_see_room(String string) {
-        MapRoom mapRoom = new MapRoom();
-        BrowserUtils.waitForVisibility(mapRoom.pingPongRoom);
-        Assert.assertTrue(mapRoom.pingPongRoom.isDisplayed());
-        Assert.assertEquals(mapRoom.pingPongRoom.getText(), string);
+        BrowserUtils.waitForVisibility(mapRoom.denali);
+        Assert.assertTrue(mapRoom.denali.isDisplayed());
+        Assert.assertEquals(mapRoom.denali.getText(), string);
     }
 
     @Then("In DB I should see the {string} room")

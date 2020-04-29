@@ -11,8 +11,8 @@ public class MapRoom {
         PageFactory.initElements(DriverUtil.getDriver(), this);
     }
 
-    @FindBy(xpath = "//span[contains(text(),'ping pong')]")
-    public WebElement pingPongRoom;
+    @FindBy(xpath = "//span[contains(text(),'yale')]")
+    public WebElement denali;
 
 
 

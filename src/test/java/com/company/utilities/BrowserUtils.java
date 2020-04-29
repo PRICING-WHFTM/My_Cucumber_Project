@@ -1,6 +1,7 @@
 package com.company.utilities;
 
 import org.apache.commons.io.FileUtils;
+import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
 
@@ -53,10 +54,11 @@ public class BrowserUtils {
      * @param element
      * @return
      */
-    public static void waitForVisibility(WebElement element) {
+    public static WebElement waitForVisibility(WebElement element) {
         WebDriverWait wait = new WebDriverWait(DriverUtil.getDriver(), 15);
-        wait.until(ExpectedConditions.visibilityOf(element));
+        return wait.until(ExpectedConditions.visibilityOf(element));
     }
+
     /**
      * Clicks on an element using JavaScript
      *
@@ -70,15 +72,24 @@ public class BrowserUtils {
     /**
      * Waits for provided element to be clickable
      */
-    public static void waitForClickablility(WebElement element) {
+    public static WebElement waitForClickablility(WebElement element) {
         WebDriverWait wait = new WebDriverWait(DriverUtil.getDriver(), 15);
-        wait.until(ExpectedConditions.elementToBeClickable(element));
+        return wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
     public static void waitFor_In_Visible(WebElement element) {
         WebDriverWait wait = new WebDriverWait(DriverUtil.getDriver(), 10);
         wait.until(ExpectedConditions.invisibilityOf(element));
 
+    }
+
+    public static void verifyElementDisplayed(WebElement element) {
+        try {
+            Assert.assertTrue(element.isDisplayed());
+        } catch (NoSuchElementException e) {
+            Assert.fail("Element not found: ");
+
+        }
     }
 
     /*
@@ -108,26 +119,17 @@ public class BrowserUtils {
      *
      * @param webElement of element
      */
-    public static void clickWithWait(WebElement webElement) {
-        Wait wait = new FluentWait<>(DriverUtil.getDriver())
-                .withTimeout(Duration.ofSeconds(15))
-                .pollingEvery(Duration.ofMillis(800))
-                .ignoring(NoSuchElementException.class)
-                .ignoring(ElementNotVisibleException.class)
-                .ignoring(ElementClickInterceptedException.class)
-                .ignoring(StaleElementReferenceException.class)
-                .ignoring(WebDriverException.class);
-        WebElement element = (WebElement) wait.until((Function<WebDriver, WebElement>) driver -> webElement);
-        try {
-            element.click();
-        } catch (WebDriverException e) {
-            System.out.println(e.getMessage());
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException ex) {
-                ex.printStackTrace();
+    public static WebElement fluentWait(final WebElement webElement, int timeinsec) {
+        FluentWait<WebDriver> wait = new FluentWait<WebDriver>(DriverUtil.getDriver())
+                .withTimeout(Duration.ofSeconds(timeinsec))
+                .pollingEvery(Duration.ofMillis(500))
+                .ignoring(NoSuchElementException.class);
+        WebElement element = wait.until(new Function<WebDriver, WebElement>() {
+            public WebElement apply(WebDriver driver) {
+                return webElement;
             }
-        }
+        });
+        return element;
     }
 
     /**
