@@ -11,9 +11,9 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/company/step_definitions",
         monochrome = true,
-        strict = true,
+        strict = false,
         dryRun = false,
-        //tags = {"@IH-12"},    //always comment out after running by tags
+        //tags = {"@register"},    //always comment out after running by tags
         plugin = {"html:target/default-cucumber-reports",
                 "json:target/cucumber.json",
                 "rerun:target/rerun.txt"})
