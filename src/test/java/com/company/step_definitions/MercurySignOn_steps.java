@@ -1,5 +1,6 @@
 package com.company.step_definitions;
 
+import com.company.pages.MercuryFlightFinder;
 import com.company.pages.MercuryHomepage;
 import com.company.pages.MercurySignOn;
 import com.company.utilities.BrowserUtils;
@@ -13,6 +14,7 @@ public class MercurySignOn_steps {
     private WebDriver driver = DriverUtil.getDriver();
     MercuryHomepage homepage = new MercuryHomepage();
     MercurySignOn signOn = new MercurySignOn();
+    MercuryFlightFinder flightFinder = new MercuryFlightFinder();
 
     @When("I click signOn in the page")
     public void i_click_signOn_in_the_page() {
@@ -31,8 +33,8 @@ public class MercurySignOn_steps {
 
     @Then("I should see continue button present in the page")
     public void i_should_see_continue_button_present_in_the_page() {
-        BrowserUtils.waitForVisibility(signOn.continueBtn);
-        Assert.assertTrue(signOn.continueBtn.isDisplayed());
+        BrowserUtils.waitForVisibility(flightFinder.continueBtn);
+        Assert.assertTrue(flightFinder.continueBtn.isDisplayed());
     }
 
 }

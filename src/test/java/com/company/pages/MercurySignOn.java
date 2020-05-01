@@ -12,8 +12,7 @@ public class MercurySignOn {
         PageFactory.initElements(DriverUtil.getDriver(), this);
     }
 
-    @FindBy(xpath = "//input[@name='findFlights']")
-    public WebElement continueBtn;
+
     @FindBy(xpath = "//input[@name='login']")
     public WebElement submitBtn;
     @FindBy(xpath = "//input[@name='userName']")
