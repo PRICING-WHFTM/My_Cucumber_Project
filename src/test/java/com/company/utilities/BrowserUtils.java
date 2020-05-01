@@ -3,15 +3,14 @@ package com.company.utilities;
 import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 import org.openqa.selenium.*;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.support.ui.*;
 
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 import java.util.function.Function;
 
 public class BrowserUtils {
@@ -175,5 +174,19 @@ public class BrowserUtils {
         }
         return listOfStrings;
     }
+
+    public static String get_Month() {
+        Date date = new Date();
+        SimpleDateFormat formatter = new SimpleDateFormat("MMMMMMMMM");
+        return formatter.format(date);
+    }
+
+    public static String get_Day() {
+        Calendar calendar = Calendar.getInstance(TimeZone.getDefault());
+        Date date = calendar.getTime();
+        int day = calendar.get(Calendar.DATE);
+        return "" + day;
+    }
+
 
 }
