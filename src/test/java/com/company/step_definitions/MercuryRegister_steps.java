@@ -1,7 +1,7 @@
 package com.company.step_definitions;
 
-import com.company.pages.MercuryHomepage;
-import com.company.pages.MercuryRegister;
+import com.company.pages.Mercury_Homepage;
+import com.company.pages.Mercury_Register;
 import com.company.utilities.ConfigReader;
 import com.company.utilities.DriverUtil;
 import io.cucumber.java.en.Given;
@@ -13,8 +13,8 @@ import org.openqa.selenium.WebDriver;
 public class MercuryRegister_steps {
 
     private WebDriver driver = DriverUtil.getDriver();
-    MercuryHomepage homepage = new MercuryHomepage();
-    MercuryRegister register = new MercuryRegister();
+    Mercury_Homepage homepage = new Mercury_Homepage();
+    Mercury_Register register = new Mercury_Register();
 
     @Given("I am in mercury homepage")
     public void i_am_in_mercury_homepage() {

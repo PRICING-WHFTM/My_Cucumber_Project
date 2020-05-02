@@ -7,14 +7,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class MercuryRegister {
+public class Mercury_Register {
     Faker faker;
     public String name;
     public String lastName;
     public String email;
     public String password;
 
-    public MercuryRegister() {
+    public Mercury_Register() {
         PageFactory.initElements(DriverUtil.getDriver(), this);
     }
 

@@ -11,9 +11,9 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MercuryFlightFinder {
+public class Mercury_FlightFinder {
 
-    public MercuryFlightFinder() {
+    public Mercury_FlightFinder() {
         PageFactory.initElements(DriverUtil.getDriver(), this);
     }
 
@@ -68,21 +68,22 @@ public class MercuryFlightFinder {
         Assert.assertEquals(select.getFirstSelectedOption().getText(), "Acapulco");
         select.selectByVisibleText(visibleText);
         Assert.assertEquals(select.getFirstSelectedOption().getText(), visibleText);
-        System.out.println("selected as departing from : " + visibleText);
+        System.out.println("selected departing from : " + visibleText);
     }
 
     public void selectDateOfDeparture(String month, String day) {
         Select selectMonth = new Select(fromMonthDropdown);
-
-        //Assert.assertEquals(selectMonth.getFirstSelectedOption().getText(),BrowserUtils.get_Month());
+        Assert.assertEquals(selectMonth.getFirstSelectedOption().getText(), BrowserUtils.get_Month());
+        System.out.println("Current Month is " + BrowserUtils.get_Month());
         selectMonth.selectByVisibleText(month);
         Assert.assertEquals(selectMonth.getFirstSelectedOption().getText(), month);
-        System.out.println("selected departure month :" + month);
+        System.out.println("selected departure month : " + month);
         Select selectDay = new Select(fromDayDropdown);
-        // Assert.assertEquals(selectDay.getFirstSelectedOption().getText(), BrowserUtils.get_Day());
+        Assert.assertEquals(selectDay.getFirstSelectedOption().getText(), BrowserUtils.get_Day());
+        System.out.println("Current day is " + BrowserUtils.get_Day());
         selectDay.selectByVisibleText(day);
         Assert.assertEquals(selectDay.getFirstSelectedOption().getText(), day);
-        System.out.println("selected departure day:" + day);
+        System.out.println("selected departure day : " + day);
     }
 
     public void selectArrivingInLocation(String value) {
@@ -90,20 +91,20 @@ public class MercuryFlightFinder {
         Assert.assertEquals(selectArrivingLocation.getFirstSelectedOption().getText(), "Acapulco");
         selectArrivingLocation.selectByVisibleText(value);
         Assert.assertEquals(selectArrivingLocation.getFirstSelectedOption().getText(), value);
-        System.out.println("selected arriving in :" + value);
+        System.out.println("selected arriving in : " + value);
     }
 
     public void selectDateOfReturning(String month, String day) {
         Select selectToMonth = new Select(toMonthDropdown);
-        //Assert.assertEquals(selectToMonth.getFirstSelectedOption().getText(), BrowserUtils.get_Month());
+        Assert.assertEquals(selectToMonth.getFirstSelectedOption().getText(), BrowserUtils.get_Month());
         selectToMonth.selectByVisibleText(month);
         Assert.assertEquals(selectToMonth.getFirstSelectedOption().getText(), month);
-        System.out.println("selected arriving month : " + month);
+        System.out.println("selected returning month : " + month);
         Select selectToDay = new Select(toDayDropdown);
-        //Assert.assertEquals(selectToDay.getFirstSelectedOption().getText(), BrowserUtils.get_Day());
+        Assert.assertEquals(selectToDay.getFirstSelectedOption().getText(), BrowserUtils.get_Day());
         selectToDay.selectByVisibleText(day);
         Assert.assertEquals(selectToDay.getFirstSelectedOption().getText(), day);
-        System.out.println("selected month : " + day);
+        System.out.println("selected returning day : " + day);
     }
 
     public void selectServClass(int option) {
@@ -112,11 +113,11 @@ public class MercuryFlightFinder {
         }
         Assert.assertTrue(servClassList.get(option - 1).isSelected());
         if (option == 1) {
-            System.out.println("Selected servClass is Economy Class");
+            System.out.println("Selected servClass is : Economy Class");
         } else if (option == 2) {
-            System.out.println("Selected servClass is Business Class");
+            System.out.println("Selected servClass is : Business Class");
         } else if (option == 3) {
-            System.out.println("Selected servClass is First Class");
+            System.out.println("Selected servClass is : First Class");
         }
     }
 

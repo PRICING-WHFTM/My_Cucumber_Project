@@ -6,9 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class MercurySignOn {
+public class Mercury_SignOn {
 
-    public MercurySignOn() {
+    public Mercury_SignOn() {
         PageFactory.initElements(DriverUtil.getDriver(), this);
     }
 

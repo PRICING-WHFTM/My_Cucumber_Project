@@ -1,8 +1,9 @@
 package com.company.step_definitions;
 
-import com.company.pages.MercuryFlightFinder;
-import com.company.pages.MercuryHomepage;
-import com.company.pages.MercurySignOn;
+import com.company.pages.Mercury_FlightFinder;
+import com.company.pages.Mercury_Homepage;
+import com.company.pages.Mercury_SelectFlight;
+import com.company.pages.Mercury_SignOn;
 import com.company.utilities.DriverUtil;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -12,9 +13,10 @@ import org.openqa.selenium.WebDriver;
 
 public class MercuryBuyingTicket {
     private WebDriver driver = DriverUtil.getDriver();
-    MercuryHomepage homepage = new MercuryHomepage();
-    MercurySignOn signOn = new MercurySignOn();
-    MercuryFlightFinder flightFinder = new MercuryFlightFinder();
+    Mercury_Homepage homepage = new Mercury_Homepage();
+    Mercury_SignOn signOn = new Mercury_SignOn();
+    Mercury_FlightFinder flightFinder = new Mercury_FlightFinder();
+    Mercury_SelectFlight selectFlight = new Mercury_SelectFlight();
 
     @Given("I logged in the account")
     public void i_logged_in_the_account() {
@@ -40,7 +42,7 @@ public class MercuryBuyingTicket {
 
     @When("I select departing month and date")
     public void i_select_departing_month_and_date() {
-        flightFinder.selectDateOfDeparture("May", "13");
+        flightFinder.selectDateOfDeparture("June", "13");
     }
 
     @When("I select arriving location")
@@ -50,7 +52,7 @@ public class MercuryBuyingTicket {
 
     @When("I select returning month and date")
     public void i_select_returning_month_and_date() {
-        flightFinder.selectDateOfReturning("June", "15");
+        flightFinder.selectDateOfReturning("July", "15");
     }
 
     @When("I select service class")
@@ -73,5 +75,20 @@ public class MercuryBuyingTicket {
         Assert.assertTrue(driver.getPageSource().contains(string));
     }
 
+    @When("I choose depart and return flight")
+    public void i_choose_depart_and_return_flight() {
+        selectFlight.selectDepartAirline(4);
+    }
+
+    @When("I click continue button in select flight page")
+    public void i_click_continue_button_in_select_flight_page() {
+        selectFlight.selectReturnAirline(8);
+        selectFlight.continueBtn.click();
+    }
+
+    @Then("I should be abe to see {string} test in the next page")
+    public void i_should_be_abe_to_see_test_in_the_next_page(String string) {
+        Assert.assertTrue(driver.getPageSource().contains(string));
+    }
 
 }
