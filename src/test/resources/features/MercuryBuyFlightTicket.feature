@@ -1,6 +1,7 @@
 Feature: Buy new Flight ticket
 
-  Scenario: Buying nef Flight ticket step by step
+  @buyflight
+  Scenario: Buying new Flight ticket step by step
     Given I am in mercury homepage
     And I logged in the account
     When I select trip type
@@ -13,4 +14,7 @@ Feature: Buy new Flight ticket
     And I select airline
     When I click continue button in the page
     Then I should see "DEPART" text in the page
+    When I choose depart and return flight
+    And I click continue button in select flight page
+    Then I should be abe to see "Summary" test in the next page
 

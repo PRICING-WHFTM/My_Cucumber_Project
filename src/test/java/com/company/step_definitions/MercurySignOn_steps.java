@@ -1,8 +1,8 @@
 package com.company.step_definitions;
 
-import com.company.pages.MercuryFlightFinder;
-import com.company.pages.MercuryHomepage;
-import com.company.pages.MercurySignOn;
+import com.company.pages.Mercury_FlightFinder;
+import com.company.pages.Mercury_Homepage;
+import com.company.pages.Mercury_SignOn;
 import com.company.utilities.BrowserUtils;
 import com.company.utilities.DriverUtil;
 import io.cucumber.java.en.Then;
@@ -12,9 +12,9 @@ import org.openqa.selenium.WebDriver;
 
 public class MercurySignOn_steps {
     private WebDriver driver = DriverUtil.getDriver();
-    MercuryHomepage homepage = new MercuryHomepage();
-    MercurySignOn signOn = new MercurySignOn();
-    MercuryFlightFinder flightFinder = new MercuryFlightFinder();
+    Mercury_Homepage homepage = new Mercury_Homepage();
+    Mercury_SignOn signOn = new Mercury_SignOn();
+    Mercury_FlightFinder flightFinder = new Mercury_FlightFinder();
 
     @When("I click signOn in the page")
     public void i_click_signOn_in_the_page() {
