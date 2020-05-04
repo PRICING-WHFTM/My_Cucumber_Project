@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Mercury_SelectFlight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/MercuryFlightConfirmation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Mercury_BookFlight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/MercuryFlightFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Mercury_FlightFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/MercuryHomepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Mercury_Homepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/MercuryRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Mercury_Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/MercurySignOn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Mercury_SignOn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/MercuryBuyingTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/MercuryBuyingTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/MercuryRegister_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/MercuryRegister_steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/MercurySignOn_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/MercurySignOn_steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Mercury_FlightFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Mercury_FlightFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/MercuryBuyingTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/MercuryBuyingTicket_steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/MercuryBuyFlightTicket.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MercuryBuyFlightTicket.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying nef Flight ticket step by step-2020-04-30-23-45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying nef Flight ticket step by step-2020-04-30-23-52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying nef Flight ticket step by step-2020-04-30-23-57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying nef Flight ticket step by step-2020-04-30-23-59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying nef Flight ticket step by step-2020-05-01-00-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying nef Flight ticket step by step-2020-05-01-00-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying nef Flight ticket step by step-2020-05-01-00-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying nef Flight ticket step by step-2020-05-01-00-08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying nef Flight ticket step by step-2020-05-01-00-10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying nef Flight ticket step by step-2020-05-01-00-15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Registering new user with random data-2020-04-29-21-21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Registering new user with random data-2020-04-29-21-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Simple frame in the page-2020-04-30-14-47.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +58,7 @@
       <recent name="C:\Users\salma\IdeaProjects\Cucumber-project\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CukesRunner">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Buying new Flight ticket step by step">
     <configuration name="Scenario: Buying nef Flight ticket step by step" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MercuryBuyFlightTicket.feature" />
@@ -98,15 +79,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Mercury SignOn" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Buying new Flight ticket step by step" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MercurySignOn.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MercuryBuyFlightTicket.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Mercury SignOn$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Mercury SignOn$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Mercury SignOn" />
+      <option name="NAME_FILTER" value="^Buying new Flight ticket step by step$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Buying new Flight ticket step by step$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Buying new Flight ticket step by step" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -118,15 +99,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Open new Account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Mercury SignOn" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/PHP_createAnAccount.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MercurySignOn.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Open new Account$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Open new Account$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Open new Account" />
+      <option name="NAME_FILTER" value="^Mercury SignOn$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Mercury SignOn$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Mercury SignOn" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -175,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Buying new Flight ticket step by step" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="Cucumber Java.Scenario: Buying nef Flight ticket step by step" />
         <item itemvalue="Cucumber Java.Scenario: Mercury SignOn" />
         <item itemvalue="Cucumber Java.Scenario: Registering new user with random data" />
-        <item itemvalue="Cucumber Java.Scenario: Open new Account" />
       </list>
     </recent_temporary>
   </component>
@@ -247,32 +228,32 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1431" height="424" key="GridCell.Tab.0.bottom" timestamp="1588391486065">
-      <screen x="1920" y="0" width="1474" height="864" />
+    <state width="1237" height="297" key="GridCell.Tab.0.bottom" timestamp="1588569068822">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="164" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588309451257" />
-    <state width="1431" height="424" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588391486065" />
+    <state width="1237" height="297" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588569068822" />
+    <state width="1431" height="424" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="212" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588148374961" />
-    <state width="1431" height="424" key="GridCell.Tab.0.center" timestamp="1588391486065">
-      <screen x="1920" y="0" width="1474" height="864" />
+    <state width="1237" height="297" key="GridCell.Tab.0.center" timestamp="1588569068822">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="164" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588309451257" />
-    <state width="1431" height="424" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588391486065" />
+    <state width="1237" height="297" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588569068822" />
+    <state width="1431" height="424" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="212" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588148374961" />
-    <state width="1431" height="424" key="GridCell.Tab.0.left" timestamp="1588391486065">
-      <screen x="1920" y="0" width="1474" height="864" />
+    <state width="1237" height="297" key="GridCell.Tab.0.left" timestamp="1588569068822">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="164" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588309451257" />
-    <state width="1431" height="424" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588391486065" />
+    <state width="1237" height="297" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588569068822" />
+    <state width="1431" height="424" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="212" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588148374961" />
-    <state width="1431" height="424" key="GridCell.Tab.0.right" timestamp="1588391486065">
-      <screen x="1920" y="0" width="1474" height="864" />
+    <state width="1237" height="297" key="GridCell.Tab.0.right" timestamp="1588569068822">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="164" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588309451257" />
-    <state width="1431" height="424" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588391486065" />
+    <state width="1237" height="297" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588569068822" />
+    <state width="1431" height="424" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="212" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588148374961" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586677708995">

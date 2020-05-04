@@ -57,9 +57,9 @@ public class Mercury_FlightFinder {
 
     public void selectCountOfPassengers(String value) {
         Select select = new Select(passengersDropdown);
-        Assert.assertEquals(select.getFirstSelectedOption().getText(), "1 ");
+        Assert.assertEquals(select.getFirstSelectedOption().getText().trim(), "1");
         select.selectByVisibleText(value);
-        Assert.assertEquals(select.getFirstSelectedOption().getText(), value + " ");
+        Assert.assertEquals(select.getFirstSelectedOption().getText().trim(), value);
         System.out.println("selected count of passenger : " + value);
     }
 
