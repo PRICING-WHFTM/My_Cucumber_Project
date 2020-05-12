@@ -39,4 +39,7 @@ public class Heroku_Homepage {
     public WebElement frames;
     @FindBy(linkText = "Hovers")
     public WebElement hovers;
+    @FindBy(linkText = "JQuery UI Menus")
+    public WebElement jQuery;
+
 }

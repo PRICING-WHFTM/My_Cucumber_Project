@@ -28,7 +28,7 @@ public class FileDownload_steps {
     @Then("I should be able to see {int} elements in the page")
     public void i_should_be_able_to_see_elements_in_the_page(int int1) {
         filesList = driver.findElements(By.tagName("a"));
-        // Assert.assertEquals(filesList.size(), int1);
+         //Assert.assertEquals(filesList.size(), int1);
     }
 
     @When("I click {string}")
