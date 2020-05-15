@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/JqueryUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/JQueryUI_steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/JQueryUI.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Inputs_increment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Inputs_increments_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Inputs_Increment.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/FileDownload_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/FileDownload_steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/JQueryUI_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/JQueryUI_steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/JQueryUI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/JQueryUI.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-17-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-17-27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-17-28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-18-06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-18-07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-18-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-18-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-18-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-18-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-19-31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-19-33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-19-43.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,16 +73,36 @@
       <recent name="C:\Users\salma\IdeaProjects\Cucumber-project\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Buying new Flight ticket step by step">
-    <configuration name="Scenario: Buying nef Flight ticket step by step" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: JQueryUI elements">
+    <configuration name="Scenario: Adding by incrementing and decrementing" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MercuryBuyFlightTicket.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Inputs_Increment.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Buying nef Flight ticket step by step$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Buying nef Flight ticket step by step$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Buying nef Flight ticket step by step" />
+      <option name="NAME_FILTER" value="^Adding by incrementing and decrementing$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Adding by incrementing and decrementing$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Adding by incrementing and decrementing" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Adding by incrementing nd decrementing" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Inputs_Increment.feature" />
+      <option name="GLUE" value="com.company.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="My_Cucumber-project" />
+      <option name="NAME_FILTER" value="^Adding by incrementing nd decrementing$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Adding by incrementing nd decrementing$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Adding by incrementing nd decrementing" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -119,43 +154,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Place order E2E" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Shopping.feature" />
+      <option name="GLUE" value="com.company.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
+      <option name="NAME_FILTER" value="^Place order E2E$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Place order E2E$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Place order E2E" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.runners.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.company.runners" />
-      <option name="MAIN_CLASS_NAME" value="com.company.runners.CukesRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Re_runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="My_Cucumber-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company.runners" />
-      <option name="MAIN_CLASS_NAME" value="com.company.runners.Re_runner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Buying new Flight ticket step by step" />
         <item itemvalue="Cucumber Java.Scenario: JQueryUI elements" />
-        <item itemvalue="JUnit.Re_runner" />
-        <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Buying nef Flight ticket step by step" />
+        <item itemvalue="Cucumber Java.Scenario: Adding by incrementing and decrementing" />
+        <item itemvalue="Cucumber Java.Scenario: Adding by incrementing nd decrementing" />
+        <item itemvalue="Cucumber Java.Scenario: Buying new Flight ticket step by step" />
+        <item itemvalue="Cucumber Java.Scenario: Place order E2E" />
       </list>
     </recent_temporary>
   </component>
@@ -190,10 +215,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Project_Structure/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1582867564377" />
-    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587448294778">
+    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589565310049">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587448294778" />
+    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589565310049" />
     <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1584165803505" />
     <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1588128345531">
       <screen x="0" y="0" width="1280" height="680" />
@@ -215,10 +240,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1582869890797" />
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587620027808">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589434646093">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587620027808" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589434646093" />
     <state x="370" y="193" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587857622772">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -231,31 +256,31 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1237" height="217" key="GridCell.Tab.0.bottom" timestamp="1589269093266">
+    <state width="1237" height="219" key="GridCell.Tab.0.bottom" timestamp="1589583285286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="217" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589269093266" />
+    <state width="1237" height="219" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589583285286" />
     <state width="1431" height="424" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="212" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588148374961" />
-    <state width="1237" height="217" key="GridCell.Tab.0.center" timestamp="1589269093266">
+    <state width="1237" height="219" key="GridCell.Tab.0.center" timestamp="1589583285286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="217" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589269093266" />
+    <state width="1237" height="219" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589583285286" />
     <state width="1431" height="424" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="212" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588148374961" />
-    <state width="1237" height="217" key="GridCell.Tab.0.left" timestamp="1589269093266">
+    <state width="1237" height="219" key="GridCell.Tab.0.left" timestamp="1589583285286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="217" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589269093266" />
+    <state width="1237" height="219" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589583285286" />
     <state width="1431" height="424" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="212" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588148374961" />
-    <state width="1237" height="217" key="GridCell.Tab.0.right" timestamp="1589269093266">
+    <state width="1237" height="219" key="GridCell.Tab.0.right" timestamp="1589583285286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="217" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589269093266" />
+    <state width="1237" height="219" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589583285286" />
     <state width="1431" height="424" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="212" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588148374961" />
@@ -275,6 +300,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586677708995" />
+    <state x="221" y="84" key="IDE.errors.dialog" timestamp="1589521083943">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="221" y="84" key="IDE.errors.dialog/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589521083943" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1583555512199">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -283,16 +312,16 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="316" y="40" key="NewModule_or_Project.wizard/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486702087" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1587957939115">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1589576578517">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587957939115" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589576578517" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585635680534" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587190720489" />
-    <state x="336" y="72" width="780" height="536" key="find.popup" timestamp="1587954332905">
+    <state x="336" y="72" width="780" height="536" key="find.popup" timestamp="1589568194351">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="72" width="780" height="536" key="find.popup/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587954332905" />
+    <state x="336" y="72" width="780" height="536" key="find.popup/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589568194351" />
     <state x="336" y="72" width="609" height="536" key="find.popup/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1583046402247" />
     <state x="91" y="36" key="new project wizard" timestamp="1586486653539">
       <screen x="0" y="0" width="1280" height="680" />

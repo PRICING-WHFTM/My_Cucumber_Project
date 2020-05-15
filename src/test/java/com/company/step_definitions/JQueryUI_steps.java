@@ -2,8 +2,10 @@ package com.company.step_definitions;
 
 import com.company.pages.Heroku_Homepage;
 import com.company.pages.JqueryUI;
+import com.company.utilities.BrowserUtils;
 import com.company.utilities.ConfigReader;
 import com.company.utilities.DriverUtil;
+import com.company.utilities.JSUtil;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -11,6 +13,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.nio.file.Files;
@@ -22,8 +25,7 @@ public class JQueryUI_steps {
     Heroku_Homepage homepage = new Heroku_Homepage();
     JqueryUI jqueryUI = new JqueryUI();
     Actions actions = new Actions(DriverUtil.getDriver());
-    List<WebElement> insideEnabled;
-    List<WebElement> fileFormats;
+    List<WebElement> formats;
 
     @When("I click jquery")
     public void i_click_jquery() {
@@ -35,43 +37,36 @@ public class JQueryUI_steps {
         Assert.assertNotEquals(DriverUtil.getDriver().getCurrentUrl(), ConfigReader.getProperty("herURL"));
     }
 
-    @When("I click enabled")
-    public void i_click_enabled() {
+    @When("I hover to enabled")
+    public void i_hover_to_enabled() {
         actions.moveToElement(jqueryUI.enabled).build().perform();
+        BrowserUtils.wait(2);
     }
 
+    @When("I hover to downloads")
+    public void i_hover_to_downloads() throws Exception {
+        actions.moveToElement(jqueryUI.downloads).build().perform();
+    }
+
+    // We need to store all bootstrap dropdown elements
+    //here we get xpath of parent ul tag then linked //li //a  to them
     @Then("I should see {int} options there")
     public void i_should_see_options_there(int int1) {
-        insideEnabled = DriverUtil.getDriver().findElements(By.tagName("//body/div/div/div/div/ul/li[2]/ul[1]//li/a"));
-        //Assert.assertEquals(insideEnabled.size(), int1);
+        formats = DriverUtil.getDriver().findElements(By.xpath("//ul[@class='ui-menu ui-widget ui-widget-content ui-front']//ul[@class='ui-menu ui-widget ui-widget-content ui-front']//li/a"));
+        Assert.assertEquals(formats.size(), int1);
     }
 
-    @When("I click downloads")
-    public void i_click_downloads() {
-        for (WebElement element : insideEnabled) {
-            if (element.getAttribute("innerHTML").contentEquals("Downloads")) {
-                actions.moveToElement(element).build().perform();
-            }
-        }
-    }
-
-    @Then("I should see {int} options")
-    public void i_should_see_options(int int1) {
-        // fileFormats = DriverUtil.getDriver().findElements(By.tagName("//ul[@class='ui-menu ui-widget ui-widget-content ui-front']//ul[@class='ui-menu ui-widget ui-widget-content ui-front']//li/a"));
-
-    }
-
-    @When("I click {string} in options")
+    @When("I click {string} in options") //areal hidden
     public void i_click_in_options(String string) {
-        for (WebElement elem : insideEnabled) {
-            if (elem.getAttribute("innerHTML").contentEquals(string)) {
-                actions.moveToElement(elem).build().perform();
-                elem.click();
+        for (int i = 0; i < formats.size(); i++) {
+            System.out.println(formats.get(i).getText());
+            if (formats.get(i).getText().contains(string)) {
+                actions.moveToElement(formats.get(i)).click().build().perform();
                 break;
             }
         }
+        BrowserUtils.wait(2);
     }
-
 
     @Then("It should be downloaded to my computer")
     public void it_should_be_downloaded_to_my_computer() throws AWTException {
@@ -80,7 +75,7 @@ public class JQueryUI_steps {
         String fileName = "menu.pdf";
         String fullPath = "C:\\Users\\salma\\Downloads\\" + fileName;
         Assert.assertTrue(Files.exists(Paths.get(fullPath)));
-    }
 
+    }
 
 }
