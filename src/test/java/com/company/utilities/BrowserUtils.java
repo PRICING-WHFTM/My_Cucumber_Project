@@ -26,8 +26,6 @@ public class BrowserUtils {
 
     /**
      * Waits for element to be not stale
-     *
-     * @param element
      */
     public static void waitForStaleElement(WebElement element) {
         int y = 0;
@@ -49,23 +47,10 @@ public class BrowserUtils {
 
     /**
      * Waits for the provided element to be visible on the page
-     *
-     * @param element
-     * @return
      */
     public static WebElement waitForVisibility(WebElement element) {
         WebDriverWait wait = new WebDriverWait(DriverUtil.getDriver(), 15);
         return wait.until(ExpectedConditions.visibilityOf(element));
-    }
-
-    /**
-     * Clicks on an element using JavaScript
-     *
-     * @param element
-     */
-    public static void clickWithJS(WebElement element) {
-        ((JavascriptExecutor) DriverUtil.getDriver()).executeScript("arguments[0].scrollIntoView(true);", element);
-        ((JavascriptExecutor) DriverUtil.getDriver()).executeScript("arguments[0].click();", element);
     }
 
     /**
@@ -87,7 +72,6 @@ public class BrowserUtils {
             Assert.assertTrue(element.isDisplayed());
         } catch (NoSuchElementException e) {
             Assert.fail("Element not found: ");
-
         }
     }
 
@@ -115,8 +99,6 @@ public class BrowserUtils {
 
     /**
      * Wait 15 seconds with polling interval of 200 milliseconds then click
-     *
-     * @param webElement of element
      */
     public static WebElement fluentWait(final WebElement webElement, int timeinsec) {
         FluentWait<WebDriver> wait = new FluentWait<WebDriver>(DriverUtil.getDriver())
@@ -133,8 +115,6 @@ public class BrowserUtils {
 
     /**
      * waits for backgrounds processes on the browser to complete
-     *
-     * @param timeOutInSeconds
      */
     public static void waitForPageToLoad(long timeOutInSeconds) {
         ExpectedCondition<Boolean> expectation = driver -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete");
@@ -148,32 +128,13 @@ public class BrowserUtils {
 
     /**
      * Wait for proper page title
-     *
-     * @param pageTitle
      */
     public static void waitForPageTitle(String pageTitle) {
         WebDriverWait wait = new WebDriverWait(DriverUtil.getDriver(), 10);
         wait.until(ExpectedConditions.titleIs(pageTitle));
     }
 
-    /**
-     * This method will convert list of WebElements into list of string
-     *
-     * @param listOfWebElements
-     * @return list of strings
-     */
-    public static List<String> getListOfString(List<WebElement> listOfWebElements) {
-        List<String> listOfStrings = new ArrayList<>();
-        for (WebElement element : listOfWebElements) {
-            String value = element.getText().trim();
-            //if there is no text
-            //do not add this blank text into list
-            if (value.length() > 0) {
-                listOfStrings.add(value);
-            }
-        }
-        return listOfStrings;
-    }
+
 
     public static String get_Month() {
         Date date = new Date();
