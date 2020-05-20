@@ -43,4 +43,6 @@ public class Heroku_Homepage {
     public WebElement jQuery;
     @FindBy(linkText = "Inputs")
     public WebElement inputs;
+    @FindBy(linkText = "Dynamic Loading")
+    public WebElement dynamicLoad;
 }
