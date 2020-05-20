@@ -43,7 +43,6 @@ public class DragAndDrop_steps {
     public void i_should_be_able_to_drag_element_A_and_drop_to_element_B() {
         Actions actions = new Actions(driver);
         actions.dragAndDrop(dragAndDrop.columnA, dragAndDrop.columnB).build().perform();
-        System.out.println("column A dragged and dropped to column B");
     }
 
 }

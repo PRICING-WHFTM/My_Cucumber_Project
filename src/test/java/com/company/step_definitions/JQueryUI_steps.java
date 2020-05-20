@@ -8,12 +8,14 @@ import com.company.utilities.DriverUtil;
 import com.company.utilities.JSUtil;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.java.sl.In;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import javax.swing.*;
+import javax.swing.text.html.HTML;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.nio.file.Files;
@@ -52,21 +54,30 @@ public class JQueryUI_steps {
     //here we get xpath of parent ul tag then linked //li //a  to them
     @Then("I should see {int} options there")
     public void i_should_see_options_there(int int1) {
-        formats = DriverUtil.getDriver().findElements(By.xpath("//ul[@class='ui-menu ui-widget ui-widget-content ui-front']//ul[@class='ui-menu ui-widget ui-widget-content ui-front']//li/a"));
+        formats = DriverUtil.getDriver().findElements(By.xpath("//ul[@class='ui-menu ui-widget ui-widget-content ui-front']//ul[@class='ui-menu ui-widget ui-widget-content ui-front']//li//a"));
         Assert.assertEquals(formats.size(), int1);
+        for (WebElement elem : formats) {
+            System.out.println(elem.getText());
+        }
+
     }
+
 
     @When("I click {string} in options") //areal hidden
     public void i_click_in_options(String string) {
-        for (int i = 0; i < formats.size(); i++) {
-            System.out.println(formats.get(i).getText());
-            if (formats.get(i).getText().contains(string)) {
-                actions.moveToElement(formats.get(i)).click().build().perform();
-                break;
-            }
-        }
-        BrowserUtils.wait(2);
+        WebElement pdf = DriverUtil.getDriver().findElement(By.xpath("//a[contains(text(),'PDF')]"));
+        JSUtil.clickElementByJS(pdf, DriverUtil.getDriver());
     }
+
+    /* In real must work as below, but looks like HTML is wrong */
+//          for (int i = 0; i < formats.size(); i++) {
+//            System.out.println(formats.get(i).getText());
+//            if (formats.get(i).getText().contains(string)) {
+//                formats.get(i).click();
+//                break;
+//            }
+//        }
+
 
     @Then("It should be downloaded to my computer")
     public void it_should_be_downloaded_to_my_computer() throws AWTException {
@@ -75,7 +86,7 @@ public class JQueryUI_steps {
         String fileName = "menu.pdf";
         String fullPath = "C:\\Users\\salma\\Downloads\\" + fileName;
         Assert.assertTrue(Files.exists(Paths.get(fullPath)));
-
     }
+
 
 }

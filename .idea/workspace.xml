@@ -2,27 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Inputs_increment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Inputs_increments_steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Inputs_Increment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/DynamicLoading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DynamicLoading_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DynamicLoading_FluentWait.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DragAndDrop_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DragAndDrop_steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/JQueryUI_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/JQueryUI_steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/JQueryUI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/JQueryUI.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-17-16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-17-27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-17-28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-18-06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-18-07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-18-10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-18-11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-18-16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-18-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-19-31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-19-33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-05-08-19-43.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,26 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Buying new Flight ticket step by step" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MercuryBuyFlightTicket.feature" />
-      <option name="GLUE" value="com.company.step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Buying new Flight ticket step by step$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Buying new Flight ticket step by step$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Buying new Flight ticket step by step" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: JQueryUI elements" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/JQueryUI.feature" />
@@ -154,15 +123,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Place order E2E" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Use FluentWait to get the text" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Shopping.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DynamicLoading_FluentWait.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Place order E2E$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Place order E2E$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Place order E2E" />
+      <option name="NAME_FILTER" value="^Use FluentWait to get the text$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Use FluentWait to get the text$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Use FluentWait to get the text" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -174,13 +143,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="My_Cucumber-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.company.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Scenario: JQueryUI elements" />
+        <item itemvalue="Cucumber Java.Scenario: Use FluentWait to get the text" />
+        <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="Cucumber Java.Scenario: Adding by incrementing and decrementing" />
         <item itemvalue="Cucumber Java.Scenario: Adding by incrementing nd decrementing" />
-        <item itemvalue="Cucumber Java.Scenario: Buying new Flight ticket step by step" />
-        <item itemvalue="Cucumber Java.Scenario: Place order E2E" />
       </list>
     </recent_temporary>
   </component>
@@ -256,34 +240,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1237" height="219" key="GridCell.Tab.0.bottom" timestamp="1589583285286">
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1589703618602">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="219" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589583285286" />
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589700391730" />
     <state width="1431" height="424" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
-    <state width="1237" height="212" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588148374961" />
-    <state width="1237" height="219" key="GridCell.Tab.0.center" timestamp="1589583285286">
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589703618602" />
+    <state width="1237" height="180" key="GridCell.Tab.0.center" timestamp="1589703618601">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="219" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589583285286" />
+    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589700391730" />
     <state width="1431" height="424" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
-    <state width="1237" height="212" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588148374961" />
-    <state width="1237" height="219" key="GridCell.Tab.0.left" timestamp="1589583285286">
+    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589703618601" />
+    <state width="1237" height="180" key="GridCell.Tab.0.left" timestamp="1589703618600">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="219" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589583285286" />
+    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589700391730" />
     <state width="1431" height="424" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
-    <state width="1237" height="212" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588148374961" />
-    <state width="1237" height="219" key="GridCell.Tab.0.right" timestamp="1589583285286">
+    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589703618600" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right" timestamp="1589703618601">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="219" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589583285286" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589700391730" />
     <state width="1431" height="424" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
-    <state width="1237" height="212" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588148374961" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589703618601" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586677708995">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -332,10 +316,10 @@
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587947363415" />
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1583475381248" />
-    <state x="2269" y="1" width="774" height="862" key="search.everywhere.popup" timestamp="1588390359979">
-      <screen x="1920" y="0" width="1474" height="864" />
+    <state x="303" y="1" width="673" height="679" key="search.everywhere.popup" timestamp="1589700574711">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="673" height="679" key="search.everywhere.popup/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587857832671" />
+    <state x="303" y="1" width="673" height="679" key="search.everywhere.popup/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589700574711" />
     <state x="2269" y="1" width="774" height="862" key="search.everywhere.popup/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588390359979" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1583476182878" />
   </component>
