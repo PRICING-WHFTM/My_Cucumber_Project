@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/DynamicLoading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DynamicLoading_steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DynamicLoading_FluentWait.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Links_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/LinksInThePage.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DragAndDrop_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DragAndDrop_steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/JQueryUI_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/JQueryUI_steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/JQueryUI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/JQueryUI.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,16 +55,15 @@
       <recent name="C:\Users\salma\IdeaProjects\Cucumber-project\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: JQueryUI elements">
-    <configuration name="Scenario: Adding by incrementing and decrementing" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: LinksInThePage">
+    <configuration name="Feature: LinksInThePage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Inputs_Increment.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LinksInThePage.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Adding by incrementing and decrementing$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Adding by incrementing and decrementing$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Adding by incrementing and decrementing" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: LinksInThePage" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -83,15 +75,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Adding by incrementing nd decrementing" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Find all links in the page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Inputs_Increment.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LinksInThePage.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Adding by incrementing nd decrementing$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Adding by incrementing nd decrementing$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Adding by incrementing nd decrementing" />
+      <option name="NAME_FILTER" value="^Find all links in the page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Find all links in the page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Find all links in the page" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -160,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: LinksInThePage" />
+        <item itemvalue="Cucumber Java.Scenario: Find all links in the page" />
         <item itemvalue="Cucumber Java.Scenario: JQueryUI elements" />
         <item itemvalue="Cucumber Java.Scenario: Use FluentWait to get the text" />
         <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Adding by incrementing and decrementing" />
-        <item itemvalue="Cucumber Java.Scenario: Adding by incrementing nd decrementing" />
       </list>
     </recent_temporary>
   </component>
@@ -240,31 +232,31 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1589703618602">
+    <state width="1237" height="278" key="GridCell.Tab.0.bottom" timestamp="1589943951997">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589700391730" />
+    <state width="1237" height="278" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589943951997" />
     <state width="1431" height="424" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589703618602" />
-    <state width="1237" height="180" key="GridCell.Tab.0.center" timestamp="1589703618601">
+    <state width="1237" height="278" key="GridCell.Tab.0.center" timestamp="1589943951997">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589700391730" />
+    <state width="1237" height="278" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589943951997" />
     <state width="1431" height="424" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589703618601" />
-    <state width="1237" height="180" key="GridCell.Tab.0.left" timestamp="1589703618600">
+    <state width="1237" height="278" key="GridCell.Tab.0.left" timestamp="1589943951997">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589700391730" />
+    <state width="1237" height="278" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589943951997" />
     <state width="1431" height="424" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589703618600" />
-    <state width="1237" height="180" key="GridCell.Tab.0.right" timestamp="1589703618601">
+    <state width="1237" height="278" key="GridCell.Tab.0.right" timestamp="1589943951997">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589700391730" />
+    <state width="1237" height="278" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589943951997" />
     <state width="1431" height="424" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589703618601" />
