@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Links_steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/LinksInThePage.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/DriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/DriverUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <recent name="C:\Users\salma\IdeaProjects\Cucumber-project\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: LinksInThePage">
+  <component name="RunManager" selected="JUnit.Re_runner">
     <configuration name="Feature: LinksInThePage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LinksInThePage.feature" />
@@ -135,7 +134,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Re_runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="My_Cucumber-project" />
       <extension name="coverage">
         <pattern>
@@ -144,7 +143,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company.runners" />
-      <option name="MAIN_CLASS_NAME" value="com.company.runners.CukesRunner" />
+      <option name="MAIN_CLASS_NAME" value="com.company.runners.Re_runner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Re_runner" />
         <item itemvalue="Cucumber Java.Feature: LinksInThePage" />
         <item itemvalue="Cucumber Java.Scenario: Find all links in the page" />
         <item itemvalue="Cucumber Java.Scenario: JQueryUI elements" />
         <item itemvalue="Cucumber Java.Scenario: Use FluentWait to get the text" />
-        <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -232,34 +231,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1237" height="278" key="GridCell.Tab.0.bottom" timestamp="1589943951997">
+    <state width="1237" height="130" key="GridCell.Tab.0.bottom" timestamp="1589966472862">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="278" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589943951997" />
+    <state width="1237" height="130" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589944590546" />
     <state width="1431" height="424" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
-    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589703618602" />
-    <state width="1237" height="278" key="GridCell.Tab.0.center" timestamp="1589943951997">
+    <state width="1237" height="130" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589966472862" />
+    <state width="1237" height="130" key="GridCell.Tab.0.center" timestamp="1589966472847">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="278" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589943951997" />
+    <state width="1237" height="130" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589944590546" />
     <state width="1431" height="424" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
-    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589703618601" />
-    <state width="1237" height="278" key="GridCell.Tab.0.left" timestamp="1589943951997">
+    <state width="1237" height="130" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
+    <state width="1237" height="130" key="GridCell.Tab.0.left" timestamp="1589966472847">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="278" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589943951997" />
+    <state width="1237" height="130" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589944590546" />
     <state width="1431" height="424" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
-    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589703618600" />
-    <state width="1237" height="278" key="GridCell.Tab.0.right" timestamp="1589943951997">
+    <state width="1237" height="130" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
+    <state width="1237" height="130" key="GridCell.Tab.0.right" timestamp="1589966472847">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="278" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589943951997" />
+    <state width="1237" height="130" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589944590546" />
     <state width="1431" height="424" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
-    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589703618601" />
+    <state width="1237" height="130" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586677708995">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

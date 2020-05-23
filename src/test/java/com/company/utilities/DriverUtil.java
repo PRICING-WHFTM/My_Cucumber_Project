@@ -24,7 +24,7 @@ import java.net.URL;
 public class DriverUtil {
 
     private static Logger logger = Logger.getLogger(DriverUtil.class);
-    private static ThreadLocal<WebDriver> driverPool = new ThreadLocal<>();// instead we can use just WebDriver driver ;
+    private static ThreadLocal<WebDriver> driverPool = new ThreadLocal<>();
     private static String userName = "Xose";
     private static String accessKey = "20391271";
     private static final String URL = "https://" + userName + ":" + accessKey
