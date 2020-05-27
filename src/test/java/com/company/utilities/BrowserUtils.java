@@ -141,8 +141,8 @@ public class BrowserUtils {
 
     public static String get_Month() {
         Date date = new Date();
-        SimpleDateFormat formatter = new SimpleDateFormat("MMMMMMMMM");
-        return formatter.format(date);
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MMMMMMMMM");
+        return simpleDateFormat.format(date);
     }
 
     public static String get_Day() {
