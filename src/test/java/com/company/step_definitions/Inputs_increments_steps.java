@@ -44,7 +44,7 @@ public class Inputs_increments_steps {
 
     @Then("I should see {int} in editbox")
     public void i_should_see_in_editbox(int int1) {
-        Assert.assertEquals(inputs_increment.editBox.getAttribute("value"), "" + int1);
+        Assert.assertEquals(inputs_increment.editBox.getAttribute("value"), String.valueOf(int1));
     }
 
 }

@@ -98,6 +98,7 @@ public class MercuryBuyingTicket_steps {
     @When("I provide passengers details")
     public void i_provide_passengers_details(List<Map<String, String>> dataTable) {
         // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+        // will point the ro after header/2nd row
         bookFlight.passenger1FirstName.sendKeys(dataTable.get(0).get("firstname"));
         bookFlight.passenger1LastName.sendKeys(dataTable.get(0).get("lastname"));
         bookFlight.passenger2FirstName.sendKeys(dataTable.get(1).get("firstname"));

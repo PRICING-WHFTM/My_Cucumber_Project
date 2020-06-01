@@ -30,7 +30,7 @@ public class DynamicLoading_steps {
 
     @Then("I should see {string} in the page")
     public void i_should_see_in_the_page(String string) {
-        //BrowserUtils.wait(10);
+        // -> Could be done with Explicit wait as well but we wanted t try fluentWait
         // BrowserUtils.waitForVisibility(dynamicLoading.helloWorld);
         BrowserUtils.fluentWait(dynamicLoading.helloWorld, DriverUtil.getDriver());
         Assert.assertEquals(dynamicLoading.helloWorldText(), string);
