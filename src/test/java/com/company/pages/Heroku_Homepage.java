@@ -45,4 +45,6 @@ public class Heroku_Homepage {
     public WebElement inputs;
     @FindBy(linkText = "Dynamic Loading")
     public WebElement dynamicLoad;
+    @FindBy(linkText = "JavaScript Alerts")
+    public WebElement javaScriptAlerts;
 }

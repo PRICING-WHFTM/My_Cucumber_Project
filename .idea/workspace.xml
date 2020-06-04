@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/JavaScriptAlerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/JavaScriptAlerts_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/JavaScript Alerts.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DynamicLoading_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DynamicLoading_steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Inputs_increments_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Inputs_increments_steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/MercuryBuyingTicket_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/MercuryBuyingTicket_steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MercuryBuyFlightTicket.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MercuryBuyFlightTicket.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/JQueryUI_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/JQueryUI_steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Adding by incrementing and decrementing-2020-06-01-12-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Enable and Disable edit-box-2020-06-01-12-52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-06-01-12-51.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +46,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -58,15 +65,15 @@
       <recent name="C:\Users\salma\IdeaProjects\Cucumber-project\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Re_runner">
-    <configuration name="Feature: DynamicLoading_FluentWait" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration name="Feature: JavaScript Alerts" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DynamicLoading_FluentWait.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/JavaScript Alerts.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: DynamicLoading_FluentWait" />
+      <option name="SUGGESTED_NAME" value="Feature: JavaScript Alerts" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -78,14 +85,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: LinksInThePage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Accept, Cancel and send text in JavaScript alert" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LinksInThePage.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/JavaScript Alerts.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: LinksInThePage" />
+      <option name="NAME_FILTER" value="^Accept\, Cancel and send text in JavaScript alert$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Accept\, Cancel and send text in JavaScript alert$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Accept, Cancel and send text in JavaScript alert" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -97,15 +105,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Adding by incrementing and decrementing" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Cancel" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Inputs_Increment.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/JavaScript Alerts.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Adding by incrementing and decrementing$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Adding by incrementing and decrementing$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Adding by incrementing and decrementing" />
+      <option name="NAME_FILTER" value="^Cancel$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cancel$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Cancel" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -117,22 +125,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Find all links in the page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LinksInThePage.feature" />
-      <option name="GLUE" value="com.company.step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Find all links in the page$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Find all links in the page$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Find all links in the page" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="com.company.runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.company.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.company.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Feature: JavaScript Alerts" />
+        <item itemvalue="Cucumber Java.Scenario: Cancel" />
+        <item itemvalue="Cucumber Java.Scenario: Accept, Cancel and send text in JavaScript alert" />
         <item itemvalue="JUnit.Re_runner" />
-        <item itemvalue="Cucumber Java.Scenario: Adding by incrementing and decrementing" />
-        <item itemvalue="Cucumber Java.Feature: DynamicLoading_FluentWait" />
-        <item itemvalue="Cucumber Java.Feature: LinksInThePage" />
-        <item itemvalue="Cucumber Java.Scenario: Find all links in the page" />
       </list>
     </recent_temporary>
   </component>
@@ -234,31 +237,31 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1222" height="161" key="GridCell.Tab.0.bottom" timestamp="1591034340591">
+    <state width="1222" height="196" key="GridCell.Tab.0.bottom" timestamp="1591247245258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591034340591" />
+    <state width="1222" height="196" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591247245258" />
     <state width="1431" height="424" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="130" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589966472862" />
-    <state width="1222" height="161" key="GridCell.Tab.0.center" timestamp="1591034340591">
+    <state width="1222" height="196" key="GridCell.Tab.0.center" timestamp="1591247245258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="161" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591034340591" />
+    <state width="1222" height="196" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591247245258" />
     <state width="1431" height="424" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="130" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
-    <state width="1222" height="161" key="GridCell.Tab.0.left" timestamp="1591034340591">
+    <state width="1222" height="196" key="GridCell.Tab.0.left" timestamp="1591247245258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="161" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591034340591" />
+    <state width="1222" height="196" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591247245258" />
     <state width="1431" height="424" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="130" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
-    <state width="1222" height="161" key="GridCell.Tab.0.right" timestamp="1591034340591">
+    <state width="1222" height="196" key="GridCell.Tab.0.right" timestamp="1591247245258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="161" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591034340591" />
+    <state width="1222" height="196" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591247245258" />
     <state width="1431" height="424" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="130" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
@@ -296,6 +299,30 @@
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589576578517" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585635680534" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587190720489" />
+    <state x="100" y="100" width="1080" height="480" key="dock-window-1" timestamp="1591242494533">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="100" y="100" width="1080" height="480" key="dock-window-1/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591242494533" />
+    <state x="100" y="100" width="1080" height="480" maximized="true" key="dock-window-2" timestamp="1591242462844">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="100" y="100" width="1080" height="480" maximized="true" key="dock-window-2/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591242462844" />
+    <state x="100" y="100" width="1080" height="480" key="dock-window-3" timestamp="1591242462844">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="100" y="100" width="1080" height="480" key="dock-window-3/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591242462844" />
+    <state x="100" y="100" width="1080" height="480" key="dock-window-4" timestamp="1591242462844">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="100" y="100" width="1080" height="480" key="dock-window-4/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591242462844" />
+    <state x="100" y="100" width="1080" height="480" key="dock-window-5" timestamp="1591242494534">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="100" y="100" width="1080" height="480" key="dock-window-5/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591242494534" />
+    <state x="100" y="100" width="1080" height="480" key="dock-window-6" timestamp="1591242462844">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="100" y="100" width="1080" height="480" key="dock-window-6/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591242462844" />
     <state x="336" y="72" width="780" height="536" key="find.popup" timestamp="1589568194351">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

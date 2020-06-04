@@ -54,7 +54,7 @@ public class JQueryUI_steps {
     //here we get xpath of parent ul tag then linked //li //a  to them
     @Then("I should see {int} options there")
     public void i_should_see_options_there(int int1) {
-        formats = DriverUtil.getDriver().findElements(By.xpath("//ul[@class='ui-menu ui-widget ui-widget-content ui-front']//ul[@class='ui-menu ui-widget ui-widget-content ui-front']//li//a"));
+        formats = DriverUtil.getDriver().findElements(By.xpath("//li[@class='ui-menu-item ui-state-active']//ul//li//ul//li//a"));
         Assert.assertEquals(formats.size(), int1);
         for (WebElement elem : formats) {
             System.out.println(elem.getText());
@@ -63,20 +63,20 @@ public class JQueryUI_steps {
     }
 
 
-    @When("I click {string} in options") //areal hidden
+    @When("I click {string} in options")
     public void i_click_in_options(String string) {
-        WebElement pdf = DriverUtil.getDriver().findElement(By.xpath("//a[contains(text(),'PDF')]"));
-        JSUtil.clickElementByJS(pdf, DriverUtil.getDriver());
+//        WebElement pdf = DriverUtil.getDriver().findElement(By.xpath("//a[contains(text(),'PDF')]"));
+//        JSUtil.clickElementByJS(pdf, DriverUtil.getDriver());
+        for (int i = 0; i < formats.size(); i++) {
+            if (formats.get(i).getText().contains(string)) {
+                formats.get(i).click();
+                break;
+            }
+        }
     }
 
     /* In real must work as below, but looks like HTML is wrong */
-//          for (int i = 0; i < formats.size(); i++) {
-//            System.out.println(formats.get(i).getText());
-//            if (formats.get(i).getText().contains(string)) {
-//                formats.get(i).click();
-//                break;
-//            }
-//        }
+
 
 
     @Then("It should be downloaded to my computer")
