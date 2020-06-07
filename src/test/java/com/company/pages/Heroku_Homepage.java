@@ -47,4 +47,6 @@ public class Heroku_Homepage {
     public WebElement dynamicLoad;
     @FindBy(linkText = "JavaScript Alerts")
     public WebElement javaScriptAlerts;
+    @FindBy(linkText = "Forgot Password")
+    public WebElement forgotPassword;
 }

@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/JavaScriptAlerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/JavaScriptAlerts_steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/JavaScript Alerts.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/ForgotPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/ForgotPassword_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ForgotPassword.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/JQueryUI_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/JQueryUI_steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Adding by incrementing and decrementing-2020-06-01-12-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Enable and Disable edit-box-2020-06-01-12-52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-06-01-12-51.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,15 +58,15 @@
       <recent name="C:\Users\salma\IdeaProjects\Cucumber-project\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CukesRunner">
-    <configuration name="Feature: JavaScript Alerts" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: ForgotPassword">
+    <configuration name="Feature: ForgotPassword" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/JavaScript Alerts.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ForgotPassword.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: JavaScript Alerts" />
+      <option name="SUGGESTED_NAME" value="Feature: ForgotPassword" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -85,15 +78,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Accept, Cancel and send text in JavaScript alert" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: JavaScript Alerts" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/JavaScript Alerts.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Accept\, Cancel and send text in JavaScript alert$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Accept\, Cancel and send text in JavaScript alert$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Accept, Cancel and send text in JavaScript alert" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: JavaScript Alerts" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -125,6 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Checking ForgotPassword functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ForgotPassword.feature" />
+      <option name="GLUE" value="com.company.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="My_Cucumber-project" />
+      <option name="NAME_FILTER" value="^Checking ForgotPassword functionality$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Checking ForgotPassword functionality$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Checking ForgotPassword functionality" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="My_Cucumber-project" />
       <extension name="coverage">
@@ -140,28 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Re_runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="My_Cucumber-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company.runners" />
-      <option name="MAIN_CLASS_NAME" value="com.company.runners.Re_runner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: ForgotPassword" />
+        <item itemvalue="Cucumber Java.Scenario: Checking ForgotPassword functionality" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="Cucumber Java.Feature: JavaScript Alerts" />
         <item itemvalue="Cucumber Java.Scenario: Cancel" />
-        <item itemvalue="Cucumber Java.Scenario: Accept, Cancel and send text in JavaScript alert" />
-        <item itemvalue="JUnit.Re_runner" />
       </list>
     </recent_temporary>
   </component>
@@ -221,10 +218,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1582869890797" />
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589434646093">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591490520458">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589434646093" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591490520458" />
     <state x="370" y="193" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587857622772">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -237,31 +234,31 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1222" height="196" key="GridCell.Tab.0.bottom" timestamp="1591247245258">
+    <state width="1222" height="2" key="GridCell.Tab.0.bottom" timestamp="1591490550103">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="196" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591247245258" />
+    <state width="1222" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591490550103" />
     <state width="1431" height="424" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="130" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589966472862" />
-    <state width="1222" height="196" key="GridCell.Tab.0.center" timestamp="1591247245258">
+    <state width="1222" height="2" key="GridCell.Tab.0.center" timestamp="1591490550103">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="196" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591247245258" />
+    <state width="1222" height="2" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591490550103" />
     <state width="1431" height="424" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="130" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
-    <state width="1222" height="196" key="GridCell.Tab.0.left" timestamp="1591247245258">
+    <state width="1222" height="2" key="GridCell.Tab.0.left" timestamp="1591490550103">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="196" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591247245258" />
+    <state width="1222" height="2" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591490550103" />
     <state width="1431" height="424" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="130" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
-    <state width="1222" height="196" key="GridCell.Tab.0.right" timestamp="1591247245258">
+    <state width="1222" height="2" key="GridCell.Tab.0.right" timestamp="1591490550103">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="196" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591247245258" />
+    <state width="1222" height="2" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591490550103" />
     <state width="1431" height="424" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="130" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
