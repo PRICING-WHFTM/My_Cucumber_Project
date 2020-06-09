@@ -78,12 +78,13 @@ public class DriverUtil {
                     WebDriverManager.getInstance(SafariDriver.class).setup();
                     driverPool.set(new SafariDriver());
                     break;
-                case "chrome-remote":
+                case "chrome-grid":
                     try {
-                        DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-                        desiredCapabilities.setBrowserName(BrowserType.CHROME);
-                        desiredCapabilities.setCapability("platform", Platform.ANY);
-                        driverPool.set(new RemoteWebDriver(new URL("http://ec2-18-212-156-23.compute-1.amazonaws.com:4444/wd/hub"), desiredCapabilities));
+                        URL url = new URL("http://localhost:4444/wd/hub");
+                        DesiredCapabilities desiredCapabilities = DesiredCapabilities.chrome();
+                        desiredCapabilities.setBrowserName("chrome");
+                        desiredCapabilities.setPlatform(Platform.WINDOWS);
+                        driverPool.set(new RemoteWebDriver(url, desiredCapabilities));
                     } catch (Exception e) {
                         logger.error(e.getMessage());
                         e.printStackTrace();
@@ -91,7 +92,7 @@ public class DriverUtil {
                     break;
                 case "firefox-remote":
                     try {
-                        DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
+                        DesiredCapabilities desiredCapabilities = DesiredCapabilities.firefox();
                         desiredCapabilities.setBrowserName(BrowserType.FIREFOX);
                         driverPool.set(new RemoteWebDriver(new URL("http://ec2-18-212-156-23.compute-1.amazonaws.com:4444/wd/hub"), desiredCapabilities));
                     } catch (Exception e) {
@@ -140,6 +141,25 @@ public class DriverUtil {
                         e.printStackTrace();
                     }
                     break;
+                case "docker-chrome":
+                    try {
+                        URL url = new URL("http://localhost:4444/wd/hub");
+                        DesiredCapabilities desiredCapabilities = DesiredCapabilities.chrome();
+                        driverPool.set(new RemoteWebDriver(url, desiredCapabilities));
+                    } catch (Exception e) {
+                        e.printStackTrace();
+
+                    }
+                    break;
+                case "docker-firefox":
+                    try {
+                        URL url = new URL("http://localhost:4446/wd/hub");
+                        DesiredCapabilities desiredCapabilities = DesiredCapabilities.firefox();
+                        driverPool.set(new RemoteWebDriver(url, desiredCapabilities));
+                    } catch (Exception e) {
+                        logger.error(e.getMessage());
+                        e.printStackTrace();
+                    }
                 default:
                     throw new RuntimeException("Invalid browser name!");
             }

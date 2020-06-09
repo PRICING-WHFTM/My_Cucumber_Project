@@ -1,6 +1,7 @@
 Feature: JQueryUI elements
 
   @IH-15
+
   Scenario: JQueryUI elements
     Given I am in HomePage
     When I click jquery

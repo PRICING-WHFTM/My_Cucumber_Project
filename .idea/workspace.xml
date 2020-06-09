@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/ForgotPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/ForgotPassword_steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ForgotPassword.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/JQueryUI_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/JQueryUI_steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/DriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/DriverUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/JQueryUI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/JQueryUI.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,26 @@
       <recent name="C:\Users\salma\IdeaProjects\Cucumber-project\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: ForgotPassword">
+  <component name="RunManager" selected="Cucumber Java.Scenario: JQueryUI elements">
+    <configuration name="Feature: AddRemove_Elements" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AddRemove_Elements.feature" />
+      <option name="GLUE" value="com.company.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="My_Cucumber-project" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: AddRemove_Elements" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: ForgotPassword" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ForgotPassword.feature" />
@@ -78,14 +99,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: JavaScript Alerts" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Login_DDT" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/JavaScript Alerts.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login_DDT.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: JavaScript Alerts" />
+      <option name="SUGGESTED_NAME" value="Feature: Login_DDT" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -97,35 +118,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Cancel" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: JQueryUI elements" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/JavaScript Alerts.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/JQueryUI.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Cancel$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cancel$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Cancel" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Checking ForgotPassword functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ForgotPassword.feature" />
-      <option name="GLUE" value="com.company.step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^Checking ForgotPassword functionality$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Checking ForgotPassword functionality$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Checking ForgotPassword functionality" />
+      <option name="NAME_FILTER" value="^JQueryUI elements$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^JQueryUI elements$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: JQueryUI elements" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -154,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: ForgotPassword" />
-        <item itemvalue="Cucumber Java.Scenario: Checking ForgotPassword functionality" />
+        <item itemvalue="Cucumber Java.Scenario: JQueryUI elements" />
         <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="Cucumber Java.Feature: JavaScript Alerts" />
-        <item itemvalue="Cucumber Java.Scenario: Cancel" />
+        <item itemvalue="Cucumber Java.Feature: AddRemove_Elements" />
+        <item itemvalue="Cucumber Java.Feature: Login_DDT" />
+        <item itemvalue="Cucumber Java.Feature: ForgotPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -189,10 +190,6 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Plugins/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588973585043" />
-    <state x="233" y="0" key="#Project_Structure" timestamp="1582867564377">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="0" key="#Project_Structure/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1582867564377" />
     <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589565310049">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -206,18 +203,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586666950436" />
-    <state x="253" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582869917525">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="253" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1582869917525" />
     <state x="424" y="235" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588975254959">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="424" y="235" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588975254959" />
-    <state x="438" y="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1582869890797">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="438" y="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1582869890797" />
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591490520458">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -234,31 +223,31 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1222" height="2" key="GridCell.Tab.0.bottom" timestamp="1591490550103">
+    <state width="1222" height="148" key="GridCell.Tab.0.bottom" timestamp="1591675377589">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591490550103" />
+    <state width="1222" height="148" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591675377589" />
     <state width="1431" height="424" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="130" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589966472862" />
-    <state width="1222" height="2" key="GridCell.Tab.0.center" timestamp="1591490550103">
+    <state width="1222" height="148" key="GridCell.Tab.0.center" timestamp="1591675377589">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="2" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591490550103" />
+    <state width="1222" height="148" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591675377589" />
     <state width="1431" height="424" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="130" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
-    <state width="1222" height="2" key="GridCell.Tab.0.left" timestamp="1591490550103">
+    <state width="1222" height="148" key="GridCell.Tab.0.left" timestamp="1591675377589">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="2" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591490550103" />
+    <state width="1222" height="148" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591675377589" />
     <state width="1431" height="424" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="130" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
-    <state width="1222" height="2" key="GridCell.Tab.0.right" timestamp="1591490550103">
+    <state width="1222" height="148" key="GridCell.Tab.0.right" timestamp="1591675377589">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="2" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591490550103" />
+    <state width="1222" height="148" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591675377589" />
     <state width="1431" height="424" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
     <state width="1222" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
     <state width="1237" height="130" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
@@ -290,10 +279,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="316" y="40" key="NewModule_or_Project.wizard/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486702087" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1589576578517">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1591649962526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589576578517" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591649962526" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585635680534" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587190720489" />
     <state x="100" y="100" width="1080" height="480" key="dock-window-1" timestamp="1591242494533">
