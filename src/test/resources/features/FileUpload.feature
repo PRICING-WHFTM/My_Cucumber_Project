@@ -1,5 +1,6 @@
 Feature: Uploading file
 
+  @ignore
   Scenario: Uploading file testing
     Given I am in HomePage
     When I click file upload
