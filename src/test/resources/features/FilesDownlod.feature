@@ -1,5 +1,6 @@
 Feature: Downloading multiple files
 
+  @ignore
   Scenario:
     Given I am in HomePage
     When I click file download

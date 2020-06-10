@@ -54,7 +54,7 @@ public class DriverUtil {
                 case "chrome-remote":
                     try {
                         URL url = new URL("http://localhost:4444/wd/hub");
-                        DesiredCapabilities desiredCapabilities = DesiredCapabilities.chrome();
+                        DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
                         desiredCapabilities.setBrowserName("chrome");
                         driverPool.set(new RemoteWebDriver(url, desiredCapabilities));
                     } catch (Exception e) {
@@ -64,11 +64,12 @@ public class DriverUtil {
                 case "firefox-remote":
                     try {
                         URL url = new URL("http://localhost:4444/wd/hub");
-                        DesiredCapabilities desiredCapabilities = DesiredCapabilities.firefox();
+                        DesiredCapabilities desiredCapabilities =new DesiredCapabilities();
                         desiredCapabilities.setBrowserName("firefox");
                         driverPool.set(new RemoteWebDriver(url, desiredCapabilities));
                     } catch (Exception e) {
                         e.printStackTrace();
+
                     }
                     break;
                 case "ie":
