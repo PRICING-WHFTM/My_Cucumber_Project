@@ -1,7 +1,6 @@
 Feature: JQueryUI elements
 
-  @IH-15
-
+  @IH-15 @ignore
   Scenario: JQueryUI elements
     Given I am in HomePage
     When I click jquery
