@@ -26,7 +26,6 @@ public class DriverUtil {
 
 
     private DriverUtil() {
-
     }
 
     public static WebDriver getDriver() {
