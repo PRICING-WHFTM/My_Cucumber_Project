@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/ShiftingContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/ShiftingContent_steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ShiftingContent.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/prints-2020-06-25.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DragAndDrop_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DragAndDrop_steps.java" afterDir="false" />
-    </list>
+    <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +53,7 @@
       <recent name="C:\Users\salma\IdeaProjects\Cucumber-project\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: DragandDrop">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Shifting content example 1 elements">
     <configuration name="Feature: BasicAuth" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BasicAuth.feature" />
@@ -163,8 +154,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: DragandDrop" />
         <item itemvalue="Cucumber Java.Scenario: Shifting content example 1 elements" />
+        <item itemvalue="Cucumber Java.Feature: DragandDrop" />
         <item itemvalue="Cucumber Java.Feature: BasicAuth" />
         <item itemvalue="Cucumber Java.Scenario: Simple frame in the page" />
         <item itemvalue="Cucumber Java.Scenario: " />
@@ -228,33 +219,33 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1237" height="147" key="GridCell.Tab.0.bottom" timestamp="1593490871024">
+    <state width="1237" height="108" key="GridCell.Tab.0.bottom" timestamp="1593497910513">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591820859612" />
     <state width="1431" height="424" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
-    <state width="1237" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1593490871024" />
+    <state width="1237" height="108" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1593497910513" />
     <state width="1237" height="130" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589966472862" />
-    <state width="1237" height="147" key="GridCell.Tab.0.center" timestamp="1593490871024">
+    <state width="1237" height="108" key="GridCell.Tab.0.center" timestamp="1593497910512">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591820859611" />
     <state width="1431" height="424" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
-    <state width="1237" height="147" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1593490871024" />
+    <state width="1237" height="108" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1593497910512" />
     <state width="1237" height="130" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
-    <state width="1237" height="147" key="GridCell.Tab.0.left" timestamp="1593490871024">
+    <state width="1237" height="108" key="GridCell.Tab.0.left" timestamp="1593497910510">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591820859611" />
     <state width="1431" height="424" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
-    <state width="1237" height="147" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1593490871024" />
+    <state width="1237" height="108" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1593497910510" />
     <state width="1237" height="130" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
-    <state width="1237" height="147" key="GridCell.Tab.0.right" timestamp="1593490871024">
+    <state width="1237" height="108" key="GridCell.Tab.0.right" timestamp="1593497910513">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591820859611" />
     <state width="1431" height="424" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
-    <state width="1237" height="147" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1593490871024" />
+    <state width="1237" height="108" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1593497910513" />
     <state width="1237" height="130" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586677708995">
       <screen x="0" y="0" width="1280" height="680" />

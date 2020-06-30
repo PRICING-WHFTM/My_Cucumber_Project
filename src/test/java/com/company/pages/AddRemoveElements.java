@@ -15,10 +15,7 @@ public class AddRemoveElements {
     public WebElement addElement;
 
     @FindBy(xpath = "//button[@class='added-manually']")
-    public  WebElement deleteElement;
-
-
-
+    public WebElement deleteElement;
 
 
 }
