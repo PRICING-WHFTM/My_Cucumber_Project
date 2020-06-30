@@ -11,13 +11,12 @@ import org.openqa.selenium.interactions.Actions;
 
 public class DragAndDrop_steps {
 
-    private WebDriver driver;
+
     Heroku_Homepage homepage = new Heroku_Homepage();
     DragAndDrop dragAndDrop = new DragAndDrop();
 
     @Then("I should see {string} module in the homepage")
     public void i_should_see_module_in_the_homepage(String string) {
-        driver = DriverUtil.getDriver();
         Assert.assertTrue(homepage.dragAndDropModule.isDisplayed());
         Assert.assertEquals(homepage.dragAndDropModule.getText(), string);
     }
@@ -29,7 +28,7 @@ public class DragAndDrop_steps {
 
     @Then("I should land drag and drop page")
     public void i_should_land_drag_and_drop_page() {
-        Assert.assertNotEquals(driver.getCurrentUrl(), ConfigReader.getProperty("herURL"));
+        Assert.assertNotEquals(DriverUtil.getDriver().getCurrentUrl(), ConfigReader.getProperty("herURL"));
     }
 
     @Then("I should see A and B elements")
@@ -41,7 +40,9 @@ public class DragAndDrop_steps {
 
     @Then("I should be able to drag element A and drop to element B")
     public void i_should_be_able_to_drag_element_A_and_drop_to_element_B() {
-        Actions actions = new Actions(driver);
+        Actions actions = new Actions(DriverUtil.getDriver());
+       // actions.moveToElement(dragAndDrop.columnA).clickAndHold().
+               // moveToElement(dragAndDrop.columnB).release().build().perform();
         actions.dragAndDrop(dragAndDrop.columnA, dragAndDrop.columnB).build().perform();
     }
 

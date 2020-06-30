@@ -49,4 +49,6 @@ public class Heroku_Homepage {
     public WebElement javaScriptAlerts;
     @FindBy(linkText = "Forgot Password")
     public WebElement forgotPassword;
+    @FindBy(linkText = "Shifting Content")
+    public WebElement shiftingContent;
 }

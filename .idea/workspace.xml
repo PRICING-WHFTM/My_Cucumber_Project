@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/ShiftingContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/ShiftingContent_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ShiftingContent.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/BasicAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/BasicAuth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4J2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4J2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/prints-2020-06-25.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DragAndDrop_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DragAndDrop_steps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
@@ -57,7 +62,7 @@
       <recent name="C:\Users\salma\IdeaProjects\Cucumber-project\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: BasicAuth">
+  <component name="RunManager" selected="Cucumber Java.Feature: DragandDrop">
     <configuration name="Feature: BasicAuth" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BasicAuth.feature" />
@@ -77,15 +82,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: JQueryUI elements" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: DragandDrop" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/JQueryUI.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DragandDrop.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="My_Cucumber-project" />
-      <option name="NAME_FILTER" value="^JQueryUI elements$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^JQueryUI elements$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: JQueryUI elements" />
+      <module name="My_Cucumber_Project" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: DragandDrop" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Shifting content example 1 elements" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ShiftingContent.feature" />
+      <option name="GLUE" value="com.company.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="My_Cucumber_Project" />
+      <option name="NAME_FILTER" value="^Shifting content example 1 elements$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Shifting content example 1 elements$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Shifting content example 1 elements" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -106,26 +130,6 @@
       <option name="NAME_FILTER" value="^Simple frame in the page$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Simple frame in the page$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Simple frame in the page" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Uploading file testing" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/FileUpload.feature" />
-      <option name="GLUE" value="com.company.step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="My_Cucumber_Project" />
-      <option name="NAME_FILTER" value="^Uploading file testing$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Uploading file testing$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Uploading file testing" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -159,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: DragandDrop" />
+        <item itemvalue="Cucumber Java.Scenario: Shifting content example 1 elements" />
         <item itemvalue="Cucumber Java.Feature: BasicAuth" />
         <item itemvalue="Cucumber Java.Scenario: Simple frame in the page" />
         <item itemvalue="Cucumber Java.Scenario: " />
-        <item itemvalue="Cucumber Java.Scenario: Uploading file testing" />
-        <item itemvalue="Cucumber Java.Scenario: JQueryUI elements" />
       </list>
     </recent_temporary>
   </component>
@@ -184,15 +188,10 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="238" y="0" key="#CukesRunner" timestamp="1584306972305">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="238" y="0" key="#CukesRunner/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1584306972305" />
     <state x="233" y="0" key="#Notifications" timestamp="1588126567960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Notifications/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588126567960" />
-    <state x="233" y="0" key="#Notifications/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1583473942290" />
     <state x="233" y="0" key="#Plugins" timestamp="1588973585043">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -201,7 +200,6 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589565310049" />
-    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1584165803505" />
     <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1588128345531">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -230,33 +228,33 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1222" height="161" key="GridCell.Tab.0.bottom" timestamp="1591820859612">
+    <state width="1237" height="147" key="GridCell.Tab.0.bottom" timestamp="1593490871024">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591820859612" />
     <state width="1431" height="424" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
-    <state width="1222" height="238" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
+    <state width="1237" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1593490871024" />
     <state width="1237" height="130" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589966472862" />
-    <state width="1222" height="161" key="GridCell.Tab.0.center" timestamp="1591820859611">
+    <state width="1237" height="147" key="GridCell.Tab.0.center" timestamp="1593490871024">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591820859611" />
     <state width="1431" height="424" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
-    <state width="1222" height="238" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
+    <state width="1237" height="147" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1593490871024" />
     <state width="1237" height="130" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
-    <state width="1222" height="161" key="GridCell.Tab.0.left" timestamp="1591820859611">
+    <state width="1237" height="147" key="GridCell.Tab.0.left" timestamp="1593490871024">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591820859611" />
     <state width="1431" height="424" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
-    <state width="1222" height="238" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
+    <state width="1237" height="147" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1593490871024" />
     <state width="1237" height="130" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
-    <state width="1222" height="161" key="GridCell.Tab.0.right" timestamp="1591820859611">
+    <state width="1237" height="147" key="GridCell.Tab.0.right" timestamp="1593490871024">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591820859611" />
     <state width="1431" height="424" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
-    <state width="1222" height="238" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585090244604" />
+    <state width="1237" height="147" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1593490871024" />
     <state width="1237" height="130" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586677708995">
       <screen x="0" y="0" width="1280" height="680" />
@@ -278,19 +276,15 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="221" y="84" key="IDE.errors.dialog/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589521083943" />
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1583555512199">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1583555512199" />
     <state x="316" y="40" key="NewModule_or_Project.wizard" timestamp="1586486702087">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="316" y="40" key="NewModule_or_Project.wizard/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486702087" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1591649962526">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1593187455355">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591649962526" />
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1585635680534" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1593187455355" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587190720489" />
     <state x="100" y="100" width="1080" height="480" key="dock-window-1" timestamp="1591242494533">
       <screen x="0" y="0" width="1280" height="680" />
@@ -328,12 +322,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587947363415" />
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1583475381248" />
     <state x="303" y="1" width="673" height="679" key="search.everywhere.popup" timestamp="1589700574711">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="673" height="679" key="search.everywhere.popup/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589700574711" />
     <state x="2269" y="1" width="774" height="862" key="search.everywhere.popup/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588390359979" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1583476182878" />
   </component>
 </project>
