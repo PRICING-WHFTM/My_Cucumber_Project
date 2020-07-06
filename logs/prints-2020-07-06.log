@@ -1,0 +1,161 @@
+12:42:54.928 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+12:42:55.525 [main] INFO  com.company.step_definitions.Hook - browser closed
+12:43:58.715 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+12:43:59.311 [main] INFO  com.company.step_definitions.Hook - browser closed
+12:46:50.510 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+12:46:54.528 [main] INFO  com.company.step_definitions.Hook - browser closed
+13:48:28.173 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+13:48:28.806 [main] INFO  com.company.step_definitions.Hook - browser closed
+13:57:01.831 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+13:57:10.770 [main] INFO  com.company.step_definitions.Hook - browser closed
+14:00:36.092 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+14:00:43.562 [main] INFO  com.company.step_definitions.Hook - browser closed
+14:26:45.924 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+14:27:09.273 [main] INFO  com.company.step_definitions.Hook - browser closed
+14:36:47.018 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+14:36:52.124 [main] INFO  com.company.step_definitions.Hook - browser closed
+14:50:39.868 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+14:50:59.989 [main] INFO  com.company.step_definitions.Hook - browser closed
+14:51:24.616 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+14:51:43.759 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:11:18.389 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:11:21.839 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:15:31.984 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:15:35.488 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:19:01.626 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:19:05.162 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:21:17.265 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:21:20.907 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:21:48.513 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:21:52.206 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:23:01.459 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:23:05.152 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:24:26.179 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:24:29.427 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:25:08.027 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+15:25:13.238 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:26:10.974 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+15:26:14.003 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:26:33.053 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+15:26:35.901 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:27:10.332 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+15:27:14.993 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:27:32.188 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+15:27:36.515 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:28:02.128 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+15:28:06.640 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:29:58.921 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+15:30:05.484 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:32:30.832 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+15:32:34.538 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:34:38.261 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+15:34:41.740 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:36:24.437 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:36:28.691 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:37:16.202 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:37:20.993 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:39:48.343 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:39:52.206 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:40:19.286 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:40:21.611 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:41:06.358 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:41:10.619 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:42:00.714 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:42:07.116 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:42:51.066 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:42:55.475 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:43:59.275 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+15:44:03.302 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:44:18.771 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+15:44:23.221 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:44:33.133 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+15:44:37.156 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:47:21.317 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+15:47:23.975 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:47:45.545 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:47:48.380 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:50:50.118 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:50:53.036 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:51:39.507 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:51:43.709 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:55:13.023 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:55:17.030 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:59:24.582 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+15:59:29.049 [main] INFO  com.company.step_definitions.Hook - browser closed
+15:59:56.471 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+16:00:04.531 [main] INFO  com.company.step_definitions.Hook - browser closed
+16:01:52.739 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome
+16:02:00.820 [main] INFO  com.company.step_definitions.Hook - browser closed
+16:13:32.212 [pool-1-thread-14] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:32.212 [pool-1-thread-13] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:32.212 [pool-1-thread-19] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:32.213 [pool-1-thread-15] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:32.443 [pool-1-thread-4] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:32.716 [pool-1-thread-23] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:32.718 [pool-1-thread-25] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:32.728 [pool-1-thread-8] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:32.826 [pool-1-thread-10] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:32.844 [pool-1-thread-12] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:32.849 [pool-1-thread-22] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:33.006 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:33.011 [pool-1-thread-20] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:33.020 [pool-1-thread-9] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:33.072 [pool-1-thread-6] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:33.072 [pool-1-thread-3] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:33.022 [pool-1-thread-11] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:33.053 [pool-1-thread-18] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:33.047 [pool-1-thread-17] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:33.041 [pool-1-thread-21] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:33.039 [pool-1-thread-24] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:33.062 [pool-1-thread-7] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:33.072 [pool-1-thread-26] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:33.029 [pool-1-thread-2] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:33.130 [pool-1-thread-16] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:33.160 [pool-1-thread-5] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:38.676 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - browser closed
+16:13:40.597 [pool-1-thread-3] INFO  com.company.step_definitions.BasicAuth - navigated the website
+16:13:40.893 [pool-1-thread-2] INFO  com.company.step_definitions.BasicAuth - navigated the website
+16:13:42.082 [pool-1-thread-2] INFO  com.company.step_definitions.BasicAuth - Basic auth element is displayed
+16:13:51.441 [pool-1-thread-2] INFO  com.company.step_definitions.Hook - browser closed
+16:13:51.486 [pool-1-thread-20] INFO  com.company.step_definitions.Hook - browser closed
+16:13:51.676 [pool-1-thread-12] INFO  com.company.step_definitions.Hook - browser closed
+16:13:51.754 [pool-1-thread-24] INFO  com.company.step_definitions.Hook - browser closed
+16:13:51.785 [pool-1-thread-11] INFO  com.company.step_definitions.Hook - browser closed
+16:13:51.834 [pool-1-thread-6] INFO  com.company.step_definitions.Hook - browser closed
+16:13:51.865 [pool-1-thread-16] INFO  com.company.step_definitions.Hook - browser closed
+16:13:51.919 [pool-1-thread-14] INFO  com.company.step_definitions.Hook - browser closed
+16:13:51.927 [pool-1-thread-19] INFO  com.company.step_definitions.Hook - browser closed
+16:13:52.007 [pool-1-thread-5] INFO  com.company.step_definitions.Hook - browser closed
+16:13:52.007 [pool-1-thread-8] INFO  com.company.step_definitions.Hook - browser closed
+16:13:52.027 [pool-1-thread-3] INFO  com.company.step_definitions.Hook - browser closed
+16:13:52.147 [pool-1-thread-25] INFO  com.company.step_definitions.Hook - browser closed
+16:13:52.186 [pool-1-thread-13] INFO  com.company.step_definitions.Hook - browser closed
+16:13:52.255 [pool-1-thread-18] INFO  com.company.step_definitions.Hook - browser closed
+16:13:52.321 [pool-1-thread-10] INFO  com.company.step_definitions.Hook - browser closed
+16:13:52.321 [pool-1-thread-26] INFO  com.company.step_definitions.Hook - browser closed
+16:13:52.460 [pool-1-thread-7] INFO  com.company.step_definitions.Hook - browser closed
+16:13:52.522 [pool-1-thread-15] INFO  com.company.step_definitions.Hook - browser closed
+16:13:52.570 [pool-1-thread-4] INFO  com.company.step_definitions.Hook - browser closed
+16:13:52.665 [pool-1-thread-17] INFO  com.company.step_definitions.Hook - browser closed
+16:13:52.706 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:53.121 [pool-1-thread-9] INFO  com.company.step_definitions.Hook - browser closed
+16:13:53.862 [pool-1-thread-23] INFO  com.company.step_definitions.Hook - browser closed
+16:13:55.569 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - browser closed
+16:13:55.864 [pool-1-thread-20] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:56.657 [pool-1-thread-15] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:56.672 [pool-1-thread-18] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:56.774 [pool-1-thread-8] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:56.927 [pool-1-thread-19] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:59.351 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:13:59.690 [pool-1-thread-20] INFO  com.company.step_definitions.Hook - browser closed
+16:14:00.172 [pool-1-thread-21] INFO  com.company.step_definitions.Hook - browser closed
+16:14:00.509 [pool-1-thread-18] INFO  com.company.step_definitions.Hook - browser closed
+16:14:01.855 [pool-1-thread-15] INFO  com.company.step_definitions.Hook - browser closed
+16:14:02.012 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - browser closed
+16:14:03.350 [pool-1-thread-20] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:14:05.365 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+16:14:06.030 [pool-1-thread-20] INFO  com.company.step_definitions.Hook - browser closed
+16:14:07.226 [pool-1-thread-19] INFO  com.company.step_definitions.Hook - browser closed
+16:14:07.741 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - browser closed
+16:14:08.069 [pool-1-thread-22] INFO  com.company.step_definitions.Hook - browser closed
+16:14:12.857 [pool-1-thread-8] INFO  com.company.step_definitions.Hook - browser closed
