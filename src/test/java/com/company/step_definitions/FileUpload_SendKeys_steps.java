@@ -33,6 +33,6 @@ public class FileUpload_SendKeys_steps {
 
     @Then("I should get {string} confirmation text")
     public void i_should_get_confirmation_text(String string) {
-        Assert.assertTrue(driver.getPageSource().contains(fileUpload.confirmationMessage()));
+        Assert.assertTrue(driver.getPageSource().contains(string));
     }
 }
