@@ -7,11 +7,10 @@ import io.cucumber.java.en.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
-import org.openqa.selenium.WebDriver;
 
-public class BasicAuth {
+public class WindowsAuthentication {
 
-    private static Logger log = LogManager.getLogger(BasicAuth.class.getName());
+    private static Logger log = LogManager.getLogger(WindowsAuthentication.class.getName());
     Heroku_Homepage homepage = new Heroku_Homepage();
 
     @Given("I am in Home page")

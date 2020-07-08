@@ -113,9 +113,9 @@
 16:13:33.130 [pool-1-thread-16] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
 16:13:33.160 [pool-1-thread-5] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
 16:13:38.676 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - browser closed
-16:13:40.597 [pool-1-thread-3] INFO  com.company.step_definitions.BasicAuth - navigated the website
-16:13:40.893 [pool-1-thread-2] INFO  com.company.step_definitions.BasicAuth - navigated the website
-16:13:42.082 [pool-1-thread-2] INFO  com.company.step_definitions.BasicAuth - Basic auth element is displayed
+16:13:40.597 [pool-1-thread-3] INFO  com.company.step_definitions.WindowsAuthentication - navigated the website
+16:13:40.893 [pool-1-thread-2] INFO  com.company.step_definitions.WindowsAuthentication - navigated the website
+16:13:42.082 [pool-1-thread-2] INFO  com.company.step_definitions.WindowsAuthentication - Basic auth element is displayed
 16:13:51.441 [pool-1-thread-2] INFO  com.company.step_definitions.Hook - browser closed
 16:13:51.486 [pool-1-thread-20] INFO  com.company.step_definitions.Hook - browser closed
 16:13:51.676 [pool-1-thread-12] INFO  com.company.step_definitions.Hook - browser closed
@@ -159,3 +159,5 @@
 16:14:07.741 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - browser closed
 16:14:08.069 [pool-1-thread-22] INFO  com.company.step_definitions.Hook - browser closed
 16:14:12.857 [pool-1-thread-8] INFO  com.company.step_definitions.Hook - browser closed
+21:49:05.456 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+21:49:13.528 [main] INFO  com.company.step_definitions.Hook - browser closed
