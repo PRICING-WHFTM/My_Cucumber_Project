@@ -20,7 +20,6 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt"})
 
 
-
 public class CukesRunner {
 
 

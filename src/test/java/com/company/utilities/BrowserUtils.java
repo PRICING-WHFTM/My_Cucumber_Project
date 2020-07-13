@@ -169,7 +169,6 @@ public class BrowserUtils {
      */
     public static String get_Current_Day() {
         Calendar calendar = Calendar.getInstance(TimeZone.getDefault());
-        //Date date = calendar.getTime();
         int day = calendar.get(Calendar.DATE);
         return String.valueOf(day);
     }
