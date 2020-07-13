@@ -33,5 +33,4 @@ public class DynamicControls {
     @FindBy(id = "checkbox")
     public WebElement checkBox;
 
-
 }

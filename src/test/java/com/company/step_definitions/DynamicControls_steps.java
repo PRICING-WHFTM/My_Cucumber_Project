@@ -81,21 +81,13 @@ public class DynamicControls_steps {
     @When("I click remove button")
     public void i_click_remove_button() {
         dynamicControls.removeBtn.click();
-        try {
-            BrowserUtils.waitFor_In_Visible(dynamicControls.removeBtn);
-        } catch (Exception e) {
-            System.out.println("Waiting until Remove element is gone");
-        }
-
+        BrowserUtils.waitForVisibility(dynamicControls.addBtn);
     }
+
 
     @Then("checkbox should not display in the page")
     public void checkbox_should_not_display_in_the_page() {
-        try {
-            Assert.assertTrue(dynamicControls.checkBox.isSelected());
-        } catch (NoSuchElementException e) {
-            System.out.println("A checkbox Element not displayed");
-        }
+        BrowserUtils.verifyElementNotDisplayed("//input[@type='checkbox']");
     }
 
     @Then("{string} text should display in the page")
@@ -105,11 +97,7 @@ public class DynamicControls_steps {
 
     @Then("remove button should not display in the page")
     public void remove_button_should_not_display_in_the_page() {
-        try {
-            Assert.assertTrue(dynamicControls.removeBtn.isDisplayed());
-        } catch (NoSuchElementException e) {
-            System.out.println("\"Remove\" Element not displaued");
-        }
+        BrowserUtils.verifyElementNotDisplayed("//button[contains(text(),'Remove')]");
     }
 
 

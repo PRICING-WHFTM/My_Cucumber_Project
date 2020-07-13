@@ -3,21 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker-Hub-starter.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e7ec8a1f-cec6-4b17-8c10-a4835abd3540.tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/prints-2020-06-26.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints-2020-06-26.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/prints-2020-06-27.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints-2020-06-27.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/prints-2020-06-30.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints-2020-06-30.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/prints-2020-07-04.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints-2020-07-04.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/prints-2020-07-06.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints-2020-07-06.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/BasicAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/WindowsAuthentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/FileUpload_SendKeys_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/FileUpload_SendKeys_steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/JSUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/JSUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/FileUpload._Sendkeys.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/FileUpload._Sendkeys.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/DynamicControls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/DynamicControls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Mercury_FlightFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Mercury_FlightFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DynamicControls_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/DynamicControls_steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,15 +59,15 @@
       <recent name="C:\Users\salma\IdeaProjects\Cucumber-project\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: FileUpload._Sendkeys">
-    <configuration name="Feature: FileDownlod" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: DynamicControls">
+    <configuration name="Feature: DynamicControls" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/FileDownlod.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DynamicControls.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber_Project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: FileDownlod" />
+      <option name="SUGGESTED_NAME" value="Feature: DynamicControls" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -90,14 +79,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: FileUpload_AutoIT" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: FileDownlod" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/FileUpload_AutoIT.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/FileDownlod.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber_Project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: FileUpload_AutoIT" />
+      <option name="SUGGESTED_NAME" value="Feature: FileDownlod" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -128,15 +117,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Downloading multiple file" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Buying new Flight ticket step by step" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/FileDownlod.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MercuryBuyFlightTicket.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber_Project" />
-      <option name="NAME_FILTER" value="^Downloading multiple file$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Downloading multiple file$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Downloading multiple file" />
+      <option name="NAME_FILTER" value="^Buying new Flight ticket step by step$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Buying new Flight ticket step by step$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Buying new Flight ticket step by step" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -170,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: DynamicControls" />
+        <item itemvalue="Cucumber Java.Scenario: Buying new Flight ticket step by step" />
         <item itemvalue="Cucumber Java.Feature: FileUpload._Sendkeys" />
         <item itemvalue="Cucumber Java.Scenario: Uploading file testing" />
         <item itemvalue="Cucumber Java.Feature: FileDownlod" />
-        <item itemvalue="Cucumber Java.Feature: FileUpload_AutoIT" />
-        <item itemvalue="Cucumber Java.Scenario: Downloading multiple file" />
       </list>
     </recent_temporary>
   </component>
@@ -235,33 +224,37 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1237" height="311" key="GridCell.Tab.0.bottom" timestamp="1594227222729">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom" timestamp="1594611131490">
+      <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591820859612" />
     <state width="1431" height="424" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
-    <state width="1237" height="311" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1594227222729" />
+    <state width="1237" height="148" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1594502217557" />
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1594611131490" />
     <state width="1237" height="130" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589966472862" />
-    <state width="1237" height="311" key="GridCell.Tab.0.center" timestamp="1594227222729">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="291" key="GridCell.Tab.0.center" timestamp="1594611131490">
+      <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591820859611" />
     <state width="1431" height="424" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
-    <state width="1237" height="311" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1594227222729" />
+    <state width="1237" height="148" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1594502217557" />
+    <state width="1493" height="291" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1594611131490" />
     <state width="1237" height="130" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
-    <state width="1237" height="311" key="GridCell.Tab.0.left" timestamp="1594227222729">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="291" key="GridCell.Tab.0.left" timestamp="1594611131490">
+      <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591820859611" />
     <state width="1431" height="424" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
-    <state width="1237" height="311" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1594227222729" />
+    <state width="1237" height="148" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1594502217556" />
+    <state width="1493" height="291" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1594611131490" />
     <state width="1237" height="130" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
-    <state width="1237" height="311" key="GridCell.Tab.0.right" timestamp="1594227222729">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="291" key="GridCell.Tab.0.right" timestamp="1594611131490">
+      <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591820859611" />
     <state width="1431" height="424" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
-    <state width="1237" height="311" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1594227222729" />
+    <state width="1237" height="148" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1594502217557" />
+    <state width="1493" height="291" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1594611131490" />
     <state width="1237" height="130" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586677708995">
       <screen x="0" y="0" width="1280" height="680" />
