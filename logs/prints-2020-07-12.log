@@ -269,3 +269,9 @@
 22:53:08.005 [pool-1-thread-20] INFO  com.company.step_definitions.Hook - browser closed
 22:53:09.450 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
 22:53:13.130 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - browser closed
+23:51:06.122 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+23:51:10.027 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - browser closed
+23:55:34.762 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+23:55:36.988 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - browser closed
+23:57:10.796 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
+23:57:12.641 [pool-1-thread-1] INFO  com.company.step_definitions.Hook - browser closed
