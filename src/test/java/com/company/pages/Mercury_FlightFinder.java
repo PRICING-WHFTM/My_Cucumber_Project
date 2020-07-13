@@ -73,14 +73,14 @@ public class Mercury_FlightFinder {
 
     public void selectDateOfDeparture(String month, String day) {
         Select selectMonth = new Select(fromMonthDropdown);
-        Assert.assertEquals(selectMonth.getFirstSelectedOption().getText(), BrowserUtils.get_Month());
-        System.out.println("Current Month is " + BrowserUtils.get_Month());
+        Assert.assertEquals(selectMonth.getFirstSelectedOption().getText(), BrowserUtils.get_Current_Month());
+        System.out.println("Current Month is " + BrowserUtils.get_Current_Month());
         selectMonth.selectByVisibleText(month);
         Assert.assertEquals(selectMonth.getFirstSelectedOption().getText(), month);
         System.out.println("selected departure month : " + month);
         Select selectDay = new Select(fromDayDropdown);
-        Assert.assertEquals(selectDay.getFirstSelectedOption().getText(), BrowserUtils.get_Day());
-        System.out.println("Current day is " + BrowserUtils.get_Day());
+        Assert.assertEquals(selectDay.getFirstSelectedOption().getText(), BrowserUtils.get_Current_Day());
+        System.out.println("Current day is " + BrowserUtils.get_Current_Day());
         selectDay.selectByVisibleText(day);
         Assert.assertEquals(selectDay.getFirstSelectedOption().getText(), day);
         System.out.println("selected departure day : " + day);
@@ -96,12 +96,12 @@ public class Mercury_FlightFinder {
 
     public void selectDateOfReturning(String month, String day) {
         Select selectToMonth = new Select(toMonthDropdown);
-        Assert.assertEquals(selectToMonth.getFirstSelectedOption().getText(), BrowserUtils.get_Month());
+        Assert.assertEquals(selectToMonth.getFirstSelectedOption().getText(), BrowserUtils.get_Current_Month());
         selectToMonth.selectByVisibleText(month);
         Assert.assertEquals(selectToMonth.getFirstSelectedOption().getText(), month);
         System.out.println("selected returning month : " + month);
         Select selectToDay = new Select(toDayDropdown);
-        Assert.assertEquals(selectToDay.getFirstSelectedOption().getText(), BrowserUtils.get_Day());
+        Assert.assertEquals(selectToDay.getFirstSelectedOption().getText(), BrowserUtils.get_Current_Day());
         selectToDay.selectByVisibleText(day);
         Assert.assertEquals(selectToDay.getFirstSelectedOption().getText(), day);
         System.out.println("selected returning day : " + day);

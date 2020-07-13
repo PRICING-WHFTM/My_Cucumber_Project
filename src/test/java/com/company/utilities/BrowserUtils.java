@@ -1,24 +1,30 @@
 package com.company.utilities;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.*;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.support.ui.*;
 
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
-import java.util.*;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
+import java.util.TimeZone;
 import java.util.function.Function;
 
 public class BrowserUtils {
 
+    private static Logger log = LogManager.getLogger(BrowserUtils.class.getName());
+
 
     public static void wait(int seconds) {
         try {
-            Thread.sleep(1000 * seconds);
+            Thread.sleep(seconds);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -61,17 +67,28 @@ public class BrowserUtils {
         return wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
-    public static void waitFor_In_Visible(WebElement element) {
-        WebDriverWait wait = new WebDriverWait(DriverUtil.getDriver(), 10);
+    /**
+     * Waits for provided element to be invisible
+     */
+    public static void waitForInVisibility(WebElement element) {
+        WebDriverWait wait = new WebDriverWait(DriverUtil.getDriver(), 15);
         wait.until(ExpectedConditions.invisibilityOf(element));
 
     }
 
-    public static void verifyElementDisplayed(WebElement element) {
-        try {
-            Assert.assertTrue(element.isDisplayed());
-        } catch (NoSuchElementException e) {
-            Assert.fail("Element not found: ");
+    /**
+     * This method verifies Element not displayed in the page
+     */
+
+    public static void verifyElementNotDisplayed(String xpath) {
+        List<WebElement> elem = DriverUtil.getDriver().findElements(By.xpath(xpath));
+        if (elem.size() > 0) {
+            Assert.assertTrue(false);
+            log.error("Element still displayed in the page");
+        } else {
+            Assert.assertTrue(true);
+            log.info("Element not displayed ");
+
         }
     }
 
@@ -98,7 +115,7 @@ public class BrowserUtils {
     }
 
     /**
-     * Wait 15 seconds with polling interval of 200 milliseconds then click
+     * Wait 15 seconds with polling interval of 200 milliseconds element to be wisible
      */
     public static WebElement fluentWait(WebElement webElement, WebDriver driver) {
         Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
@@ -138,18 +155,23 @@ public class BrowserUtils {
         wait.until(ExpectedConditions.titleIs(pageTitle));
     }
 
-
-    public static String get_Month() {
+    /**
+     * Gets current moth, returns current Month name as String
+     */
+    public static String get_Current_Month() {
         Date date = new Date();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MMMMMMMMM");
         return simpleDateFormat.format(date);
     }
 
-    public static String get_Day() {
+    /**
+     * Gets current day, returns cureent  Month name as String
+     */
+    public static String get_Current_Day() {
         Calendar calendar = Calendar.getInstance(TimeZone.getDefault());
-        Date date = calendar.getTime();
+        //Date date = calendar.getTime();
         int day = calendar.get(Calendar.DATE);
-        return "" + day;
+        return String.valueOf(day);
     }
 
 
