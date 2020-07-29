@@ -3,7 +3,7 @@ package com.company.step_definitions;
 import com.company.pages.MapRoom;
 import com.company.pages.Sign_In;
 import com.company.utilities.BrowserUtils;
-import com.company.utilities.DBUtil;
+import com.company.utilities.DBUtils;
 import com.company.utilities.DriverUtil;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
@@ -11,7 +11,6 @@ import org.openqa.selenium.WebDriver;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class MapDetails_steps {
@@ -41,12 +40,12 @@ public class MapDetails_steps {
 
     @Then("In DB I should see the {string} room")
     public void in_DB_I_should_see_the_room(String string) throws SQLException {
-        DBUtil.createConnectionToRoomDB();
+        DBUtils.createConnectionToRoomDB();
         String query = "Select * from room;";
-        List<String> allRoomNames = DBUtil.executeQueryAndGetColumnValues(query, "name");
+        List<String> allRoomNames = DBUtils.executeQueryAndGetColumnValuesAsList(query, "name");
         System.out.println(allRoomNames);
         Assert.assertTrue(allRoomNames.contains(string));
-        DBUtil.destroy();
+        DBUtils.destroy();
     }
 
 

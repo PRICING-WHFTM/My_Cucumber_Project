@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class DBUtil {
+public class DBUtils {
     /**
      * NOTE: In any class before calling any method from DBUtil class,
      * 1st we need to call createConnection class and pass
@@ -16,27 +16,31 @@ public class DBUtil {
 
     //Connection info:
     //jdbc:postgresql:(jdbc db driver)//ip where db is : 5432(port) + /hr (dbname)
+    //Connection info for Hr DB -> PostgreSQL database:
+    //jdbc:postgresql:(jdbc db driver)//ip where db is : 5432(port) + /hr (dbname)
+    private static String hrdbURL = ConfigReader.getProperty("hrdbUrl");
+    private static String hrdbUsername = ConfigReader.getProperty("hrdbUser");  //hr
+    private static String hrdbPassword = ConfigReader.getProperty("hrdbPassword");  //hr
 
+    private static Connection connection;
+    private static Statement statement;
+    private static ResultSet resultSet;
+    private static ResultSetMetaData rsmd;
 
-    protected static Connection connection;
-    protected static Statement statement;
-    protected static ResultSet resultSet;
+    private DBUtils() {
+
+    }
 
     /**
-     * This method creates connection to hrDB
+     * This method takes parameters from util class itself, works for specific DB.
      */
     public static void createConnectionToHrDB() {
         try {
-            connection = DriverManager.getConnection(ConfigReader.getProperty("hrdbUrl"),
-                    ConfigReader.getProperty("hrdbUser"), ConfigReader.getProperty("hrdbPassword"));
+            connection = DriverManager.getConnection(hrdbURL, hrdbUsername, hrdbPassword);
         } catch (SQLException e) {
             e.printStackTrace();
         }
     }
-
-    /**
-     * This method creates connection to roomDB
-     */
     public static void createConnectionToRoomDB() {
         try {
             connection = DriverManager.getConnection(ConfigReader.getProperty("roomdbUrl"),
@@ -45,7 +49,6 @@ public class DBUtil {
             e.printStackTrace();
         }
     }
-
 
     /*Always must be called 1st in any class.*/
     public static void createConnection(String url, String user, String password) {
@@ -94,9 +97,9 @@ public class DBUtil {
      * Accepts : resultSet as parameter.
      */
     public static int executeQueryAndGetRowsCount(String query) {
-        ResultSet resultSet = executeQuery(query);
         int amountOfRows = 0;
         try {
+            executeQuery(query);
             resultSet.last();
             amountOfRows = resultSet.getRow();
         } catch (SQLException e) {
@@ -112,9 +115,9 @@ public class DBUtil {
      */
     public static int executeQueryAndGetColumnsCount(String query) {
         int columnsCount = 0;
-        ResultSet resultSet = executeQuery(query);
+        executeQuery(query);
         try {
-            ResultSetMetaData rsmd = resultSet.getMetaData();
+            rsmd = resultSet.getMetaData();
             columnsCount = rsmd.getColumnCount();
         } catch (SQLException e) {
             System.out.println(e.getMessage());
@@ -128,11 +131,11 @@ public class DBUtil {
      * Store returned date into List<String>columnNames
      * Accepts query as String as method parameter
      */
-    public static List<String> executeQueryAndGetColumnsNames(String query) {
+    public static List<String> executeQueryAndGetColumnsNamesAsList(String query) {
         List<String> columns = new ArrayList<>();
         try {
-            ResultSet resultSet = executeQuery(query);
-            ResultSetMetaData rsmd = resultSet.getMetaData();
+            executeQuery(query);
+            rsmd = resultSet.getMetaData();
             int columnCount = rsmd.getColumnCount();
             for (int i = 1; i <= columnCount; i++) {
                 columns.add(rsmd.getColumnName(i));
@@ -148,11 +151,11 @@ public class DBUtil {
      * Store returned data as  List <String>.
      * Accepts: query as parameter and columnName
      */
-    public static List<String> executeQueryAndGetColumnValues(String query, String columnName) {
-        ResultSet resultSet = executeQuery(query);
+    public static List<String> executeQueryAndGetColumnValuesAsList(String query, String columnName) {
         List<String> values = new ArrayList<>();
         try {
-            ResultSetMetaData rsmd = resultSet.getMetaData();
+            executeQuery(query);
+            rsmd = resultSet.getMetaData();
             while (resultSet.next()) {
                 values.add(resultSet.getString(columnName));
             }
@@ -169,10 +172,9 @@ public class DBUtil {
      * Accept query String as a parameter.
      */
     public static List<List<Object>> executeQueryAndGetResultAsListOfLists(String query) {
-        ResultSet resultSet = executeQuery(query);
         List<List<Object>> rowList = new ArrayList<>();
-        ResultSetMetaData rsmd;
         try {
+            executeQuery(query);
             rsmd = resultSet.getMetaData();
             while (resultSet.next()) {
                 List<Object> row = new ArrayList<>();
@@ -193,11 +195,10 @@ public class DBUtil {
      * Accepts: query String as parameter
      */
 
-    public static List<Map<String, Object>> executeQueryAndGetResultMap(String query) {
-        ResultSet resultSet = executeQuery(query);
+    public static List<Map<String, Object>> executeQueryAndGetResultAsListOfMaps(String query) {
         List<Map<String, Object>> rowList = new ArrayList<>();
-        ResultSetMetaData rsmd;
         try {
+            executeQuery(query);
             rsmd = resultSet.getMetaData();
             while (resultSet.next()) {
                 Map<String, Object> colNameValueMap = new HashMap<>();
@@ -239,10 +240,8 @@ public class DBUtil {
 
 
     public static Map<String, Object> getRowMap(String query) {
-        return executeQueryAndGetResultMap(query).get(0);
+        return executeQueryAndGetResultAsListOfMaps(query).get(0);
     }
-
-
 }
 
 
