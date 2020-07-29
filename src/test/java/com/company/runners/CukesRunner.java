@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         monochrome = true,
         strict = true,
         dryRun = false,
-        // tags = {"not @ignore", "@smoke"},    //always comment out after running by tags
+        tags = {"not @ignore"},    //always comment out after running by tags
 
         plugin = {"html:target/default-cucumber-reports",
                 "json:target/cucumber.json",
