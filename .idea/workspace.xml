@@ -1,29 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/GoogleTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/GoogleTranslate_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GoogleTanslate.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/prints-2020-07-12.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints-2020-07-12.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/WindowAuthentication_DirectInURL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/WindowAuthentication_DirectInURL.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Add and Remove elements dynamically-2020-07-12-21-33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Add and Remove elements dynamically-2020-07-12-21-39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Add and Remove elements dynamically-2020-07-12-21-40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Add and Remove elements dynamically-2020-07-12-21-41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Add and Remove elements dynamically-2020-07-12-21-45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Add and Remove elements dynamically-2020-07-12-21-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Add and Remove elements dynamically-2020-07-12-21-49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Add and Remove elements dynamically-2020-07-12-21-59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Add and Remove elements dynamically-2020-07-12-22-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying new Flight ticket step by step-2020-07-11-01-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying new Flight ticket step by step-2020-07-12-21-34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Enable and Disable edit-box-2020-07-12-22-36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Initially, 1 button Add element  button should display in in Add Remove Elements module-2020-07-12-22-36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Mercury SignOn-2020-07-12-22-36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Use FluentWait to get the text-2020-07-12-22-37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Verify count of Checkboxes and by default selected checkbox-2020-07-12-22-37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/ShiftingContent_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/ShiftingContent_steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying new Flight ticket step by step-2020-07-13-00-10.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +31,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/company/step_definitions/GoogleTranslate_steps.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\salma\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1YQEwon7Jy7iaIqQ16AKSvlJDvA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -76,15 +73,15 @@
       <recent name="C:\Users\salma\IdeaProjects\Cucumber-project\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Re_runner">
-    <configuration name="Feature: DynamicControls" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verify correct translation">
+    <configuration name="Feature: GoogleTanslate" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DynamicControls.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/GoogleTanslate.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber_Project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: DynamicControls" />
+      <option name="SUGGESTED_NAME" value="Feature: GoogleTanslate" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -96,14 +93,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: FileUpload._Sendkeys" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: ShiftingContent" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/FileUpload._Sendkeys.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ShiftingContent.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber_Project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: FileUpload._Sendkeys" />
+      <option name="SUGGESTED_NAME" value="Feature: ShiftingContent" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -115,15 +112,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Buying new Flight ticket step by step" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify correct translation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MercuryBuyFlightTicket.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/GoogleTanslate.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber_Project" />
-      <option name="NAME_FILTER" value="^Buying new Flight ticket step by step$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Buying new Flight ticket step by step$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Buying new Flight ticket step by step" />
+      <option name="NAME_FILTER" value="^Verify correct translation$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify correct translation$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify correct translation" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -135,22 +132,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Uploading file testing" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/FileUpload._Sendkeys.feature" />
-      <option name="GLUE" value="com.company.step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="My_Cucumber_Project" />
-      <option name="NAME_FILTER" value="^Uploading file testing$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Uploading file testing$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Uploading file testing" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="com.company.runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.company.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.company.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,14 +164,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Verify correct translation" />
+        <item itemvalue="Cucumber Java.Feature: GoogleTanslate" />
+        <item itemvalue="Cucumber Java.Feature: ShiftingContent" />
+        <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="JUnit.Re_runner" />
-        <item itemvalue="Cucumber Java.Feature: DynamicControls" />
-        <item itemvalue="Cucumber Java.Scenario: Buying new Flight ticket step by step" />
-        <item itemvalue="Cucumber Java.Feature: FileUpload._Sendkeys" />
-        <item itemvalue="Cucumber Java.Scenario: Uploading file testing" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -205,18 +198,15 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Plugins/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588973585043" />
-    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589565310049">
+    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595293528193">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589565310049" />
+    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1595293528193" />
     <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1588128345531">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1588128345531" />
-    <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586666950436">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586666950436" />
     <state x="424" y="235" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588975254959">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -229,76 +219,47 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="370" y="193" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1587857622772" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1586925202739">
+    <state width="1237" height="201" key="GridCell.Tab.0.bottom" timestamp="1595986056369">
       <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586925202739" />
-    <state x="421" y="58" key="FileChooserDialogImpl" timestamp="1586486697171">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="421" y="58" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486697171" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1594616888914">
-      <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591820859612" />
     <state width="1431" height="424" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
-    <state width="1237" height="148" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1594502217557" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1594616888914" />
+    <state width="1237" height="201" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1595986056369" />
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1594617487700" />
     <state width="1237" height="130" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589966472862" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1594616888914">
-      <screen x="1920" y="0" width="1536" height="824" />
+    <state width="1237" height="201" key="GridCell.Tab.0.center" timestamp="1595986056369">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591820859611" />
     <state width="1431" height="424" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
-    <state width="1237" height="148" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1594502217557" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1594616888914" />
+    <state width="1237" height="201" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1595986056369" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1594617487696" />
     <state width="1237" height="130" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1594616888914">
-      <screen x="1920" y="0" width="1536" height="824" />
+    <state width="1237" height="201" key="GridCell.Tab.0.left" timestamp="1595986056369">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591820859611" />
     <state width="1431" height="424" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
-    <state width="1237" height="148" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1594502217556" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1594616888914" />
+    <state width="1237" height="201" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1595986056369" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1594617487696" />
     <state width="1237" height="130" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1594616888914">
-      <screen x="1920" y="0" width="1536" height="824" />
+    <state width="1237" height="201" key="GridCell.Tab.0.right" timestamp="1595986056369">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1222" height="161" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591820859611" />
     <state width="1431" height="424" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1474.864@1920.0.1474.864" timestamp="1588392807521" />
-    <state width="1237" height="148" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1594502217557" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1594616888914" />
+    <state width="1237" height="201" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1595986056369" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1594617487700" />
     <state width="1237" height="130" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589966472847" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586677708995">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586677708995" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1586677708995">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586677708995" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1586677708995">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586677708995" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1586677708995">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586677708995" />
     <state x="221" y="84" key="IDE.errors.dialog" timestamp="1589521083943">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="221" y="84" key="IDE.errors.dialog/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589521083943" />
-    <state x="316" y="40" key="NewModule_or_Project.wizard" timestamp="1586486702087">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="316" y="40" key="NewModule_or_Project.wizard/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486702087" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1593187455355">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1591649962526" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1593187455355" />
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587190720489" />
     <state x="100" y="100" width="1080" height="480" key="dock-window-1" timestamp="1591242494533">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -327,10 +288,6 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="336" y="72" width="780" height="536" key="find.popup/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1589568194351" />
-    <state x="91" y="36" key="new project wizard" timestamp="1586486653539">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="91" y="36" key="new project wizard/0.0.1280.680/1920.0.1474.864@0.0.1280.680" timestamp="1586486653539" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1587947363415">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
