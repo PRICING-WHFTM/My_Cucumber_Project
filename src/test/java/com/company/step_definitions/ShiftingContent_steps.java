@@ -40,6 +40,7 @@ public class ShiftingContent_steps {
         for (WebElement option : options) {
             optionNames.add(option.getText());
         }
+        Assert.assertTrue(optionNames.containsAll(dataTable));
         Assert.assertTrue(optionNames.equals(dataTable));
 
 
