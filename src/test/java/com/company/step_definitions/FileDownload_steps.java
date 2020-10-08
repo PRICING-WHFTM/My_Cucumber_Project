@@ -1,6 +1,7 @@
 package com.company.step_definitions;
 
 import com.company.pages.Heroku_Homepage;
+import com.company.utilities.BrowserUtils;
 import com.company.utilities.DriverUtil;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
@@ -38,6 +39,7 @@ public class FileDownload_steps {
             for (WebElement file : filesList) {
                 if (file.getText().equals(string)) {
                     file.click();
+                    BrowserUtils.wait(1);
                     break;
                 }
             }

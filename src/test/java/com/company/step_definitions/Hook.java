@@ -26,7 +26,6 @@ public class Hook {
         String browser = ConfigReader.getProperty("browser");
         if (!browser.contains("remote") && !browser.contains("mobile")) {
             DriverUtil.getDriver();
-            log.info("Launching browser " + ConfigReader.getProperty("browser"));
 
         }
     }
@@ -39,6 +38,5 @@ public class Hook {
             scenario.embed(screenshot, "image/png");
         }
         DriverUtil.closeDriver();
-        log.info("browser closed");
     }
 }
