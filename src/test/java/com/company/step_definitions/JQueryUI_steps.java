@@ -18,6 +18,7 @@ import javax.swing.*;
 import javax.swing.text.html.HTML;
 import java.awt.*;
 import java.awt.event.KeyEvent;
+import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
@@ -28,6 +29,7 @@ public class JQueryUI_steps {
     JqueryUI jqueryUI = new JqueryUI();
     Actions actions = new Actions(DriverUtil.getDriver());
     List<WebElement> formats;
+    File file;
 
     @When("I click jquery")
     public void i_click_jquery() {
@@ -51,11 +53,10 @@ public class JQueryUI_steps {
     }
 
     // We need to store all bootstrap dropdown elements
-
     @Then("I should see {int} options there")
     public void i_should_see_options_there(int int1) {
         //here we get "xpath of Parent of ul tag//current ul//li //a "
-        formats = DriverUtil.getDriver().findElements(By.xpath("//li[@class='ui-menu-item ui-state-active']//ul//li//ul//li//a"));
+        formats = DriverUtil.getDriver().findElements(By.xpath("//ul[@id='menu']/li[2]/ul/li/ul/li/a"));
         Assert.assertEquals(formats.size(), int1);
         for (WebElement elem : formats) {
             System.out.println(elem.getText());
@@ -66,22 +67,21 @@ public class JQueryUI_steps {
 
     @When("I click {string} in options")
     public void i_click_in_options(String string) {
-        for (int i = 0; i < formats.size(); i++) {
-            if (formats.get(i).getText().contains(string)) {
-                formats.get(i).click();
-                break;
+        file = new File(System.getProperty("user.dir") + "/menu.pdf");
+        if (!file.exists()) {
+            for (WebElement elem : formats) {
+                if (elem.getText().equals(string)) {
+                    elem.click();
+                    BrowserUtils.wait(1);
+                    break;
+                }
             }
         }
     }
 
-
     @Then("It should be downloaded to my computer")
-    public void it_should_be_downloaded_to_my_computer() throws AWTException {
-        Robot robot = new Robot();
-        robot.keyPress(KeyEvent.VK_ENTER);
-        String fileName = "menu.pdf";
-        String fullPath = "C:\\Users\\salma\\Downloads\\" + fileName;
-        Assert.assertTrue(Files.exists(Paths.get(fullPath)));
+    public void it_should_be_downloaded_to_my_computer() {
+        Assert.assertTrue(file.exists());
     }
 
 

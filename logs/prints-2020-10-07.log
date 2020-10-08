@@ -1,0 +1,94 @@
+17:19:22.589 [main] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+17:19:27.522 [main] INFO  com.company.utilities.DriverUtil - Browser closed
+17:19:31.072 [main] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+17:19:34.225 [main] INFO  com.company.utilities.DriverUtil - Browser closed
+17:19:37.774 [main] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+17:19:41.421 [main] INFO  com.company.utilities.DriverUtil - Browser closed
+17:19:44.873 [main] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+17:19:47.909 [main] INFO  com.company.utilities.DriverUtil - Browser closed
+17:19:51.219 [main] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+17:19:53.455 [main] INFO  com.company.step_definitions.WindowsAuthentication - navigated the website
+17:19:56.491 [main] INFO  com.company.utilities.DriverUtil - Browser closed
+17:19:59.744 [main] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+17:20:03.779 [main] INFO  com.company.utilities.DriverUtil - Browser closed
+17:20:07.194 [main] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+17:20:12.168 [main] INFO  com.company.utilities.DriverUtil - Browser closed
+17:20:15.714 [main] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+17:20:21.403 [main] INFO  com.company.utilities.DriverUtil - Browser closed
+17:20:24.970 [main] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+17:20:29.116 [main] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:22.213 [pool-1-thread-22] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:22.213 [pool-1-thread-5] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:22.213 [pool-1-thread-18] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:22.229 [pool-1-thread-25] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:22.213 [pool-1-thread-6] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:22.244 [pool-1-thread-20] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:22.388 [pool-1-thread-17] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:22.450 [pool-1-thread-7] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:22.450 [pool-1-thread-8] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:22.604 [pool-1-thread-10] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:22.703 [pool-1-thread-13] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:22.729 [pool-1-thread-9] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:22.880 [pool-1-thread-21] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:22.928 [pool-1-thread-19] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:23.002 [pool-1-thread-15] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:23.263 [pool-1-thread-4] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:23.354 [pool-1-thread-23] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:23.468 [pool-1-thread-2] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:23.468 [pool-1-thread-3] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:23.836 [pool-1-thread-24] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:24.279 [pool-1-thread-12] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:24.279 [pool-1-thread-1] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:24.279 [pool-1-thread-14] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:24.350 [pool-1-thread-11] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:24.457 [pool-1-thread-26] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:24.460 [pool-1-thread-27] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:24.469 [pool-1-thread-16] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:35.485 [pool-1-thread-23] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:35.516 [pool-1-thread-25] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:35.516 [pool-1-thread-24] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:37.017 [pool-1-thread-26] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:38.495 [pool-1-thread-10] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:38.646 [pool-1-thread-20] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:40.142 [pool-1-thread-2] INFO  com.company.step_definitions.WindowsAuthentication - navigated the website
+18:00:42.090 [pool-1-thread-5] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:42.787 [pool-1-thread-20] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:43.308 [pool-1-thread-3] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:43.465 [pool-1-thread-1] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:43.511 [pool-1-thread-19] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:43.697 [pool-1-thread-27] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:43.712 [pool-1-thread-6] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:43.840 [pool-1-thread-21] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:44.034 [pool-1-thread-16] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:44.913 [pool-1-thread-13] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:45.459 [pool-1-thread-14] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:46.223 [pool-1-thread-12] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:46.271 [pool-1-thread-7] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:46.287 [pool-1-thread-2] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:46.290 [pool-1-thread-11] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:46.290 [pool-1-thread-18] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:46.375 [pool-1-thread-4] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:46.384 [pool-1-thread-9] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:46.527 [pool-1-thread-17] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:47.260 [pool-1-thread-19] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:47.559 [pool-1-thread-1] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:47.660 [pool-1-thread-21] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:49.245 [pool-1-thread-14] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:49.671 [pool-1-thread-7] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:51.042 [pool-1-thread-8] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:53.329 [pool-1-thread-21] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:53.393 [pool-1-thread-19] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:53.506 [pool-1-thread-1] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:54.557 [pool-1-thread-20] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:56.869 [pool-1-thread-21] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:57.296 [pool-1-thread-7] INFO  com.company.utilities.BrowserUtils - Element not displayed 
+18:00:57.338 [pool-1-thread-1] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:00:57.372 [pool-1-thread-7] INFO  com.company.utilities.BrowserUtils - Element not displayed 
+18:00:57.951 [pool-1-thread-14] INFO  com.company.utilities.DriverUtil - Browser closed
+18:00:58.359 [pool-1-thread-7] INFO  com.company.utilities.DriverUtil - Browser closed
+18:01:01.413 [pool-1-thread-21] INFO  com.company.utilities.DriverUtil - Browser closed
+18:01:04.226 [pool-1-thread-1] INFO  com.company.utilities.DriverUtil - Browser closed
+18:01:08.283 [pool-1-thread-1] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
+18:01:10.220 [pool-1-thread-15] INFO  com.company.utilities.DriverUtil - Browser closed
+18:01:11.604 [pool-1-thread-1] INFO  com.company.utilities.DriverUtil - Browser closed
+18:01:20.390 [pool-1-thread-22] INFO  com.company.utilities.DriverUtil - Browser closed
