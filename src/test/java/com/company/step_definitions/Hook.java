@@ -19,14 +19,15 @@ import org.apache.logging.log4j.Logger;
 
 public class Hook {
 
-    private static Logger log = LogManager.getLogger(Hook.class.getName());
+    private static final Logger log = LogManager.getLogger(Hook.class.getName());
+    private String browser;
 
     @Before
     public void setup() {
-        String browser = ConfigReader.getProperty("browser");
+        browser = ConfigReader.getProperty("browser");
         if (!browser.contains("remote") && !browser.contains("mobile")) {
             DriverUtil.getDriver();
-
+            log.info(browser + " browser launched");
         }
     }
 
@@ -38,5 +39,6 @@ public class Hook {
             scenario.embed(screenshot, "image/png");
         }
         DriverUtil.closeDriver();
+        log.info(browser + " browser closed");
     }
 }

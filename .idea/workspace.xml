@@ -5,17 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbb82000-ad60-4c45-9f98-efc68d1e11f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/ShadowDom_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ShadowDom.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/menu.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/FileDownload_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/FileDownload_steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/pages/Heroku_Homepage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/JQueryUI_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/step_definitions/JQueryUI_steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/BrowserUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/DriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/DriverUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/BasicAuth.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/JQueryUI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/JQueryUI.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/utilities/JSUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/utilities/JSUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying new Flight ticket step by step-2020-07-29-02-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying new Flight ticket step by step-2020-08-15-19-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying new Flight ticket step by step-2020-08-17-20-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying new Flight ticket step by step-2020-09-19-23-26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Buying new Flight ticket step by step-2020-10-07-18-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-08-15-18-22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-08-15-18-27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-08-15-18-29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-08-15-18-36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-08-15-18-38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-08-15-18-41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-08-15-18-43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-08-15-18-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-08-15-18-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-08-15-18-55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/JQueryUI elements-2020-08-15-19-06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Light side rooms should contain yale room-2020-10-07-18-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Mercury SignOn-2020-07-29-02-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Mercury SignOn-2020-08-15-19-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Mercury SignOn-2020-08-17-20-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Mercury SignOn-2020-09-19-23-26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Mercury SignOn-2020-10-07-18-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Registering new user with random data-2020-07-29-02-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Registering new user with random data-2020-08-15-19-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Registering new user with random data-2020-08-17-20-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Registering new user with random data-2020-09-19-23-26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/Registering new user with random data-2020-10-07-18-00.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,16 +99,15 @@
       <recent name="C:\Users\salma\IdeaProjects\Cucumber-project\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CukesRunner">
-    <configuration name="Scenario: Basic authentication with valid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: AddRemove_Elements">
+    <configuration name="Feature: AddRemove_Elements" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BasicAuth.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AddRemove_Elements.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber_Project" />
-      <option name="NAME_FILTER" value="^Basic authentication with valid credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Basic authentication with valid credentials$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Basic authentication with valid credentials" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: AddRemove_Elements" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -97,15 +119,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Downloading multiple file" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Basic authentication with valid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/FileDownlod.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BasicAuth.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber_Project" />
-      <option name="NAME_FILTER" value="^Downloading multiple file$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Downloading multiple file$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Downloading multiple file" />
+      <option name="NAME_FILTER" value="^Basic authentication with valid credentials$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Basic authentication with valid credentials$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Basic authentication with valid credentials" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -137,15 +159,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: JQueryUI elements" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Getting text from Shadow DOM" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/JQueryUI.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ShadowDom.feature" />
       <option name="GLUE" value="com.company.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="My_Cucumber_Project" />
-      <option name="NAME_FILTER" value="^JQueryUI elements$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^JQueryUI elements$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: JQueryUI elements" />
+      <option name="NAME_FILTER" value="^Getting text from Shadow DOM$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Getting text from Shadow DOM$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Getting text from Shadow DOM" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -174,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: AddRemove_Elements" />
+        <item itemvalue="Cucumber Java.Scenario: Getting text from Shadow DOM" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="Cucumber Java.Scenario: Entering Data from data table;" />
         <item itemvalue="Cucumber Java.Scenario: Basic authentication with valid credentials" />
-        <item itemvalue="Cucumber Java.Scenario: JQueryUI elements" />
-        <item itemvalue="Cucumber Java.Scenario: Downloading multiple file" />
       </list>
     </recent_temporary>
   </component>
@@ -204,34 +226,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Notifications/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1595987176866" />
-    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595293528193">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="402" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1595293528193" />
     <state x="442" y="95" key="FileChooserDialogImpl" timestamp="1602118667256">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="442" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602118667256" />
-    <state width="1237" height="64" key="GridCell.Tab.0.bottom" timestamp="1597615948579">
+    <state width="1237" height="136" key="GridCell.Tab.0.bottom" timestamp="1604037246910">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="64" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1597615948579" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1594617487700" />
-    <state width="1237" height="64" key="GridCell.Tab.0.center" timestamp="1597615948578">
+    <state width="1237" height="136" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604037246910" />
+    <state width="1237" height="136" key="GridCell.Tab.0.center" timestamp="1604037246910">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="64" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1597615948578" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1594617487696" />
-    <state width="1237" height="64" key="GridCell.Tab.0.left" timestamp="1597615948578">
+    <state width="1237" height="136" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604037246910" />
+    <state width="1237" height="136" key="GridCell.Tab.0.left" timestamp="1604037246910">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="64" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1597615948578" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1594617487696" />
-    <state width="1237" height="64" key="GridCell.Tab.0.right" timestamp="1597615948579">
+    <state width="1237" height="136" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604037246910" />
+    <state width="1237" height="136" key="GridCell.Tab.0.right" timestamp="1604037246910">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="64" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1597615948579" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1594617487700" />
+    <state width="1237" height="136" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604037246910" />
     <state width="1237" height="90" key="GridCell.Tab.1.bottom" timestamp="1597536836612">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -248,10 +266,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="90" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1597536836612" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1602118677994">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1602119891381">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1596075763634" />
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1602118677994" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1602119891381" />
   </component>
 </project>
