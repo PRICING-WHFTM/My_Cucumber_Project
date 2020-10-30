@@ -51,4 +51,6 @@ public class Heroku_Homepage {
     public WebElement forgotPassword;
     @FindBy(linkText = "Shifting Content")
     public WebElement shiftingContent;
+    @FindBy(linkText = "Shadow DOM")
+    public WebElement shadowDOM;
 }

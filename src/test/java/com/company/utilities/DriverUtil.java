@@ -40,12 +40,10 @@ public class DriverUtil {
                     chromePrefs.put("download.default_directory", downloadPath);
                     WebDriverManager.chromedriver().setup();
                     driverPool.set(new ChromeDriver(new ChromeOptions().setExperimentalOption("prefs", chromePrefs)));
-                    log.info("Chrome browser launched");
                     break;
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
                     driverPool.set(new FirefoxDriver());
-                    log.info("Firefox browser launched");
                     break;
                 case "chrome-headless":
                     String downloadPathHeadless = System.getProperty("user.dir");
@@ -54,12 +52,10 @@ public class DriverUtil {
                     chromePrefHeadless.put("download.default_directory", downloadPathHeadless);
                     WebDriverManager.chromedriver().setup();
                     driverPool.set(new ChromeDriver(new ChromeOptions().setHeadless(true).setExperimentalOption("prefs", chromePrefHeadless)));
-                    log.info("Chrome-headless browser launched");
                     break;
                 case "firefox-headless":
                     WebDriverManager.firefoxdriver().setup();
                     driverPool.set(new FirefoxDriver(new FirefoxOptions().setHeadless(true)));
-                    log.info("Firefox-headless launched");
                     break;
                 case "chrome-remote":
                     try {
@@ -113,6 +109,6 @@ public class DriverUtil {
     public static void closeDriver() {
         driverPool.get().quit();
         driverPool.remove();
-        log.info("Browser closed");
+
     }
 }
