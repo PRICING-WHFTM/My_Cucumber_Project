@@ -7,17 +7,9 @@ Feature: Finding links on the page
     Then I should see all links in the entire page
 
   Scenario: Find all links in the bolmeler area
-    Then I should see 12 links there
+    Then I should see 4 links there
     And Following links should exist there
-      | Hadisə       |
-      | Sosial       |
-      | İqtisadiyyat |
-      | Dünya        |
-      | Maqazin      |
-      | İdman        |
-      | Yazarlar     |
-      | Siyasət      |
-      | Mədəniyyət   |
-      | Life         |
-      | Haqqımızda   |
-      | Əlaqə        |
+      | SAYTDA REKLAM |
+      | ƏLAQƏ         |
+      | ARXİV         |
+      | HAQQIMIZDA    |

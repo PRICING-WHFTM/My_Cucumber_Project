@@ -32,7 +32,7 @@ public class Links_steps {
 
     @Then("I should see {int} links there")
     public void i_should_see_links_there(int int1) {
-        bolmelerLinks = DriverUtil.getDriver().findElements(By.xpath("//ul[@class='footer-menu']//li//a"));
+        bolmelerLinks = DriverUtil.getDriver().findElements(By.cssSelector(".footer_main>:nth-child(1)>li>a"));
         Assert.assertEquals(bolmelerLinks.size(), int1);
         for (int i = 0; i < bolmelerLinks.size(); i++) {
             System.out.println(bolmelerLinks.get(i).getText());
@@ -42,11 +42,11 @@ public class Links_steps {
     @Then("Following links should exist there")
     public void following_links_should_exist_there(List<String> dataTable) {
         // Creating another List which contains only names of Links but not WebElements.
+        // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
         List<String> footerLinkNames = new ArrayList<>();
         for (WebElement link : bolmelerLinks) {
             footerLinkNames.add(link.getText());
         }
-        // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
         Assert.assertTrue(footerLinkNames.containsAll(dataTable));
     }
 }

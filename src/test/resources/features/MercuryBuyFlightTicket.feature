@@ -1,4 +1,4 @@
-
+@ignore
 Feature: Buy new Flight ticket
 
   @buyflight

@@ -1,7 +1,0 @@
-17:07:58.389 [main] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
-17:07:58.405 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
-17:08:01.926 [main] INFO  com.company.step_definitions.WindowsAuthentication - navigated the website
-17:08:02.537 [main] INFO  com.company.step_definitions.Hook - browser closed
-17:12:35.827 [main] INFO  com.company.utilities.DriverUtil - Chrome-headless browser launched
-17:12:35.842 [main] INFO  com.company.step_definitions.Hook - Launching browser chrome-headless
-17:12:38.962 [main] INFO  com.company.step_definitions.Hook - browser closed
