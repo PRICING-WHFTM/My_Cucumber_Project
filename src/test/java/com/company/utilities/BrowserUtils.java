@@ -30,26 +30,26 @@ public class BrowserUtils {
         }
     }
 
-    /**
-     * Waits for element to be not stale
-     */
-    public static void waitForStaleElement(WebElement element) {
-        int y = 0;
-        while (y <= 15) {
-            try {
-                element.isDisplayed();
-                break;
-            } catch (StaleElementReferenceException st) {
-                y++;
-                try {
-                    Thread.sleep(200);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
-            break;
-        }
-    }
+//    /**
+//     * Waits for element to be not stale
+//     */
+//    public static void waitForStaleElement(WebElement element) {
+//        int y = 0;
+//        while (y <= 15) {
+//            try {
+//                element.isDisplayed();
+//                break;
+//            } catch (StaleElementReferenceException st) {
+//                y++;
+//                try {
+//                    Thread.sleep(200);
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//            break;
+//        }
+//    }
 
     /**
      * Waits for the provided element to be visible on the page
@@ -73,13 +73,11 @@ public class BrowserUtils {
     public static void waitForInVisibility(WebElement element) {
         WebDriverWait wait = new WebDriverWait(DriverUtil.getDriver(), 15);
         wait.until(ExpectedConditions.invisibilityOf(element));
-
     }
 
     /**
      * This method verifies Element not displayed in the page
      */
-
     public static void verifyElementNotDisplayed(String xpath) {
         List<WebElement> elem = DriverUtil.getDriver().findElements(By.xpath(xpath));
         if (elem.size() > 0) {
@@ -88,7 +86,6 @@ public class BrowserUtils {
         } else {
             Assert.assertTrue(true);
             log.info("Element not displayed ");
-
         }
     }
 
@@ -156,7 +153,7 @@ public class BrowserUtils {
     }
 
     /**
-     * Gets current moth, returns current Month name as String
+     * Gets current moth from OS, returns current Month name as String
      */
     public static String get_Current_Month() {
         Date date = new Date();

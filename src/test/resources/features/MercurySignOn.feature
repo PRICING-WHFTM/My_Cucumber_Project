@@ -1,3 +1,4 @@
+@ignore
 Feature: Mercury SignOn feature
 
   Scenario: Mercury SignOn

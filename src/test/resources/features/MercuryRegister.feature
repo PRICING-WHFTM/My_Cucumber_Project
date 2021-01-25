@@ -1,3 +1,4 @@
+@ignore
 Feature: Registering new user
 
   @register
